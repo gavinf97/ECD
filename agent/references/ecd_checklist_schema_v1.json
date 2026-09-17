@@ -1,0 +1,183 @@
+{
+  "schema_id": "ecd-checklist",
+  "schema_version": "1.0.0",
+  "title": "ELIXIR Community Database (ECD) Checklist",
+  "checklist_version": "Version 1 - July, 2025",
+  "source": {
+    "checklist": {
+      "doi": "10.5281/zenodo.17289009",
+      "url": "https://zenodo.org/records/17289009",
+      "file": "ELIXIR_Community_Databases(ECD)_v1_20250121 (6).pdf",
+      "md5": "01a1637c9f1ec64c18821f5252d26f36",
+      "license": "CC-BY-4.0"
+    },
+    "process": {
+      "doi": "10.5281/zenodo.17288943",
+      "url": "https://zenodo.org/records/17288943",
+      "file": "ELIXIR_Community_Databases(ECD)_v1_20250121 (8).pdf",
+      "md5": "a8559194d917605b2261c1f6b85e356a",
+      "license": "CC-BY-4.0"
+    },
+    "submission_email": "elixir-community-databases@elixir-europe.org"
+  },
+  "_notes": [
+    "Question prompts are transcribed verbatim from the Checklist PDF.",
+    "The PDF renders every dropdown as 'To choose' and does not expose option values; the option_sets below are inferred and are the ONE place to edit them.",
+    "automation: input = given by the user when invoking the skill; auto = determinable from registries/website with evidence; partial = evidence usually gives a strong hint but applicant should confirm; drafted = Claude drafts text from evidence, applicant edits; derived = computed from other answers; applicant = only the applicant can answer (Claude may attach hints).",
+    "in_form: false marks eligibility criteria that are not form fields themselves; they are pre-checked to support the Section 1 confirmation and shown in reports/evidence appendix."
+  ],
+  "option_sets": {
+    "yes_no": ["Yes", "No"],
+    "yes_no_na": ["Yes", "No", "Not applicable"],
+    "criterion_check": ["Met", "Not met"],
+    "resource_type": ["Deposition database", "Curated knowledgebase", "Biodata registry", "Aggregation database", "None of these"],
+    "eligibility_confirm": ["I confirm", "I do not confirm"],
+    "uniqueness": ["Unique - no overlapping resources", "Partially overlapping with other resources", "Overlapping with other resources"],
+    "relevance": ["High", "Medium", "Low"],
+    "golive_years": ["Less than 1 year", "1-3 years", "3-5 years", "5-10 years", "More than 10 years"],
+    "cdr_scope": ["Yes", "No", "Unsure"],
+    "fte": ["Less than 1 FTE", "1-2 FTE", "2-5 FTE", "5-10 FTE", "More than 10 FTE"],
+    "declaration": ["agree", "do not agree"],
+    "community": {"from_reference_list": "communities"}
+  },
+  "sections": [
+    {
+      "id": "APP",
+      "title": "Applicant details",
+      "questions": [
+        {"id": "APP.submitter_name", "number": "", "prompt": "Submitter(s) name", "placeholder": "First Last (indicate lead)", "parts": {"text": {"required": true}}, "automation": "applicant", "sources": ["bioregistry.contact", "biotools.credit"]},
+        {"id": "APP.submitter_email", "number": "", "prompt": "Submitter(s) email", "placeholder": "Email (institutional only)", "parts": {"text": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APP.node", "number": "", "prompt": "ELIXIR Node(s)", "placeholder": "ELIXIR-XX", "parts": {"text": {"required": true}}, "automation": "partial", "sources": ["eligibility.node_match", "re3data.institutions", "europepmc.affiliations"]},
+        {"id": "APP.institute", "number": "", "prompt": "ELIXIR Institute(s)", "placeholder": "Name", "parts": {"text": {"required": true}}, "automation": "partial", "sources": ["re3data.institutions", "europepmc.affiliations", "website.footer"]},
+        {"id": "APP.resource_name", "number": "", "prompt": "Resource name", "placeholder": "Name", "parts": {"text": {"required": true}}, "automation": "input", "sources": ["input"]},
+        {"id": "APP.resource_url", "number": "", "prompt": "Resource weblink", "placeholder": "URL", "parts": {"links": {"required": true}}, "automation": "input", "sources": ["input"]},
+        {"id": "APP.repo_url", "number": "", "prompt": "Resource software repo (e.g. GitHub)", "placeholder": "URL", "parts": {"links": {"required": true}}, "automation": "auto", "sources": ["input", "biotools.link", "bioregistry.repository", "website.links", "github.search"]},
+        {"id": "APP.community", "number": "", "prompt": "ELIXIR Community submitted to", "placeholder": "To choose", "parts": {"choice": {"option_set": "community", "required": true}}, "automation": "partial", "sources": ["input", "biotools.topics", "registries.keywords"]},
+        {"id": "APP.date_submitted", "number": "", "prompt": "Date submitted", "placeholder": "day-month-year", "parts": {"text": {"required": true}}, "automation": "derived", "sources": ["today"]}
+      ]
+    },
+    {
+      "id": "S1",
+      "title": "Section 1: Eligibility check",
+      "intro": "Please read the following eligibility requirements before completing this application. For any questions or uncertainties please contact: elixir-community-databases@elixir-europe.org.",
+      "questions": [
+        {"id": "S1.1", "number": "1.", "prompt": "The primary applicant is a member of an ELIXIR Node & Node institute (check here).", "in_form": false, "parts": {"choice": {"option_set": "criterion_check", "required": true}, "text": {"word_limit": 50}}, "automation": "partial", "sources": ["eligibility.node_match", "re3data.institutions", "europepmc.affiliations"]},
+        {"id": "S1.2", "number": "2.", "prompt": "The applicant is submitting an ELIXIR Node Service as listed on the ELIXIR SDP (check here).", "in_form": false, "parts": {"choice": {"option_set": "criterion_check", "required": true}, "text": {"word_limit": 50}}, "automation": "partial", "sources": ["eligibility.sdp_match"]},
+        {"id": "S1.3", "number": "3.", "prompt": "The service being submitted contains biological data and is one of the following: a. A deposition database (public store of biodata) b. A curated knowledgebase (curated biodata information extracted from literature) c. A biodata registry d. An aggregation database", "in_form": false, "parts": {"choice": {"option_set": "resource_type", "required": true}, "text": {"word_limit": 50}}, "automation": "auto", "sources": ["re3data.types", "biotools.toolType", "website.text"]},
+        {"id": "S1.4", "number": "4.", "prompt": "The service does not already hold a status of: a. Core Data Resource (CDR) b. ELIXIR Deposition Database (EDD) c. Global Core Biodata Resource (GCBR) d. Recommended Interoperability Resource (RIR)", "in_form": false, "parts": {"choice": {"option_set": "criterion_check", "required": true}, "text": {"word_limit": 50}}, "automation": "auto", "sources": ["eligibility.status_match"]},
+        {"id": "S1.5", "number": "5.", "prompt": "For federated and consortia databases (multi-site, multi-branding, non-ELIXIR Involvement), please contact the support email to determine eligibility.", "in_form": false, "parts": {"choice": {"option_set": "yes_no", "required": true, "label": "Is the resource a federated/consortium database?"}, "text": {"word_limit": 50}}, "automation": "partial", "sources": ["re3data.institutions", "website.text"]},
+        {"id": "S1.confirm", "number": "", "prompt": "I confirm that my biodata resource is eligible under the above criteria:", "parts": {"choice": {"option_set": "eligibility_confirm", "required": true}}, "automation": "applicant", "sources": ["derived:S1.1-S1.5"]}
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Section 2: Resource Background",
+      "questions": [
+        {"id": "S2.1a", "number": "1.a", "group": "1. Biodata resource key info:", "prompt": "Gap your resource serves:", "parts": {"text": {"word_limit": 100, "required": true}}, "automation": "drafted", "sources": ["bioregistry.description", "re3data.description", "biotools.description", "europepmc.database_paper"]},
+        {"id": "S2.1b", "number": "1.b", "group": "1. Biodata resource key info:", "prompt": "Biological data type(s) held & total entries:", "placeholder": "Biodata type (number of entries)", "parts": {"list": {"required": true, "item_format": "Biodata type (number of entries)"}}, "automation": "partial", "sources": ["website.statistics", "re3data.contentTypes", "api.counts"]},
+        {"id": "S2.1c", "number": "1.c", "group": "1. Biodata resource key info:", "prompt": "Uniqueness:", "parts": {"choice": {"option_set": "uniqueness", "required": true}, "list": {"label": "List overlapping resources serving the same gap"}, "text": {"word_limit": 100, "label": "State what your resource does better than resources serving the same gap"}}, "automation": "drafted", "sources": ["biotools.similar", "re3data.similar", "bioregistry.similar"]},
+        {"id": "S2.1d", "number": "1.d", "group": "1. Biodata resource key info:", "prompt": "Relevance to designated ELIXIR Community:", "parts": {"choice": {"option_set": "relevance", "required": true}, "text": {"word_limit": 100, "required": true}}, "automation": "drafted", "sources": ["APP.community", "biotools.topics"]},
+        {"id": "S2.1e", "number": "1.e", "group": "1. Biodata resource key info:", "prompt": "Peer-reviewed article on your database itself (e.g. NAR Database/+)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["europepmc.database_paper", "bioregistry.publications", "biotools.publication"]},
+        {"id": "S2.2", "number": "2.", "prompt": "How long ago did your resource officially go live?", "parts": {"choice": {"option_set": "golive_years", "required": true}}, "automation": "auto", "sources": ["europepmc.first_paper", "re3data.startDate", "wayback.first_capture"]},
+        {"id": "S2.3a", "number": "3.a", "group": "3. Has your resource been part of:", "prompt": "A funded ELIXIR Community Commission Service work plan?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["websearch.elixir_commissioned", "website.text"]},
+        {"id": "S2.3b", "number": "3.b", "group": "3. Has your resource been part of:", "prompt": "A funded ELIXIR CMR/BFSP/HDTR Science Tier Commission Service work plan?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["websearch.elixir_commissioned", "website.text"]},
+        {"id": "S2.3c", "number": "3.c", "group": "3. Has your resource been part of:", "prompt": "An ELIXIR BioHackathon project /AHM workshop/ other?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["github.biohackathon_projects", "biohackrxiv", "websearch"]},
+        {"id": "S2.4", "number": "4.", "prompt": "Is your resource a niche biodata resource of use by a narrower life science subdomain e.g. aligned under one of the ELIXIR Community focus areas?", "parts": {"choice": {"option_set": "yes_no", "required": true}}, "automation": "drafted", "sources": ["APP.community", "biotools.topics"]},
+        {"id": "S2.5", "number": "5.", "prompt": "Do you believe there is scope for your resource to eventually mature into a CDR/EDD scale resource (e.g. ENA/UniProt/+)?", "parts": {"choice": {"option_set": "cdr_scope", "required": true}}, "automation": "applicant", "sources": []},
+        {"id": "S2.6", "number": "6.", "prompt": "Have you already applied for CDR/EDD status?", "parts": {"choice": {"option_set": "yes_no", "required": true}}, "automation": "applicant", "sources": []}
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Section 3: User base monitoring",
+      "questions": [
+        {"id": "S3.1", "number": "1.", "prompt": "Do you have resource monitoring in place? e.g. for uptime & response time metrics.", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}}, "automation": "partial", "sources": ["openebench.monitor", "website.status_page"]},
+        {"id": "S3.2", "number": "2.", "prompt": "Are you tracking any quantitative resource usage data metrics? e.g. monthly users/+", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description (do not provide any metrics)"}}, "automation": "partial", "sources": ["website.analytics", "website.statistics"]},
+        {"id": "S3.3", "number": "3.", "prompt": "Have you considered the possible user base growth of your target domain community?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 150, "required_if": "Yes", "label": "If yes: provide short description, e.g. i. Active user growth trends ii. Conference sizes iii. Publications & possible ingestible data iv. Other..."}}, "automation": "drafted", "sources": ["europepmc.citation_trend"]}
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Section 4: Development, Staff & Governance",
+      "questions": [
+        {"id": "S4.1", "number": "1.", "prompt": "Do you have a resource update strategy or development roadmap?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}, "links": {}}, "automation": "partial", "sources": ["website.roadmap", "website.news", "repo.releases", "repo.milestones"]},
+        {"id": "S4.2", "number": "2.", "prompt": "Does your resource collect user base feedback and community input for its development roadmap?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}, "links": {}}, "automation": "partial", "sources": ["repo.issues", "website.feedback"]},
+        {"id": "S4.3", "number": "3.", "prompt": "Does your resource have a helpdesk?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}, "links": {}}, "automation": "auto", "sources": ["website.help", "website.contact", "repo.issues"]},
+        {"id": "S4.4", "number": "4.", "prompt": "Does your resource have details publicly available about who works on your resource?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100}, "links": {}}, "automation": "auto", "sources": ["website.team"]},
+        {"id": "S4.5", "number": "5.", "prompt": "How many people (approximate in FTE) work on your resource?", "parts": {"choice": {"option_set": "fte", "required": true}, "text": {"word_limit": 100}}, "automation": "applicant", "sources": ["hint:website.team", "hint:repo.contributors"]},
+        {"id": "S4.6", "number": "6.", "prompt": "Is the resource operated across more than one institution?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}}, "automation": "partial", "sources": ["re3data.institutions", "europepmc.affiliations"]},
+        {"id": "S4.7a", "number": "7.a", "group": "7. Does your resource have dedicated funding to:", "prompt": "Retain staff to curate data, maintain & update it?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description (institutional support/in-kind support/grants/+)"}}, "automation": "applicant", "sources": ["hint:europepmc.grants", "hint:website.funding"]},
+        {"id": "S4.7b", "number": "7.b", "group": "7. Does your resource have dedicated funding to:", "prompt": "Provide dedicated hardware to keep it live & online (at least for next 2 years)?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}}, "automation": "applicant", "sources": ["hint:website.hosting"]},
+        {"id": "S4.8", "number": "8.", "prompt": "Do you know how many of your team members would have to leave the project for the resource to stop further development/new data ingestion?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}}, "automation": "applicant", "sources": ["hint:repo.contributor_concentration"]},
+        {"id": "S4.9", "number": "9.", "prompt": "Does your resource have a scientific advisory board (SAB)?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["website.sab"]},
+        {"id": "S4.10", "number": "10.", "prompt": "Does your resource have a privacy statement?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "auto", "sources": ["website.privacy"]},
+        {"id": "S4.11", "number": "11.", "prompt": "Does your resource have an ethics policy? (e.g. for sensitive data)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["website.ethics"]}
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Section 5: Interoperability, Standards & Data flow",
+      "questions": [
+        {"id": "S5.1", "number": "1.", "prompt": "Does your resource use metadata standards for its data?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link(s) (FAIRsharing standard link if available)"}, "links": {}}, "automation": "auto", "sources": ["re3data.metadataStandard", "website.jsonld", "fairsharing.relations"]},
+        {"id": "S5.2", "number": "2.", "prompt": "Does your resource use an ontology for its data?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link(s) (Ontology Lookup Service link if available)"}, "links": {}}, "automation": "partial", "sources": ["website.curies", "ols.ontologies", "fairsharing.relations"]},
+        {"id": "S5.3", "number": "3.", "prompt": "Does your resource expose structured data (e.g. JSON/W3C/DCAT)?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link(s)"}, "links": {}}, "automation": "auto", "sources": ["website.jsonld", "website.content_negotiation", "website.api"]},
+        {"id": "S5.4", "number": "4.", "prompt": "Does your resource provide an API/FTP/other protocols for exposing and retrieving the data in a machine actionable manner?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "list": {"required_if": "Yes", "label": "If yes: provide short list"}}, "automation": "auto", "sources": ["website.api", "website.ftp", "re3data.api", "biotools.function"]},
+        {"id": "S5.5", "number": "5.", "prompt": "Does your resource pull data from other data resources? (inflow of data)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "list": {"required_if": "Yes", "label": "If yes: provide short list"}}, "automation": "partial", "sources": ["bioregistry.depends_on", "website.data_sources"]},
+        {"id": "S5.6", "number": "6.", "prompt": "Do other resources pull data from your resource? (outflow of data)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "list": {"required_if": "Yes", "label": "If yes: provide short list"}}, "automation": "auto", "sources": ["bioregistry.appears_in", "uniprot.xref_db"]},
+        {"id": "S5.7", "number": "7.", "prompt": "Have you identified/roadmapped existing (ELIXIR) biodata resources that could augment their database entries by pulling in your data?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "list": {"required_if": "Yes", "label": "If yes: provide short list & information"}, "text": {"word_limit": 100}}, "automation": "applicant", "sources": ["hint:elixir.cdr_topic_overlap"]}
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Section 6: Data & Software Management",
+      "questions": [
+        {"id": "S6.1", "number": "1.", "subgroup": "Data", "prompt": "Do you have a publicly available data management plan?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["website.dmp", "zenodo.search"]},
+        {"id": "S6.2", "number": "2.", "subgroup": "Data", "prompt": "What is the license for use of the data in your resource?", "parts": {"text": {"word_limit": 100, "required": true, "label": "Provide short description"}, "links": {}}, "automation": "auto", "sources": ["website.license", "website.jsonld", "re3data.databaseLicense", "biotools.license"]},
+        {"id": "S6.3", "number": "3.", "subgroup": "Data", "prompt": "Do you have a clear plan for long-term storage and off-site backups?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "applicant", "sources": ["hint:re3data.institutions"]},
+        {"id": "S6.4", "number": "4.", "subgroup": "Data", "prompt": "Do you maintain version archives of the database contents?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description"}, "links": {}}, "automation": "auto", "sources": ["website.releases", "website.ftp", "re3data.versioning", "zenodo.search"]},
+        {"id": "S6.5", "number": "5.", "subgroup": "Software", "prompt": "Do you have a publicly available software management plan?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "partial", "sources": ["repo.files", "website.smp"]},
+        {"id": "S6.6", "number": "6.", "subgroup": "Software", "prompt": "What is the license for use of the software of your resource?", "parts": {"text": {"word_limit": 100, "required": true, "label": "Provide short description"}, "links": {}}, "automation": "auto", "sources": ["repo.license", "biotools.license"]},
+        {"id": "S6.7", "number": "7.", "subgroup": "Software", "prompt": "Is your data resource's software available in containerised format for reuse? (eg: Docker image/Podman/Singularity)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "auto", "sources": ["repo.containers", "dockerhub.search"]},
+        {"id": "S6.8", "number": "8.", "subgroup": "Software", "prompt": "Is your data resource's software open source? (i.e. the code base is reusable and available to redeploy?)", "parts": {"choice": {"option_set": "yes_no", "required": true}, "text": {"word_limit": 100, "required_if": "Yes", "label": "If yes: provide short description/link"}, "links": {}}, "automation": "auto", "sources": ["repo.metadata", "repo.license"]}
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "Section 7: Use of ELIXIR Biodatabase Supports",
+      "questions": [
+        {"id": "S7.1", "number": "1.", "prompt": "Is your resource listed in a database registry such as FAIRsharing?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["bioregistry.mappings.fairsharing", "fairsharing.search", "re3data.search"]},
+        {"id": "S7.2", "number": "2.", "prompt": "Does your resource have its identifiers registered in identifiers.org?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["identifiers.registry"]},
+        {"id": "S7.3", "number": "3.", "prompt": "Are any analysis tools & workflows provided by your resource registered in relevant registries such as bio.tools and WorkflowHub?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["biotools.search", "workflowhub.search"]},
+        {"id": "S7.4", "number": "4.", "prompt": "Are any training materials for your resource registered in TeSS?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["tess.materials", "tess.events"]},
+        {"id": "S7.5", "number": "5.", "prompt": "If reliant on data curation does your resource use APICURON for curator credit and recognition?", "parts": {"choice": {"option_set": "yes_no_na", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["apicuron.partner_resources"]},
+        {"id": "S7.6", "number": "6.", "prompt": "If reliant on a user authentication and authorisation infrastructure (AAI) service, do you use LS-AAI?", "parts": {"choice": {"option_set": "yes_no_na", "required": true}}, "automation": "partial", "sources": ["website.login"]},
+        {"id": "S7.7", "number": "7.", "prompt": "Do you use any resource monitoring supports such as OpenEBench's observatory?", "parts": {"choice": {"option_set": "yes_no", "required": true}, "links": {"required_if": "Yes", "label": "If yes: provide link"}}, "automation": "auto", "sources": ["openebench.monitor"]},
+        {"id": "S7.8", "number": "8.", "prompt": "Please provide a screenshot from the FAIRchecker result for your resource:", "parts": {"image": {"required": true}}, "automation": "partial", "sources": ["fairchecker.screenshot"]},
+        {"id": "S7.9", "number": "9.", "prompt": "Are you aware of and developing your resource in alignment with RDMkit guidance?", "parts": {"choice": {"option_set": "yes_no", "required": true}}, "automation": "applicant", "sources": ["hint:website.rdmkit"]},
+        {"id": "S7.10", "number": "10.", "prompt": "Are you aware of and developing your resource in alignment with RSQkit guidance?", "parts": {"choice": {"option_set": "yes_no", "required": true}}, "automation": "applicant", "sources": ["hint:website.rsqkit"]}
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "Section 8: Final Declaration",
+      "questions": [
+        {"id": "S8.declaration", "number": "", "prompt": "By submitting this application form, I [To choose] that: 1. Our resource is subject to a one year health check period following a successful ECD application. 2. We agree to actively engage with the ELIXIR Community accrediting our ECD to identify and address achievable checklist gaps where development resources allow.", "parts": {"choice": {"option_set": "declaration", "required": true}}, "automation": "applicant", "sources": []}
+      ]
+    },
+    {
+      "id": "APX1",
+      "title": "Appendix 1: ECD Reapplication",
+      "intro": "If this is a resubmission after the 12 month feedback period has passed since the formal ECD Rejection by a Community after an initial failed application, please state under each section in succinct bullets what has been done to address the original feedback. Note: to be considered for reapplication this section must be completed in detail.",
+      "conditional_on": "reapplication",
+      "questions": [
+        {"id": "APX1.S1", "number": "", "prompt": "Section 1: Eligibility check", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S2", "number": "", "prompt": "Section 2: Resource Background", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S3", "number": "", "prompt": "Section 3: User base monitoring", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S4", "number": "", "prompt": "Section 4: Development, Staff & Governance", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S5", "number": "", "prompt": "Section 5: Interoperability, Standards & Data flow", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S6", "number": "", "prompt": "Section 6: Data & Software Management", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []},
+        {"id": "APX1.S7", "number": "", "prompt": "Section 7: Use of ELIXIR Biodatabase Supports", "parts": {"list": {"required": true}}, "automation": "applicant", "sources": []}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+         ELIXIR Community Database (ECD)
+                     Process Version 1 - July, 2025
+
+Authors
+Role            Full Name (Affiliation)          ORCID
+
+Lead - Author   Gavin Farrell (ELIXIR-IT)        0000-0001-5166-8551
+
+Author          Allyson Lister (ELIXIR-UK)       0000-0002-7702-4495
+
+Author          Amy Curwin (ELIXIR-ES)           0000-0003-1086-2483
+
+Author          Bruno Fosso (ELIXIR-IT)          0000-0003-2324-086X
+
+Author          Egon Willighagen (ELIXIR-NL)     0000-0001-7542-0286
+
+Author          Fabio Liberante (ELIXIR Hub)     0000-0002-0192-5385
+
+Author          Helge Hecht (ELIXIR-CZ)          0000-0001-6744-996X
+
+Author          James Seager (ELIXIR-UK)         0000-0001-7487-610X
+
+Author          John Hancock (ELIXIR-SI)         0000-0003-2991-2217
+
+Author          Katharina F. Heil (ELIXIR Hub)   0000-0003-3341-3736
+
+Author          Monique Zahn (ELIXIR-CH)         0000-0001-7961-6091
+
+Author          Niclas Jareborg (ELIXIR-SE)      0000-0002-4520-044X
+
+Author          Patrick Ruch (ELIXIR-CH)         0000-0002-3374-2962
+
+Author          Robert Waterhouse (ELIXIR-CH)    0000-0003-4199-9052
+
+Author          Sergi Beltran (ELIXIR-ES)        0000-0002-2810-3445
+
+Author          Steffen Neumann (ELIXIR-DE)      0000-0002-7899-7192
+
+Author          Ulrike Wittig (ELIXIR-DE)        0000-0002-9077-5664
+
+PI - Author     Federica Quaglia (ELIXIR-IT)     0000-0002-0341-4888
+
+PI - Author     Silvio Tosatto (ELIXIR-IT)       0000-0003-4525-7793
+
+
+
+
+                                                                       1
+Contributors
+ Role              Full Name (Affiliation)                        ORCID
+
+ Contributor       Alessandro Cestaro (ELIXIR-IT)                 0000-0003-1439-5165
+
+ Contributor       Carissa Bleker (ELIXIR-SI)                     0000-0003-1617-7145
+
+ Contributor       Christos Ouzounis (ELIXIR-GR)                  0000-0002-0086-8657
+
+ Contributor       Daniel Arend (ELIXIR-DE)                       0000-0002-2455-5938
+
+ Contributor       Karel Berka (ELIXIR-CZ)                        0000-0001-9472-2589
+
+ Contributor       Lorenz Reimer (ELIXIR-DE)                      0000-0002-7805-0660
+
+ Contributor       Nicholas Owen (ELIXIR-UK)                      0000-0002-7067-8082
+
+ Contributor       Vitor Martins dos Santos (ELIXIR-NL)           0000-0002-2352-9017
+
+
+
+
+ELIXIR Group Acknowledgements
+    ●​   ELIXIR Community Leads
+    ●​   ELIXIR CMR, HDTR & BFSP Leads
+    ●​   ELIXIR Metabolomics Community
+    ●​   ELIXIR Data Platform ExCo & WP5 members
+    ●​   ELIXIR Technical Coordinators Group
+    ●​   Participants of the All Hands Meeting (AHM) workshop
+
+
+
+
+ELIXIR Community Database Concept
+Data resource visibility and co-development gap within ELIXIR
+Through the Core Data Resources (CDR) and ELIXIR Deposition Databases (EDD) processes, ELIXIR
+peer reviews and accredits mature biodata resources based on several indicators and wide
+life-science community usage. However, there is a gap within ELIXIR as a life science data research
+infrastructure to support the visibility and co-development of its highly valuable biodata resources
+that serve a narrower scientific community. While some resources could become CDR, we
+acknowledge other resources may never scale to the eligibility scope of a CDR or EDD but serve
+specific ELIXIR Community needs.
+
+
+
+
+                                                                                                 2
+ELIXIR Community Database process
+As of July 2025, ELIXIR has 187 data resources on the ELIXIR Service Delivery Plan (SDP) but there is
+a much narrower portfolio of 32 CDR and 16 EDD, leaving a large gap for supporting the
+co-development and visibility of the remaining data resources, many of which may hold major
+relevance to ELIXIR Communities. In response, this document details a process for biodata
+resources on the ELIXIR SDP entitled ELIXIR Community Database (ECD). The process has been
+developed by the ELIXIR Data Platform in close collaboration with the ELIXIR Community leads. It is
+designed to be ELIXIR Community & Data Platform driven and its purpose is to:
+    ●​   Create stronger links between ELIXIR biodata resources and their target user Communities.
+    ●​   Support maturation through Community driven co-development.
+    ●​   Increase visibility of ELIXIR Community relevant databases to improve findability and use.
+    ●​   Provide a formal status ELIXIR Community Database (ECD) status to biodata resources.
+The ECD process involves six lightweight steps to be progress to ECD status:
+1. ELIXIR Service Delivery Plan Engagement
+2. Self-assessment checklist
+3. Hub eligibility check
+4. ELIXIR Community decision process
+5. One year health check period & accreditation
+6. Monitoring and Status Retention
+Appendix 1: Acronym table
+Appendix 2: Synergies to wider initiatives
+Appendix 3: ECD Rejection Criteria
+
+
+Eligibility
+The ECD process will support ELIXIR SDP biodata resources (non-CDR/EDD) to mature, and where a
+database develops sufficiently in specific areas, this ECD status would strengthen a candidate's
+future application for CDR/EDD accreditation. However, not all data resources are within the scope
+of CDR/EDD status, and a pathway to CDR/EDD status is not the primary purpose of the process.
+
+
+
+1. ELIXIR Service Delivery Plan Engagement
+    1.​ The following information will be provided to Node leadership during their annual SDP
+        update on both ELIXIR and global biodata resource accreditation and maturation processes:
+           a.​ ELIXIR Community Databases (this document)
+           b.​ Core Data Resource & ELIXIR Deposition Database
+           c.​ Global Core Biodata Resource (GCBR)
+           d.​ CoreTrustSeal
+           e.​ EOSC FIDELIS - Trustworthy Repository Attributes Matrix (TTRAM)
+           f.​ RDA Community-based catalogue of requirements for trustworthy Technical
+                Repository Service Providers
+    2.​ The ECD process information provided to Nodes will include:
+
+
+                                                                                                 3
+            a.​ Webpage with all ECD information centralised
+            b.​ ECD process document (this document)
+            c.​ ECD self-assessment checklist (the related ECD application form)
+            d.​ Hub contact points for ECD checklist submission, further information and support
+    3.​ During Node SDP updates, interest can be expressed to submit their ELIXIR SDP biodata
+        resources by following this document's sections 2-6. However, the ECD process is planned
+        to run on a rolling basis in collaboration with the Communities and interested existing SDP
+        biodata resources will be the first candidates for the pilot ECD process.
+
+
+
+2. Self-assessment checklist
+The ECD self-assessment checklist is designed as a lightweight disclosure to support:
+    ●​ Hub eligibility check (step 3) - basic information for participation assessed.
+    ●​ ELIXIR Community decision process (step 4) - resource information assessed for eligibility.
+The ECD checklist must be filled out by an applicant resource to apply to a single Community for
+ECD status and can be found:
+    ●​ On the ECD webpage
+    ●​ On Zenodo
+It gathers key information on the resource leveraging many simple yes/no responses and also acts
+as a guide for resource providers to check if key resource maturity/best practice milestones have
+been achieved as an ELIXIR biodata resource such as:
+    ●​ FAIRsharing resource registration
+    ●​ Identifiers.org identifier registration
+    ●​ +...
+The checklist also collects information on which ELIXIR Community the resource intends to engage
+for ECD accreditation. After completion it must then be sent to:
+elixir-community-databases@elixir-europe.org
+This will then formally begin the ECD process.
+
+
+
+3. Hub eligibility check
+    1.​ The self-assessment checklist is sent to the ELIXIR Hub Data Platform & Communities staff
+        to do an initial eligibility check.
+    2.​ This includes lightweight practical checks such as:
+            a.​ Resource is a biological: deposition database / knowledgebase / registry /
+                 aggregation database
+            b.​ Is a resource containing data intended for European/international use
+            c.​ Resource is provided by an ELIXIR institute with a Node affiliation
+            d.​ Resource is included on an ELIXIR Node SDP
+            e.​ Resource does not currently hold the status of CDR/EDD/GCBR/RIR.
+            f.​ All sections are complete.
+
+
+                                                                                                4
+  3.​ After the eligibility checks are completed, the self-assessment checklist application
+      submitted for ECD status will be sent to the relevant ELIXIR Community Co-leads for which
+      the biodata resource is applying to for decision on accreditation.
+
+
+
+4. ELIXIR Community & Data Platform joint decision
+process
+  1.​ The ECD self-assessment checklist (section 2) will be provided to the ELIXIR Community
+      Co-leads and Data Platform ExCo by the Hub staff after initial eligibility checks are passed.
+  2.​ The Community Co-leads and Data Platform ExCo upon receipt of the application will
+      initiate the ECD decision process to evaluate suitability for ECD accreditation which should
+      take no longer than 3 months.
+           a.​ They will assess the Scientific & Service Level criteria to ensure suitable. Note
+               Appendix 3 ECD Rejection Criteria of breakdown of focus areas by the Community
+               Leads & Data Platform Leadership.
+  3.​ The Hub Data Platform staff will act as contact points during the application evaluation
+      process.
+  4.​ The process to evaluate and assess a biodata resource’s ECD application will be at the
+      discretion of the Community co-leads and Data Platform ExCo who will be responsible to
+      jointly decide on the ECD application with a consensus joint decision.
+         i.​ If there is a conflict of interest (e.g. same Node as applicant resource), this will
+               require delegation of the voting right to a non-conflicted Community member
+               agreed upon by the Community co-leads.
+  5.​ Where any issues arise from during a decision process, the Hub ELIXIR Community & Data
+      Platform contacts will assess any concerns raised.
+  6.​ The outcome of the Community’s decision to provide ECD accreditation will be fed back to
+      an applicant no later than 3 months from point of submission. The outcomes will be:
+      Successful: biodata resource selected for ECD accreditation by Community.
+      Unsuccessful: biodata resource not selected for ECD accreditation by Community.
+      In both cases feedback and further recommendations will be provided by the Community
+      co-leads on the originally submitted self-assessment ECD application form.
+  7.​ Where an application is unsuccessful, re-application is possible after a period of 12 months
+      provided sufficient changes have been implemented addressing failing criteria for ECD
+      accreditation during the initial application. Where no significant change has been made the
+      Hub eligibility check will not progress the application to ECD Community review.
+
+
+      Future considerations for ECD version 2 update:
+  ●​ In version 1, the applicant biodata resource declares in the checklist which Community they
+     are applying for ECD status accreditation from. A limit of one Community can be chosen to
+
+
+
+
+                                                                                                5
+     be applied to and the biodata resource must be relevant to the Community topic to be
+     considered for Community ECD review.
+         ○​ A limit of one ECD application to a single Community is to be applied during the
+              ECD pilot phase to ensure the process is viable and scalable.
+         ○​ Where there is genuine benefit for a biodata resource to be considered for ECD
+              engagement under further ELIXIR Communities, this will be assessed during the
+              pilot phase and a clear process defined to handle this in the ECD version 2 process
+              document.
+  ●​ In version 1, during the pilot phase there is no limit on how many biodata resources can be
+     ECD accredited by a Community.
+         ○​ However, where scalability for Communities is foreseen as an issue, this will be
+              closely monitored and managed by the ELIXIR Hub & Community staff.
+  ●​ Where there is no Community for a given resource biodata type, this will be monitored
+     during the pilot phase. Including dissolution of a Community having given an ECD.
+
+
+
+5. One year health check period & accreditation
+  1.​ From the point of successful Community ECD selection, the resource will be provided a
+      provisional ECD status which can be displayed as a banner on the resource.
+  2.​ Alongside the provisional status a one year health check period will commence where
+      simple uptime monitoring provided by the ELIXIR Hub (e.g. NIH resource uptime
+      dashboard, Updown.io) will be set up to ensure adequate resource uptime (e.g. 99%) during
+      the first year. It is anticipated to have a centralised monitoring tool provisioned by the Hub.
+  3.​ During this period the Community will also be encouraged to establish engagement
+      channels and co-development input mechanisms with the resource service providers such
+      as on monthly calls or during annual F2F meetings. This may take shape as:
+          a.​ Providing advice on the resources development roadmap based on Community
+               needs.
+              e.g. adopting interoperability standards and mechanisms to federate data between
+              ELIXIR resources (API data sharing).
+          b.​ Support visibility of the resource in European & Global communities of relevance.
+              e.g. help link the service providers to relevant working groups, conferences and
+              initiatives to avoid silos and federate to the wider biodata ecosystem.
+      A key focus will be ensuring any ECD is integratable into the ELIXIR and global biodata
+      ecosystem to expand data interconnectivity.
+  4.​ After the one year health check (TBC exact periods) there will be two possible outcomes:
+      A. Full ECD status: will be granted upon completion of the one year health check period
+      where 99% uptime is met. This status will be valid for 3 years.
+      B. ECD provisional status revoked: where uptime conditions are not met, the ECD
+      provisional status will be removed and the biodata resource provider further engaged by the
+
+
+
+
+                                                                                                 6
+       ELIXIR Hub staff to determine the cause of the service provisioning issues and risk to the
+       data.
+
+
+
+6. Monitoring and Status Retention
+   1.​ A successful biodata resource will hold ECD status for a total of 3 years after passing the
+       initial health check period.
+   2.​ After this point the resource will resubmit their ECD application to reflect key changes
+       during the previous 3 year period. This will ensure the ECD portfolio is periodically
+       monitored and in a healthy state.
+            a.​ The ECD document will be resubmitted and updated to reflect any changes.
+            b.​ The ECD document will undergo the same Community ECD review process.
+   3.​ Once a resource’s resubmission for ECD is successful, a biodata resource will hold the status
+       for a further 3 years (no health check period required).
+Note: where a Community who has endorsed an ECD is disbanded before the next renewal this may
+barrier the possibility of a renewal without the existence of a supporting Community. While only a
+hypothetical this will be monitored through the case of what can be done for resources where there
+currently exists no relevant Community for them to apply to during the ECD pilot stage. This will be
+further discussed and addressed after the ECD pilot in the version 2 process.
+
+
+
+
+                                                                                                7
+Appendix 1: Acronym table
+ Acronym            Full Form
+
+ ECD                ELIXIR Community Database
+
+ CDR                Core Data Resource
+
+ EDD                ELIXIR Deposition Database
+
+ SDP                Service Delivery Plan
+
+ GCBR               Global Core Biodata Resource
+
+ EOSC FIDELIS       European Open Science Cloud - FIDELIS project
+
+ TTRAM              Transparent Trustworthy Repository Attributes Matrix
+
+ RIR                Recommended Interoperability Resource
+
+
+
+
+Appendix 2: Synergies to wider initiatives
+Accreditation processes:
+
+ELIXIR Service Delivery Plan (SDP): A prerequisite to be on the ELIXIR SDP for ECD eligibility. The
+ELIXIR Service Delivery Plan (SDP) is simply the formal listing of services and resources provisioned
+officially by ELIXIR Node institutes. The ECD process goes further by providing formal accreditation,
+community-driven co-development pathway, and enhanced visibility specifically for those SDP
+biodata resources that are not yet, or may never be, Core Data Resources (CDR) or ELIXIR
+Deposition Databases (EDD).
+
+CDR (Core Data Resources): While the ECD process aims to support the maturation and visibility of
+ELIXIR Community-specific biodata resources that serve narrower scientific communities. In
+contrast, ELIXIR Core Data Resources (CDRs) are identified as being of fundamental importance and
+generic value to the wider life-science community, undergoing a rigorous evaluation for long-term
+preservation, high scientific quality, and broad applicability. While an ECD status could strengthen a
+candidate's future application for CDR, it is explicitly not the primary purpose, as CDRs cater to a
+much broader user base and are considered authoritative in their fields. Ineligible CDR applications
+may be advised to apply for ECD application.
+
+EDD (ELIXIR Deposition Databases): The ECD process supports ELIXIR Service Delivery Plan
+biodata resources to mature and increase their visibility within specific ELIXIR Communities. ELIXIR
+Deposition Databases (EDDs), in contrast, are a peer reviewed portfolio of recommended
+
+
+                                                                                                 8
+repositories specifically for the deposition of experimental data from the international community,
+ensuring long-term data preservation and accessibility. While both involve data resources, EDDs are
+focused on providing guidance to users on resources to use for data sharing and archiving, whereas
+ECD is about fostering active co-development and promoting resources tailored to particular ELIXIR
+Community needs.
+
+CoreTrustSeal: CoreTrustSeal is an international certification for trustworthy digital repositories,
+focusing on long-term preservation and access. The ECD process, while aiming to improve resource
+quality and findability, is an ELIXIR-internal initiative that supports maturation and Community
+engagement for resources serving specific ELIXIR needs, and it is not a direct substitute for the
+rigorous, globally recognised CoreTrustSeal certification.
+
+Global Core Biodata Resource (GCBR): The Global Core Biodata Resource (GCBR) initiative
+identifies and supports biodata resources of global importance. The ECD process, while aiming to
+elevate valuable resources, is a more localised ELIXIR-internal framework focused on resources
+serving specific ELIXIR Community needs, which may not necessarily reach the global impact or
+scale of a GCBR. GCBR has a focus on funder engagement which is not within the scope of the ECD
+process.
+
+RIR (Recommended Interoperability Resources): The ELIXIR Recommended Interoperability
+Resources (RIRs) are identified as key tools and registries that actively facilitate the FAIR (Findable,
+Accessible, Interoperable, Reusable) principles across scientific research, particularly by supporting
+connections, metadata exposure, and infrastructure for integratable data collections within the
+broader ELIXIR ecosystem. While the ECD process encourages integrability and interoperability for
+its accredited resources, its primary focus is on formalising the status and supporting the
+community-driven co-development and increased visibility of biodata resources that serve
+narrower, specific ELIXIR Community needs, rather than a direct focus on core interoperability
+enablement as services.
+
+Biodatabase relevant maturation processes:
+
+EOSC FIDELIS - TTRAM: The ECD process primarily focuses on elevating the visibility and fostering
+co-development of ELIXIR Community-specific biodata resources. FIDELIS - TTRAM, on the other
+hand, provides a broader framework for assessing and promoting trustworthy repository attributes,
+which is a wider concern for data sustainability and reusability across disciplines, rather than solely
+within ELIXIR's Community scope.
+
+Research Data Alliance (RDA) Trustworthy Repository Standards and Practice (TRSP): The
+Research Data Alliance (RDA) Trustworthy Repository Standards and Practice (TRSP) group aims to
+identify and promote best practices for trustworthy data repositories. The ECD process, in contrast,
+is an ELIXIR-specific mechanism designed to foster the growth and visibility of biodata resources
+within its own Communities, leveraging community expertise for co-development rather than
+focusing on broad repository standards.
+
+EOSC Interoperability framework: The EOSC (European Open Science Cloud) Interoperability
+Framework provides guidelines and standards to ensure data and services can be seamlessly
+
+
+                                                                                                    9
+exchanged across the EOSC ecosystem. The ECD process, conversely, is an ELIXIR-specific
+accreditation designed to increase the visibility and foster the co-development of biodata resources
+relevant to ELIXIR's communities, often with an emphasis on improving their integrability within the
+broader biodata ecosystem, but not directly defining the overarching interoperability framework.
+
+EHDS/Data Spaces: The European Health Data Space (EHDS) and broader Data Spaces initiatives
+aim to create secure and interoperable data ecosystems for specific domains, like health. The ECD
+process, while potentially contributing data resources to such spaces, is an ELIXIR-internal
+mechanism focused on accrediting and supporting specific biodata resources for their value to
+ELIXIR's scientific communities, rather than defining the broader legal or technical frameworks for
+data sharing across sectors.
+
+Overview table:
+
+Initiative         Primary Focus                      Scope / Audience       Key Differentiator from ECD
+                   Formal accreditation,
+                   community-driven                   Biodata resources
+ELIXIR             co-development, and                serving narrower,
+Community          enhanced visibility for niche      specific ELIXIR
+Database (ECD)     databases.                         Community needs.       This is the baseline for comparison.
+ELIXIR Service     A formal listing of all services   All official ELIXIR
+Delivery Plan      officially provided by ELIXIR      Node services and      An SDP listing is a prerequisite for ECD;
+(SDP)              Nodes.                             resources.             it is a list, not an accreditation process.
+                   Identifying resources of
+                   fundamental importance and         The wider, generic     CDRs are authoritative for a broad
+Core Data          broad applicability to the life    life-science           audience, while ECDs are tailored to
+Resource (CDR)     sciences.                          community.             narrower Community needs.
+               Recommending repositories
+ELIXIR         for the deposition and                 Researchers needing EDD focuses on data deposition,
+Deposition     archiving of experimental              to deposit and share whereas ECD focuses on active
+Database (EDD) data.                                  experimental data.   resource co-development.
+
+                   International certification for    Any digital repository
+                   trustworthy digital                seeking a globally     CoreTrustSeal is a rigorous, global
+                   repositories focusing on           recognised             certification, while ECD is a more
+CoreTrustSeal      long-term preservation.            certification.         lightweight, ELIXIR-internal initiative.
+                Identifying and supporting
+Global Core     biodata resources of global           Biodata resources      GCBR has a global scope and a focus
+Biodata         importance, with a focus on           with a global scale    on funders, unlike ECD's more
+Resource (GCBR) funder engagement.                    and impact.            localized, ELIXIR-Community scope.
+                   Identifying key tools and          Services that enable   RIRs are services that enable
+Recommended        registries that actively           interoperability       interoperability, while ECDs are
+Interoperability   facilitate FAIR principles and     across the             biodata resources that serve a specific
+Resource (RIR)     data integration.                  ecosystem.             Community.
+
+
+
+
+                                                                                                               10
+                   A framework for assessing      Data sustainability
+                   trustworthy repository         and reusability across TTRAM is a broad, cross-disciplinary
+EOSC FIDELIS -     attributes across many         multiple scientific    framework, not specific to ELIXIR's
+TTRAM              disciplines.                   disciplines.           biodata Communities.
+                                                                         RDA focuses on broad repository
+                   Promoting general best         Any data repository    standards, while ECD is an
+                   practices and standards for    looking to adopt       ELIXIR-specific mechanism for
+RDA TRSP           trustworthy data repositories. broad standards.       co-development.
+                   Providing the overarching
+EOSC               guidelines and standards for   The European Open      This is a high-level framework for a
+Interoperability   data exchange across the       Science Cloud          massive ecosystem, not a specific
+Framework          entire EOSC ecosystem.         ecosystem.             accreditation process like ECD.
+                   Creating secure and
+                   interoperable data ecosystems Broad data sharing      These initiatives define broad
+                   (e.g., for health) governed by across sectors, such   legal/technical frameworks, whereas
+EHDS / Data        legal and technical            as European health     ECD is an internal mechanism to
+Spaces             frameworks.                    data.                  accredit specific scientific resources.
+
+
+
+
+Appendix 3: ECD Rejection Criteria
+Rejection Criteria
+Based on the provided ECD checklist and process documents, an application can be rejected based
+on two levels of criteria: administrative & service criteria, which are checked by the ELIXIR Hub and
+lead to immediate disqualification, and scientific & technical criteria, which are assessed by the
+ELIXIR Community and may lead to a discretionary rejection. Additionally, a resource may be
+rejected due to a failed health check criteria for uptime of lower than 99% during the health check
+period.
+
+
+
+Administrative Rejection Criteria (Hub Eligibility Check)
+
+If a resource fails any of the following checks, its application will not proceed to the Community for
+review.
+
+    ●​ Incorrect Resource Type: The service is not a deposition database, curated knowledgebase,
+       biodata registry, or aggregation database.
+    ●​ No ELIXIR Affiliation: The applicant is not from an ELIXIR Node institute and the resource
+       is not an official ELIXIR Node Service listed on the Service Delivery Plan (SDP).
+    ●​ Existing High-Level Status: The resource already holds a status as a Core Data Resource
+       (CDR), ELIXIR Deposition Database (EDD), or Global Core Biodata Resource (GCBR).
+    ●​ Incomplete Application: The applicant has not completed all fields in the checklist.
+
+
+
+
+                                                                                                          11
+Scientific & Service Level Rejection Criteria
+(Community & Data Platform Leadership Assessment)
+
+Even if a resource passes the Hub check, the accrediting ELIXIR Community may still reject the
+application based on weaknesses identified in the self-assessment. These factors suggest the
+resource is not sufficiently mature, actively sustained, or relevant for ECD status.
+
+Relevance and Uniqueness - Community Co-Leads
+
+   ●​ Lack of Relevance: The resource has no clear relevance to the scientific focus area of the
+      ELIXIR Community it is applying to. This is a major reason for rejection, as the entire process
+      is community-driven.
+   ●​ No Identifiable Gap: The application fails to demonstrate what unique scientific gap the
+      resource serves, or it is entirely redundant with existing resources without offering any clear
+      advantage.
+
+Sustainability and Governance - Hub & Data Platform ExCo
+
+   ●​ No Staffing: The resource lacks any dedicated staffing for curation and maintenance or to
+      provide the necessary hardware to keep it online for at least the next three years.
+   ●​ High Risk of Discontinuation: The project is critically dependent on just one single
+      individual, meaning it would likely cease development or data ingestion if they were to
+      leave.
+   ●​ Lack of Governance: There is no evidence of a development roadmap, a scientific advisory
+      board, or a mechanism to collect user feedback to guide future work.
+
+Interoperability and Data Management - Hub & Data Platform ExCo
+
+   ●​ Creates a Data Silo: The resource does not use any metadata standards or ontologies and
+      does not provide an API or other machine-actionable way to access the data. This goes
+      against the ECD goal of reducing database silos.
+   ●​ Restrictive or Unclear Licensing: The data and software licenses are not clearly stated, are
+      missing, or are restrictive, which prevents the data from being reused by the community.
+   ●​ Poor Data Management: The resource has no clear plan for long-term data storage and
+      off-site backups, posing a significant risk to data integrity and longevity.
+
+Health Check Failure Rejection Criteria
+(Community & Data Platform Leadership Assessment)
+
+   ●​ Uptime Failure: Validated uptime falling below 99% as recorded by the Hub tracker during
+      the set probation period. Period will be indicated during the process set up.
+
+
+
+
+                                                                                                 12
+Step after the rejection for possible reapplication:
+   1.​ Applicant is informed of rejection and specific feedback provided on the application form to
+       inform the applicant what exactly needs to be addressed by the resource for a successful
+       reapplication (where resource within Community scope).
+   2.​ Reapplication where deemed suitable under agreement of meeting the Community’s
+       scientific focus area is possible 12 months after the initial application. The feedback must be
+       addressed adequately to be considered for reapplication.
+
+
+
+
+                                                                                                 13
+

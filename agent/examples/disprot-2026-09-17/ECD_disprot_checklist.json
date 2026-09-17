@@ -1,0 +1,1639 @@
+{
+  "meta": {
+    "schema_id": "ecd-checklist",
+    "schema_version": "1.0.0",
+    "checklist_doi": "10.5281/zenodo.17289009",
+    "process_doi": "10.5281/zenodo.17288943",
+    "resource_name": "DisProt",
+    "resource_url": "https://disprot.org",
+    "reapplication": false,
+    "created": "2026-09-17T16:23:11+00:00",
+    "updated": "2026-09-17T16:25:30+00:00",
+    "generator": "ECD Agent Skill"
+  },
+  "answers": {
+    "APP.submitter_name": {
+      "id": "APP.submitter_name",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APP.submitter_email": {
+      "id": "APP.submitter_email",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "Institutional email only.",
+      "notes": null
+    },
+    "APP.node": {
+      "id": "APP.node",
+      "choice": null,
+      "text": "ELIXIR-Italy",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "elixir-sdp",
+          "url": "https://elixir-europe.org/about-us/who-we-are/nodes/italy",
+          "snippet": "DisProt listed under ELIXIR-Italy",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "elixir-sdp",
+          "url": "https://elixir-europe.org/about-us/who-we-are/nodes/italy",
+          "snippet": "IDP ontology listed under ELIXIR-Italy",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Node of the SDP listing; confirm it is the submitting applicant's Node.",
+      "notes": null
+    },
+    "APP.institute": {
+      "id": "APP.institute",
+      "choice": null,
+      "text": "University of Padua, Department of Biomedical Sciences (BioComputing UP)",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "BioComputing UP, 2021 - University of Padua, Italy ... University of Padua Department of Biomedical Sciences",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Hosting institute named in the site footer; confirm the applicant's ELIXIR-IT institute.",
+      "notes": null
+    },
+    "APP.resource_name": {
+      "id": "APP.resource_name",
+      "choice": null,
+      "text": "DisProt",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "input",
+          "url": null,
+          "snippet": "provided by user"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "APP.resource_url": {
+      "id": "APP.resource_url",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [
+        "https://disprot.org"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "input",
+          "url": "https://disprot.org",
+          "snippet": "provided by user"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "APP.repo_url": {
+      "id": "APP.repo_url",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No repository linked from registries/website. GitHub candidates to confirm: https://github.com/BioComputingUP/idpo, https://github.com/usatpath01/DisProTrack, https://github.com/BioComputingUP/caid-reference, https://github.com/TIGER-AI-Lab/DisProtEdit, https://github.com/disprot/disprot.github.io",
+      "notes": null
+    },
+    "APP.community": {
+      "id": "APP.community",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "Suggested: Intrinsically Disordered Proteins (website states DisProt is a 'service of the IDP Community').",
+      "notes": null
+    },
+    "APP.date_submitted": {
+      "id": "APP.date_submitted",
+      "choice": null,
+      "text": "17-09-2026",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [],
+      "hint": "Set to the actual submission date before sending.",
+      "notes": null
+    },
+    "S1.1": {
+      "id": "S1.1",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "Resource is on the ELIXIR-Italy SDP; confirm the primary applicant belongs to that Node and a Node institute.",
+      "notes": null
+    },
+    "S1.2": {
+      "id": "S1.2",
+      "choice": "Met",
+      "text": "Listed as 'DisProt' under ELIXIR-Italy on the ELIXIR SDP.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "elixir-sdp",
+          "url": "https://elixir-europe.org/about-us/who-we-are/nodes/italy",
+          "snippet": "DisProt (http://www.disprot.org/)",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S1.3": {
+      "id": "S1.3",
+      "choice": "Curated knowledgebase",
+      "text": "Manually curated repository of experimentally validated disorder annotations extracted from literature; also offers a deposition route (ELIXIR EDD).",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "DisProt is the major manually curated repository of Intrinsically Disordered Proteins ... Expert curators are involved in collecting experimentally confirmed biological data",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "re3data",
+          "url": "https://www.re3data.org/repository/r3d100010561",
+          "snippet": "curated database ... annotating protein sequences for intrinsically disorder regions from the literature",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S1.4": {
+      "id": "S1.4",
+      "choice": "Not met",
+      "text": "Resource already holds: ELIXIR Deposition Database (EDD).",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "elixir-status-list",
+          "url": "https://elixir-europe.org/platforms/data/elixir-deposition-databases",
+          "snippet": "ELIXIR Deposition Database (EDD): MATCH ['DisProt']",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S1.5": {
+      "id": "S1.5",
+      "choice": "No",
+      "text": "Single deployment operated by BioComputing UP (University of Padua) with an international curator consortium; no multi-site or multi-branded instance found.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "BioComputing UP, 2021 - University of Padua, Italy",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "re3data",
+          "url": "https://www.re3data.org/repository/r3d100010561",
+          "snippet": "5 institutions listed (ITA, USA), historical",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S1.confirm": {
+      "id": "S1.confirm",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "Pre-check blocks eligibility: ELIXIR Deposition Database (EDD)",
+      "notes": null
+    },
+    "S2.1a": {
+      "id": "S2.1a",
+      "choice": null,
+      "text": "Intrinsically disordered proteins and regions lack a fixed 3D structure, so they are poorly captured by structure-centred resources and cannot be characterised reliably by prediction alone. DisProt fills this gap as the reference, manually curated collection of experimentally validated disorder, linking each region to its detection method (ECO), structural state, function and transitions (IDPO, GO) and supporting publication. These gold-standard annotations underpin disorder predictor benchmarking (e.g. CAID) and are cross-referenced from UniProtKB.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "major manually curated repository of Intrinsically Disordered Proteins, both for structural and functional aspects",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Release 2018_11 (CAID)",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "uniprot",
+          "url": "https://www.uniprot.org/database/DB-0017",
+          "snippet": "UniProt cross-referenced database",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S2.1b": {
+      "id": "S2.1b",
+      "choice": null,
+      "text": null,
+      "list": [
+        "Intrinsically disordered proteins (3,337 entries; release 2026_06)",
+        "Disordered region annotations by lineage: Eukaryota (10,568), Bacteria (1,788), Viruses (1,527), Archaea (100)",
+        "GO function/process/component region annotations (4,329 / 712 / 72)",
+        "Thematic datasets, e.g. NDDs-related (357), RNA-binding (221), Condensates-related (189) proteins"
+      ],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "Version: 9.10 Release: 2026_06 Number of entries: 3337",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "Taxonomy ... Viruses 235 1,527 Eukaryota 2,580 10,568 Bacteria 498 1,788 Archaea 23 100; GO Molecular function 1296 4329",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "Datasets ... RNA-binding proteins 221 Condensates-related proteins 189 NDDs-related proteins 357",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S2.1c": {
+      "id": "S2.1c",
+      "choice": "Partially overlapping with other resources",
+      "text": "DisProt is dedicated to manual, literature-based curation of experimentally validated disorder at region level, with every annotation tied to an ECO evidence code, IDPO/GO terms, MIADE information and a curator-review workflow, released twice a year with archived versions. MobiDB aggregates curated and predicted disorder, and PED stores structural ensembles rather than curated evidence.",
+      "list": [
+        "MobiDB (aggregated curated and predicted disorder annotations)",
+        "Protein Ensemble Database (PED; conformational ensembles of IDPs)",
+        "IDEAL (curated IDP database)"
+      ],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "registry:similar",
+          "url": "https://bio.tools/api/tool/?topicID=%22topic_3542%22",
+          "snippet": "bio.tools databases sharing topic 'Protein disordered structure': MobiDB, Protein Ensemble Database, ComSin, IDEAL",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "430 annotations have MIADE information ... Enhanced curation review workflow",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S2.1d": {
+      "id": "S2.1d",
+      "choice": "High",
+      "text": "DisProt is the reference curated database for intrinsically disordered proteins, the exact focus of the ELIXIR Intrinsically Disordered Proteins Community, and describes itself as a service of the IDP Community. It provides the community's shared annotation standard (IDPO, MIADE-compliant curation), training materials and benchmark data for disorder prediction.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "The DisProt database is part of the ELIXIR infrastructure, service of the IDP Community and ELIXIR deposition database",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "website:elixir-link",
+          "url": "https://elixir-europe.org/communities/intrinsically-disordered-proteins",
+          "snippet": "linked from the DisProt website",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Assumes the application goes to the Intrinsically Disordered Proteins Community.",
+      "notes": null
+    },
+    "S2.1e": {
+      "id": "S2.1e",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://doi.org/10.1093/nar/gkaf1175",
+        "https://doi.org/10.1093/nar/gkad928",
+        "https://doi.org/10.1093/database/baae009"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "europepmc",
+          "url": "https://doi.org/10.1093/nar/gkl893",
+          "snippet": "DisProt: the Database of Disordered Proteins. — Nucleic acids research 2007",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "europepmc",
+          "url": "https://doi.org/10.1093/nar/gkw1056",
+          "snippet": "DisProt 7.0: a major update of the database of disordered proteins. — Nucleic acids research 2017",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "europepmc",
+          "url": "https://doi.org/10.1093/nar/gkz975",
+          "snippet": "DisProt: intrinsic protein disorder annotation in 2020. — Nucleic acids research 2020",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "europepmc",
+          "url": "https://doi.org/10.1093/bioinformatics/bth476",
+          "snippet": "DisProt: a database of protein disorder. — Bioinformatics (Oxford, England) 2005",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S2.2": {
+      "id": "S2.2",
+      "choice": "More than 10 years",
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "europepmc",
+          "url": null,
+          "snippet": "earliest paper about resource: 2005",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "wayback",
+          "url": "http://web.archive.org/web/20050304063048/http://www.disprot.org:80/",
+          "snippet": "first archived capture 20050304063048",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Earliest public trace 2005; confirm the official go-live year.",
+      "notes": null
+    },
+    "S2.3a": {
+      "id": "S2.3a",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "ELIXIR commissioned-service participation is not systematically public; ask the applicant.",
+      "notes": null
+    },
+    "S2.3b": {
+      "id": "S2.3b",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "ELIXIR commissioned-service participation is not systematically public; ask the applicant.",
+      "notes": null
+    },
+    "S2.3c": {
+      "id": "S2.3c",
+      "choice": "Yes",
+      "text": "DisProt data and Bioschemas markup featured in ELIXIR BioHackathon work, e.g. 'Exploiting Bioschemas Markup to Populate IDPcentral' and Bioschemas DataCatalog/Dataset examples (BioHackathon-projects-2019).",
+      "list": [],
+      "links": [
+        "https://doi.org/10.37044/osf.io/v3jct",
+        "https://github.com/elixir-europe/BioHackathon-projects-2019/pull/45"
+      ],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "europepmc",
+          "url": "https://doi.org/10.37044/osf.io/v3jct",
+          "snippet": "Exploiting Bioschemas Markup to Populate IDPcentral",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "github",
+          "url": "https://github.com/elixir-europe/BioHackathon-projects-2019/pull/45",
+          "snippet": "Added DataSet/DataCatalog and DataRecord examples",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Confirm the DisProt team took part and add any AHM workshops.",
+      "notes": null
+    },
+    "S2.4": {
+      "id": "S2.4",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "database of intrinsically disordered proteins ... service of the IDP Community",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S2.5": {
+      "id": "S2.5",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S2.6": {
+      "id": "S2.6",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S3.1": {
+      "id": "S3.1",
+      "choice": "Yes",
+      "text": "Uptime and response time are tracked by the OpenEBench monitoring service.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "openebench",
+          "url": "https://openebench.bsc.es/observatory/Tool/disprot",
+          "snippet": "OpenEBench monitor: last month uptime 30 d, downtime 0 d, avg access 701 ms",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "External monitoring (OpenEBench) found; confirm whether the team runs its own uptime/response-time monitoring.",
+      "notes": null
+    },
+    "S3.2": {
+      "id": "S3.2",
+      "choice": "Yes",
+      "text": "Web usage analytics are collected (Google Analytics / Tag Manager).",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "website:analytics",
+          "url": "https://disprot.org/",
+          "snippet": "analytics tags detected: ['Google Analytics / Tag Manager']",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Analytics tags detected; confirm which usage metrics are tracked (do not report numbers).",
+      "notes": null
+    },
+    "S3.3": {
+      "id": "S3.3",
+      "choice": "Yes",
+      "text": "Papers describing DisProt have been cited over 1,600 times (Europe PMC) and literature mentions of disprot.org have risen since 2020. Interest in disorder is growing with research on biomolecular condensates and phase separation and with protein language model predictors that need curated reference data (CAID rounds). Each release still adds substantial new literature: release 2026_06 added 151 proteins, 796 pieces of evidence and 208 newly curated publications, showing a continuing supply of ingestible data.",
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "europepmc",
+          "url": "https://europepmc.org/search?query=TITLE%3A%22DisProt%22",
+          "snippet": "total citations of resource papers: 1630; domain mentions/year 2020:2 ... 2022:11, 2024:8, 2026:5",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "Version 9.10 - June 2026 ... New pieces of evidence: 796 New proteins: 151 ... New publications: 208",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/",
+          "snippet": "Condensates-related proteins 189",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S4.1": {
+      "id": "S4.1",
+      "choice": "Yes",
+      "text": "Twice-yearly data releases (June and December) with public release notes and changelog. Each release adds curated proteins and evidence plus planned improvements, e.g. 9.10 (June 2026): a new thematic dataset, a GAF 2.2 export rewrite and a new download page.",
+      "list": [],
+      "links": [
+        "https://disprot.org/release-notes",
+        "https://disprot.org/download"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Release: 2026_06 (Current) 2025_12 2025_06 2024_12 2024_06 2023_12 2023_06 2022_12 2022_06 ...",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "Changelog Version 9.10 - June 2026 ... GAF export was rewritten ... New Download page",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "No public forward-looking roadmap found; add it if one exists.",
+      "notes": null
+    },
+    "S4.2": {
+      "id": "S4.2",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "robots.txt disallows /feedback/ (suggests a feedback page); curator consortium and training events may also collect community input.",
+      "notes": null
+    },
+    "S4.3": {
+      "id": "S4.3",
+      "choice": "Yes",
+      "text": "Help pages document search, downloads and the REST API; enquiries are handled through the info@disprot.org contact address.",
+      "list": [],
+      "links": [
+        "https://disprot.org/help",
+        "https://disprot.org/about"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/help",
+          "snippet": "This section describes how to use the DisProt website ... RESTful endpoints",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "website:helpdesk",
+          "url": "https://disprot.org/about",
+          "snippet": "Contact us For enquiries related to the DisProt, please email: info@disprot.org",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S4.4": {
+      "id": "S4.4",
+      "choice": "Yes",
+      "text": "The About page lists current team members with roles (curators, web developers, system administrator) and the Scientific Advisory Board.",
+      "list": [],
+      "links": [
+        "https://disprot.org/about"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:team",
+          "url": "https://disprot.org/about",
+          "snippet": "Web developer (Junior Post-doc) ... Web developer intern ... System administrator & support",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S4.5": {
+      "id": "S4.5",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S4.6": {
+      "id": "S4.6",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "re3data lists University of Padua plus historical US institutions (Indiana, Temple); recent papers include HUN-REN (Hungary) co-authors of the DisProt Consortium. Confirm whether operation (not just curation) spans institutions.",
+      "notes": null
+    },
+    "S4.7a": {
+      "id": "S4.7a",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "Funders acknowledged in resource papers (not proof of current dedicated funding): [['Horizon 2020', 6], ['Hungarian Academy of Sciences', 4], ['Hungarian Scientific Research Fund', 4], ['European Union', 4], ['NLM NIH HHS', 3], ['National Research, Development and Innovation Fund of the Ministry of Culture and Innovation', 3]] | website: … our upcoming training sessions. BioComputing UP, 2021 - University of Padua, Italy License and disclaimer This database is part of a project that has received funding from the European Union’s Horiz",
+      "notes": null
+    },
+    "S4.7b": {
+      "id": "S4.7b",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S4.8": {
+      "id": "S4.8",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S4.9": {
+      "id": "S4.9",
+      "choice": "Yes",
+      "text": "DisProt operates with an international, independent Scientific Advisory Board, described on the About page.",
+      "list": [],
+      "links": [
+        "https://disprot.org/about"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "website:sab",
+          "url": "https://disprot.org/about",
+          "snippet": "…- Web developer András Hatos - Web developer Edoardo Salladini - Senior curator Contact us For enquiries related to the DisProt, please email: info@disprot.org Scientific Advisory Board (SAB) DisProt is an organization that operates with an international and independent Scientific Advisory Board (SAB). This board is comprised of a group of hig…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S4.10": {
+      "id": "S4.10",
+      "choice": "Yes",
+      "text": "A privacy notice on the About page explains what personal data DisProt collects, for what purposes, and how it is processed and secured.",
+      "list": [],
+      "links": [
+        "https://disprot.org/about"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:privacy",
+          "url": "https://disprot.org/about",
+          "snippet": "… at Khoury College of Computer Sciences, Northwestern University License This work is licensed under a Creative Commons Attribution 4.0 International License . Privacy notice This privacy notice explains what personal data is collected by DisProt, for what purposes, how it is processed, and how we keep it secure. Who controls your p…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S4.11": {
+      "id": "S4.11",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No ethics policy found; DisProt holds no personal or sensitive data, so the applicant may answer No and explain.",
+      "notes": null
+    },
+    "S5.1": {
+      "id": "S5.1",
+      "choice": "Yes",
+      "text": "Entry pages carry schema.org/Bioschemas markup (DataCatalog, Dataset, Protein). GO annotations are exported in GAF 2.2, and curation follows the MIADE minimum information guidelines for disorder experiments.",
+      "list": [],
+      "links": [
+        "https://disprot.org/DP00003",
+        "https://doi.org/10.1038/s41592-023-01915-x"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:json-ld",
+          "url": "https://disprot.org/DP00003",
+          "snippet": "JSON-LD types: DataCatalog, Dataset, Protein",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "GAF export was rewritten ... according to the GAF 2.2 specification ... 430 annotations have MIADE information",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/about",
+          "snippet": "Minimum information guidelines for experiments structurally characterizing intrinsically disordered protein regions (2023) Nature Methods",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Name the actual standards (e.g. Bioschemas profile, MIAPE) and add FAIRsharing standard links.",
+      "notes": null
+    },
+    "S5.2": {
+      "id": "S5.2",
+      "choice": "Yes",
+      "text": "Annotations use the IDP Ontology (IDPO) for structural state, function and transitions, the Evidence & Conclusion Ontology (ECO) for detection methods, and the Gene Ontology (GO); organisms follow NCBI Taxonomy.",
+      "list": [],
+      "links": [
+        "https://disprot.org/ontology",
+        "https://github.com/BioComputingUP/idpo",
+        "https://www.ebi.ac.uk/ols4/ontologies/eco",
+        "https://www.ebi.ac.uk/ols4/ontologies/go"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:curie",
+          "url": "https://disprot.org/DP00003",
+          "snippet": "ECO terms found 14x; in OLS: Evidence & Conclusion Ontology (ECO)",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:curie",
+          "url": "https://disprot.org/DP00003",
+          "snippet": "GO terms found 3x; in OLS: Gene Ontology",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "The IDP ontology (IDPO) is available to download on its dedicated GitHub repository",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "The taxonomic classification of DisProt relies on the NCBI Taxonomy service",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S5.3": {
+      "id": "S5.3",
+      "choice": "Yes",
+      "text": "Entry pages embed schema.org/Bioschemas JSON-LD; the REST API and bulk downloads provide JSON, TSV, FASTA and GAF.",
+      "list": [],
+      "links": [
+        "https://disprot.org/DP00003",
+        "https://disprot.org/download"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:json-ld",
+          "url": "https://disprot.org/DP00003",
+          "snippet": "schema.org/Bioschemas JSON-LD types: ['DataCatalog', 'Dataset', 'Protein']",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Format: TSV FASTA JSON GAF",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S5.4": {
+      "id": "S5.4",
+      "choice": "Yes",
+      "text": null,
+      "list": [
+        "REST API (documented under Help): https://disprot.org/help",
+        "Bulk downloads of current and archived releases (TSV, FASTA, JSON, GAF): https://disprot.org/download",
+        "Resolvable identifiers via identifiers.org (disprot:DPxxxxx)"
+      ],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:api-endpoint",
+          "url": "https://disprot.org/api/",
+          "snippet": "application/json: \"Hello from legacy\"",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "re3data:api",
+          "url": "https://www.disprot.org/help#anchor3",
+          "snippet": "re3data API type REST",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:api",
+          "url": "https://disprot.org/help",
+          "snippet": "…es used in DisProt to describe structural, functional and technique or evidence of IDPs/IDRs. Information about RESTful endpoints and the output format see the API documentation below. Training materials for DisProt users DisProt webinars available in ELIXIR TeSS An introduction to DisProt (beginner level) In this course you will learn…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:api-link",
+          "url": "https://disprot.org/api",
+          "snippet": "API documentation page -> https://disprot.org/api",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:download",
+          "url": "https://disprot.org/download",
+          "snippet": "DisProt Browse Training Ontology Release notes Download Deposition About Help Annotated Proteins Release: 2026_06 (Current) 2025_12 2025_06 2024_12 2024_06 2023_12 2023_06 2022_12 2022_06 2022_03 2021_12 2021_08 202…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "bio.tools",
+          "url": "https://bio.tools/disprot",
+          "snippet": "bio.tools toolType includes 'Web API'",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/help",
+          "snippet": "Support Protocol 2: Programmatic access with DisProt REST API",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Download Or Copy Download URL",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Add download/FTP and documentation links if available.",
+      "notes": null
+    },
+    "S5.5": {
+      "id": "S5.5",
+      "choice": "Yes",
+      "text": null,
+      "list": [
+        "UniProtKB (protein accessions and sequences)",
+        "NCBI Taxonomy (organism classification)",
+        "PubMed (literature references for curated evidence)",
+        "AlphaFold DB (predicted-structure confidence content)",
+        "GO and ECO ontologies"
+      ],
+      "links": [],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Columns: UniProt ACC ... NCBI Taxon ID ... Term ID ... ECO Term ID ... PMID ... Alphafold Very Low confidence content",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "The taxonomic classification of DisProt relies on the NCBI Taxonomy service",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S5.6": {
+      "id": "S5.6",
+      "choice": "Yes",
+      "text": null,
+      "list": [
+        "UniProtKB cross-references (DB-0017)",
+        "Gene Ontology knowledgebase (GO annotations exported as GAF)"
+      ],
+      "links": [],
+      "image": null,
+      "status": "verified",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "uniprot",
+          "url": "https://www.uniprot.org/database/DB-0017",
+          "snippet": "Database of protein disorder is a UniProt cross-referenced database (Family and domain databases)",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/release-notes",
+          "snippet": "The GAF export was rewritten to ensure correct release of GO annotations",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        },
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/about",
+          "snippet": "DisProt & Collaborative publications: The Gene Ontology knowledgebase in 2026",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Add other consumers (e.g. MobiDB, InterPro) if confirmed.",
+      "notes": null
+    },
+    "S5.7": {
+      "id": "S5.7",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S6.1": {
+      "id": "S6.1",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No public data management plan found on the website or Zenodo.",
+      "notes": null
+    },
+    "S6.2": {
+      "id": "S6.2",
+      "choice": null,
+      "text": "DisProt data are licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).",
+      "list": [],
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://disprot.org/about"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "website:license",
+          "url": "https://disprot.org/",
+          "snippet": "…Tompa, Damiano Piovesan, Silvio C E Tosatto, Maria Cristina Aspromonte (2025) Nucleic Acids Research, Database Issue. PubMed:41249866 , DOI:10.1093/nar/gkad928 License This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License . Latest News See all posts here DisProt 2026_06 - New themati…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:license-link",
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "snippet": "(no text) -> http://creativecommons.org/licenses/by/4.0/",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "website:license",
+          "url": "https://disprot.org/training",
+          "snippet": "…hannel Zenodo Community Other Recorded tutorials Materials For Curators And Users Datasets Crediting Contact BioComputing UP, 2021 - University of Padua, Italy License and disclaimer This database is part of a project that has received funding from the European Union’s Horizon 2020 research and innovation programme under gran…",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Claude: state the exact data licence named on the website (prefer the site over registries).",
+      "notes": "bio.tools lists CC-BY-NC-1.0 for DisProt; the registry entry should be updated to match the website."
+    },
+    "S6.3": {
+      "id": "S6.3",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S6.4": {
+      "id": "S6.4",
+      "choice": "Yes",
+      "text": "Every release is archived and downloadable from the Download page, from 2016_10 (DisProt 7) to the current 2026_06, in TSV, FASTA, JSON and GAF, with release notes for each version.",
+      "list": [],
+      "links": [
+        "https://disprot.org/download",
+        "https://disprot.org/release-notes"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "rendered-page",
+          "url": "https://disprot.org/download",
+          "snippet": "Release: 2026_06 (Current) 2025_12 ... 2019_09 2018_11 (CAID) 2016_10 (DisProt 7) ... Format: TSV FASTA JSON GAF",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Describe release cadence and where previous releases are archived.",
+      "notes": null
+    },
+    "S6.5": {
+      "id": "S6.5",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No software management plan found; IDPO repo has CONTRIBUTING/CODE_OF_CONDUCT only.",
+      "notes": null
+    },
+    "S6.6": {
+      "id": "S6.6",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No confirmed code repository.",
+      "notes": null
+    },
+    "S6.7": {
+      "id": "S6.7",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No confirmed code repository.",
+      "notes": null
+    },
+    "S6.8": {
+      "id": "S6.8",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No confirmed code repository.",
+      "notes": null
+    },
+    "S7.1": {
+      "id": "S7.1",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://fairsharing.org/FAIRsharing.dt9z89",
+        "https://www.re3data.org/repository/r3d100010561"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "fairsharing",
+          "url": "https://fairsharing.org/FAIRsharing.dt9z89",
+          "snippet": "FAIRsharing record FAIRsharing.dt9z89 (via ['bioregistry_mapping'])",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S7.2": {
+      "id": "S7.2",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://registry.identifiers.org/registry/disprot"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "identifiers.org",
+          "url": "https://registry.identifiers.org/registry/disprot",
+          "snippet": "prefix disprot (MIR:00000199)",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S7.3": {
+      "id": "S7.3",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://bio.tools/disprot"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "bio.tools",
+          "url": "https://bio.tools/disprot",
+          "snippet": "bio.tools entry disprot (['Web API', 'Web application', 'Database portal'])",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "bio.tools entry found; add any separate tools/workflows the resource provides.",
+      "notes": null
+    },
+    "S7.4": {
+      "id": "S7.4",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://tess.elixir-europe.org/materials/an-introduction-to-disprot-03344576-ed76-48c7-ac18-ec18365060c9",
+        "https://tess.elixir-europe.org/materials/exploring-structural-and-functional-annotations-of-idps-with-disprot-a2647e13-bfac-4320-b319-695e51f68573",
+        "https://tess.elixir-europe.org/materials/experimental-techniques-for-the-characterization-of-intrinsically-disordered-proteins"
+      ],
+      "image": null,
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "tess",
+          "url": "https://tess.elixir-europe.org/materials/an-introduction-to-disprot-03344576-ed76-48c7-ac18-ec18365060c9",
+          "snippet": "An introduction to DisProt",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "tess",
+          "url": "https://tess.elixir-europe.org/materials/exploring-structural-and-functional-annotations-of-idps-with-disprot-a2647e13-bfac-4320-b319-695e51f68573",
+          "snippet": "Exploring structural and functional annotations of IDPs with DisProt",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "tess",
+          "url": "https://tess.elixir-europe.org/materials/experimental-techniques-for-the-characterization-of-intrinsically-disordered-proteins",
+          "snippet": "Experimental techniques for the characterization of Intrinsically Disordered Proteins",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "tess",
+          "url": "https://tess.elixir-europe.org/materials/biocuration-in-disprot",
+          "snippet": "Biocuration in DisProt",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": null,
+      "notes": null
+    },
+    "S7.5": {
+      "id": "S7.5",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://apicuron.org/"
+      ],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "website:apicuron-link",
+          "url": "https://apicuron.org/",
+          "snippet": "resource website links to APICURON",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Website links to APICURON; confirm curator credit is actually submitted and add the APICURON resource page link.",
+      "notes": null
+    },
+    "S7.6": {
+      "id": "S7.6",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": "No LS Login detected. Login-related links: ['(no text) -> https://disprot.org/login']",
+      "notes": null
+    },
+    "S7.7": {
+      "id": "S7.7",
+      "choice": "Yes",
+      "text": null,
+      "list": [],
+      "links": [
+        "https://openebench.bsc.es/observatory/Tool/disprot"
+      ],
+      "image": null,
+      "status": "inferred",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "openebench",
+          "url": "https://openebench.bsc.es/monitor/metrics/disprot",
+          "snippet": "last check 2026-08-31T02:00:47.537805285Z",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        }
+      ],
+      "hint": "Resource is monitored in OpenEBench (auto-imported from bio.tools); confirm the team uses it.",
+      "notes": null
+    },
+    "S7.8": {
+      "id": "S7.8",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [
+        "https://fair-checker.france-bioinformatique.fr/assessment/6aac141d0f765af231e7373f"
+      ],
+      "image": "fairchecker.png",
+      "status": "verified",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "fair-checker",
+          "url": "https://fair-checker.france-bioinformatique.fr/assessment/6aac141d0f765af231e7373f",
+          "snippet": "scores: F1A=2, F1B=2, F2A=1, F2B=2, A11=2, A12=2, I1=1, I2=2, I3=2, R11=2, R12=2, R13=2",
+          "retrieved": "2026-09-17T16:23:11+00:00"
+        },
+        {
+          "source": "claude-review",
+          "url": "https://fair-checker.france-bioinformatique.fr/assessment/6aac141d0f765af231e7373f",
+          "snippet": "Screenshot viewed: completed results for https://disprot.org/, FAIR assessment 91.67 %",
+          "retrieved": "2026-09-17T16:25:29+00:00"
+        }
+      ],
+      "hint": "Claude must view the PNG to confirm it shows completed results before marking verified.",
+      "notes": null
+    },
+    "S7.9": {
+      "id": "S7.9",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S7.10": {
+      "id": "S7.10",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "S8.declaration": {
+      "id": "S8.declaration",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "needs_applicant",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S1": {
+      "id": "APX1.S1",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S2": {
+      "id": "APX1.S2",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S3": {
+      "id": "APX1.S3",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S4": {
+      "id": "APX1.S4",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S5": {
+      "id": "APX1.S5",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S6": {
+      "id": "APX1.S6",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    },
+    "APX1.S7": {
+      "id": "APX1.S7",
+      "choice": null,
+      "text": null,
+      "list": [],
+      "links": [],
+      "image": null,
+      "status": "pending",
+      "confidence": null,
+      "evidence": [],
+      "hint": null,
+      "notes": null
+    }
+  },
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "status_counts": {
+      "needs_applicant": 28,
+      "inferred": 17,
+      "verified": 23
+    },
+    "unresolved": [
+      "APP.community",
+      "APP.repo_url",
+      "APP.submitter_email",
+      "APP.submitter_name",
+      "S1.1",
+      "S1.confirm",
+      "S2.3a",
+      "S2.3b",
+      "S2.5",
+      "S2.6",
+      "S4.11",
+      "S4.2",
+      "S4.5",
+      "S4.6",
+      "S4.7a",
+      "S4.7b",
+      "S4.8",
+      "S5.7",
+      "S6.1",
+      "S6.3",
+      "S6.5",
+      "S6.6",
+      "S6.7",
+      "S6.8",
+      "S7.10",
+      "S7.6",
+      "S7.9",
+      "S8.declaration"
+    ],
+    "inferred_to_review": [
+      "APP.date_submitted",
+      "APP.institute",
+      "APP.node",
+      "S1.3",
+      "S1.5",
+      "S2.1a",
+      "S2.1c",
+      "S2.1d",
+      "S2.2",
+      "S2.3c",
+      "S2.4",
+      "S3.1",
+      "S3.2",
+      "S3.3",
+      "S5.5",
+      "S7.5",
+      "S7.7"
+    ],
+    "ready_to_submit": false
+  }
+}

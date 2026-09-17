@@ -1,0 +1,89 @@
+# {{ schema.title }} — {{ meta.resource_name }}
+
+*Checklist {{ schema.checklist_version }} ([doi:{{ schema.source.checklist.doi }}](https://doi.org/{{ schema.source.checklist.doi }})) · Process [doi:{{ schema.source.process.doi }}](https://doi.org/{{ schema.source.process.doi }})*
+*Pre-filled by the ECD Agent Skill on {{ rendered }} for <{{ meta.resource_url }}>. Review every answer before submission.*
+
+**Status:** {% for k, v in validation.status_counts.items() %}{{ k }}: {{ v }}{% if not loop.last %} · {% endif %}{% endfor %}
+{% if validation.unresolved %}
+**Still needs applicant input ({{ validation.unresolved | length }}):** {{ validation.unresolved | join(", ") }}
+{% endif %}
+{% if validation.errors %}
+**Validation errors:**
+{% for e in validation.errors %}
+- {{ e }}
+{% endfor %}
+{% endif %}
+
+{% for section in sections %}
+## {{ section.title }}
+{% if section.intro %}
+
+> {{ section.intro }}
+{% endif %}
+
+{% if section.id == "APP" %}
+| Field | Value | Status |
+|---|---|---|
+{% for q in section.questions %}
+| {{ q.prompt }} | {{ q.choice or q.text or (q.links | join(", ")) or placeholder }} | {{ q.status_label }} |
+{% endfor %}
+{% else %}
+{% set ns = namespace(group=None, sub=None) %}
+{% for q in section.questions %}
+{% if q.subgroup and q.subgroup != ns.sub %}
+### {{ q.subgroup }}
+{% set ns.sub = q.subgroup %}
+{% endif %}
+{% if q.group and q.group != ns.group %}
+**{{ q.group }}**
+{% set ns.group = q.group %}
+{% endif %}
+
+**{{ q.number }} {{ q.prompt }}**{% if not q.in_form %} *(eligibility criterion — pre-check)*{% endif %}
+
+{% if "choice" in q.parts %}
+- {{ q.choice_label or "Answer" }}: **{{ q.choice if q.choice is not none else placeholder }}**
+{% endif %}
+{% if "list" in q.parts and (q.list or q.show.list) %}
+- {{ q.list_label or "List" }}:{% if not q.list %} {{ placeholder }}{% endif %}
+
+{% for item in q.list %}
+    - {{ item }}
+{% endfor %}
+{% endif %}
+{% if "text" in q.parts and (q.text or q.show.text) %}
+- {{ q.text_label or "Response" }}{% if q.word_limit %} [{{ q.word_limit }} words]{% endif %}: {{ q.text or placeholder }}
+{% endif %}
+{% if "links" in q.parts and q.links %}
+- {{ q.links_label or "Link(s)" }}: {% for l in q.links %}<{{ l }}>{% if not loop.last %}, {% endif %}{% endfor %}
+
+{% endif %}
+{% if "image" in q.parts %}
+- Screenshot: {% if q.image %}`{{ q.image }}`{% else %}{{ placeholder }}{% endif %}
+
+{% if fair and fair.scores %}
+  | FAIR-Checker metric | Score (0–2) |
+  |---|---|
+{% for r in fair.scores %}
+  | {{ r.metric }} {{ r.label or "" }} | {{ r.score }} |
+{% endfor %}
+{% if fair.assessment_url %}  Assessment: <{{ fair.assessment_url }}>{% endif %}
+
+{% endif %}
+{% endif %}
+- *Status:* {{ q.status_label }}{% if q.confidence %} · *confidence:* {{ q.confidence }}{% endif %}
+
+{% if q.hint %}
+- *Hint:* {{ q.hint }}
+{% endif %}
+{% if q.evidence %}
+- *Evidence:*
+{% for e in q.evidence[:6] %}
+    - {{ e.source }}{% if e.url %}: <{{ e.url }}>{% endif %}{% if e.snippet %} — “{{ e.snippet[:240] }}”{% endif %}
+
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}

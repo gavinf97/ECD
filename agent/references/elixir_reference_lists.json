@@ -1,0 +1,4166 @@
+{
+  "_about": "Reference lists for the ECD Agent Skill eligibility checks. Rebuild with scripts/refresh_reference_lists.py. Treat lists older than ~6 months as stale.",
+  "nodes": {
+    "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:38+00:00",
+    "count": 22,
+    "items": [
+      {
+        "name": "Belgium",
+        "slug": "belgium",
+        "label": "ELIXIR-Belgium",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/belgium",
+        "declared_service_count": 20,
+        "services": [
+          {
+            "name": "Biophysical Proteome Atlas",
+            "url": "https://bio2byte.be/proteome/",
+            "type": ""
+          },
+          {
+            "name": "DataHub",
+            "url": "https://datahub.elixir-belgium.org/",
+            "type": ""
+          },
+          {
+            "name": "Dodona",
+            "url": "https://dodona.be/en/",
+            "type": ""
+          },
+          {
+            "name": "DynaMine",
+            "url": "https://bio2byte.be/dynamine/",
+            "type": ""
+          },
+          {
+            "name": "ELIXIR Toolkit Theme",
+            "url": "https://github.com/ELIXIR-Belgium/elixir-toolkit-theme",
+            "type": ""
+          },
+          {
+            "name": "ENA Data Submission Toolbox",
+            "url": "https://rdm.elixir-belgium.org/covid-19/",
+            "type": ""
+          },
+          {
+            "name": "Galaxy@Sciensano",
+            "url": "http://galaxy.sciensano.be",
+            "type": ""
+          },
+          {
+            "name": "MS2PIP Server",
+            "url": "https://iomics.ugent.be/ms2pip/",
+            "type": ""
+          },
+          {
+            "name": "OLIDA",
+            "url": "https://olida.ibsquare.be/",
+            "type": ""
+          },
+          {
+            "name": "ORVAL",
+            "url": "https://orval.ibsquare.be/",
+            "type": ""
+          },
+          {
+            "name": "PIPPA",
+            "url": "https://pippa.psb.ugent.be/pippa_nav/home/",
+            "type": ""
+          },
+          {
+            "name": "PLAZA",
+            "url": "https://bioinformatics.psb.ugent.be/plaza/",
+            "type": ""
+          },
+          {
+            "name": "RDMkit",
+            "url": "https://rdmkit.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "Scop3P",
+            "url": "https://iomics.ugent.be/scop3p/index",
+            "type": ""
+          },
+          {
+            "name": "Tabloid Proteome",
+            "url": "https://iomics.ugent.be/tabloidproteome/information.xhtml#about",
+            "type": ""
+          },
+          {
+            "name": "TCRex",
+            "url": "https://tcrex.biodatamining.be/",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR-BE)",
+            "url": "https://www.elixir-belgium.org/training",
+            "type": ""
+          },
+          {
+            "name": "Unipept",
+            "url": "https://unipept.ugent.be/",
+            "type": ""
+          },
+          {
+            "name": "useGalaxy.be",
+            "url": "https://usegalaxy.be/",
+            "type": ""
+          },
+          {
+            "name": "WiNGS",
+            "url": "https://wings.esat.kuleuven.be/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/belgium",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "Czech Republic",
+        "slug": "czech-republic",
+        "label": "ELIXIR-Czech Republic",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/czech-republic",
+        "declared_service_count": 50,
+        "services": [
+          {
+            "name": "2Dprots",
+            "url": "https://2dprots.ncbr.muni.cz/",
+            "type": ""
+          },
+          {
+            "name": "AmtDB",
+            "url": "https://amtdb.org/",
+            "type": ""
+          },
+          {
+            "name": "Atomic Charge Calculator",
+            "url": "https://acc2.ncbr.muni.cz/",
+            "type": ""
+          },
+          {
+            "name": "Authentication and Authorization Infrastructure (AAI)",
+            "url": "https://www.elixir-europe.org/services/compute/aai",
+            "type": ""
+          },
+          {
+            "name": "BEGDB",
+            "url": "http://www.begdb.org/",
+            "type": ""
+          },
+          {
+            "name": "CalFitter",
+            "url": "https://loschmidt.chemi.muni.cz/calfitter/",
+            "type": ""
+          },
+          {
+            "name": "CAVER 3.0",
+            "url": "http://caver.cz/",
+            "type": ""
+          },
+          {
+            "name": "ChannelsDB",
+            "url": "https://channelsdb2.biodata.ceitec.cz/",
+            "type": ""
+          },
+          {
+            "name": "Consultancy and Support Services",
+            "url": "https://ccmi.fit.cvut.cz/en/",
+            "type": ""
+          },
+          {
+            "name": "COVd",
+            "url": "https://virus.img.cas.cz/",
+            "type": ""
+          },
+          {
+            "name": "cpPredictor",
+            "url": "http://cppredictor.elixir-czech.cz",
+            "type": ""
+          },
+          {
+            "name": "DANTE",
+            "url": "http://repeatexplorer.org/?page_id=832",
+            "type": ""
+          },
+          {
+            "name": "Data Stewardship Wizard",
+            "url": "https://ds-wizard.org/",
+            "type": ""
+          },
+          {
+            "name": "Decryptor",
+            "url": "http://decryptor.imtm.cz/",
+            "type": ""
+          },
+          {
+            "name": "DNATCO",
+            "url": "https://dnatco.datmos.org/app",
+            "type": ""
+          },
+          {
+            "name": "Dolbico",
+            "url": "http://dolbico.org/",
+            "type": ""
+          },
+          {
+            "name": "EnzymeMiner",
+            "url": "https://loschmidt.chemi.muni.cz/enzymeminer/",
+            "type": ""
+          },
+          {
+            "name": "FireProt",
+            "url": "https://loschmidt.chemi.muni.cz/fireprot/",
+            "type": ""
+          },
+          {
+            "name": "FireProt ASR",
+            "url": "https://loschmidt.chemi.muni.cz/fireprotasr/",
+            "type": ""
+          },
+          {
+            "name": "FireProtDB",
+            "url": "https://loschmidt.chemi.muni.cz/fireprotdb",
+            "type": ""
+          },
+          {
+            "name": "GlobalFungi",
+            "url": "https://globalfungi.com/",
+            "type": ""
+          },
+          {
+            "name": "HCVIVdb",
+            "url": "http://www.hcvivdb.org/",
+            "type": ""
+          },
+          {
+            "name": "HERVd",
+            "url": "http://herv.img.cas.cz",
+            "type": ""
+          },
+          {
+            "name": "HotSpot Wizard",
+            "url": "http://loschmidt.chemi.muni.cz/hotspotwizard/",
+            "type": ""
+          },
+          {
+            "name": "IDSM",
+            "url": "https://idsm.elixir-czech.cz/",
+            "type": ""
+          },
+          {
+            "name": "IreSite",
+            "url": "http://iresite.org/",
+            "type": ""
+          },
+          {
+            "name": "Metadyn View",
+            "url": "http://metadyn.vscht.cz/",
+            "type": ""
+          },
+          {
+            "name": "MolArt",
+            "url": "https://github.com/cusbg/MolArt",
+            "type": ""
+          },
+          {
+            "name": "MOLE",
+            "url": "http://mole.chemi.muni.cz/",
+            "type": ""
+          },
+          {
+            "name": "MOLEonline",
+            "url": "https://mole.upol.cz/",
+            "type": ""
+          },
+          {
+            "name": "MolMeDB",
+            "url": "http://molmedb.upol.cz/",
+            "type": ""
+          },
+          {
+            "name": "MolStar",
+            "url": "https://molstar.org/",
+            "type": ""
+          },
+          {
+            "name": "MotiveValidator",
+            "url": "http://webchem.ncbr.muni.cz/Platform/MotiveValidator",
+            "type": ""
+          },
+          {
+            "name": "PatternQuery/PatternExplorer",
+            "url": "https://webchem.ncbr.muni.cz/Platform/PatternQuery",
+            "type": ""
+          },
+          {
+            "name": "PrankWeb",
+            "url": "https://prankweb.cz",
+            "type": ""
+          },
+          {
+            "name": "PredictSNP",
+            "url": "http://loschmidt.chemi.muni.cz/predictsnp/",
+            "type": ""
+          },
+          {
+            "name": "rboAnalyzer",
+            "url": "http://rboanalyzer.elixir-czech.cz/",
+            "type": ""
+          },
+          {
+            "name": "RepeatExplorer",
+            "url": "http://www.repeatexplorer.org/",
+            "type": ""
+          },
+          {
+            "name": "REXdb",
+            "url": "http://repeatexplorer.org/?page_id=918",
+            "type": ""
+          },
+          {
+            "name": "rPredictor",
+            "url": "http://rpredictordb.elixir-czech.cz/search",
+            "type": ""
+          },
+          {
+            "name": "SecStrAnnotator",
+            "url": "https://sestra.ncbr.muni.cz/home",
+            "type": ""
+          },
+          {
+            "name": "SiteBinder",
+            "url": "https://webchem.ncbr.muni.cz/Platform/App/SiteBinder",
+            "type": ""
+          },
+          {
+            "name": "SPCI",
+            "url": "http://qsar4u.com/pages/sirms_qsar.php",
+            "type": ""
+          },
+          {
+            "name": "SWICZ",
+            "url": "http://proteom.biomed.cas.cz/",
+            "type": ""
+          },
+          {
+            "name": "TAREAN",
+            "url": "http://repeatexplorer.org/?page_id=826",
+            "type": ""
+          },
+          {
+            "name": "TRAVeLer",
+            "url": "https://github.com/davidhoksza/traveler",
+            "type": ""
+          },
+          {
+            "name": "UniCatDB",
+            "url": "https://www.unicatdb.org/",
+            "type": ""
+          },
+          {
+            "name": "ValidatorDB",
+            "url": "https://webchem.ncbr.muni.cz/Platform/ValidatorDb",
+            "type": ""
+          },
+          {
+            "name": "ValTrendsDB",
+            "url": "http://webchem.ncbr.muni.cz/ValTrendsDB/index.php",
+            "type": ""
+          },
+          {
+            "name": "WatAA",
+            "url": "https://wataa.datmos.org",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/czech-republic",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "Denmark",
+        "slug": "denmark",
+        "label": "ELIXIR-Denmark",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/denmark",
+        "declared_service_count": 1,
+        "services": [
+          {
+            "name": "bio.tools",
+            "url": "https://bio.tools",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/denmark",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "EMBL-EBI",
+        "slug": "embl-ebi",
+        "label": "EMBL-EBI",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/embl-ebi",
+        "declared_service_count": 31,
+        "services": [
+          {
+            "name": "AlphaFold DB",
+            "url": "https://alphafold.ebi.ac.uk/",
+            "type": ""
+          },
+          {
+            "name": "BioImage Archive",
+            "url": "https://www.ebi.ac.uk/bioimage-archive/",
+            "type": ""
+          },
+          {
+            "name": "Biosamples",
+            "url": "https://www.ebi.ac.uk/biosamples/",
+            "type": ""
+          },
+          {
+            "name": "BioStudies",
+            "url": "https://www.ebi.ac.uk/biostudies/",
+            "type": ""
+          },
+          {
+            "name": "ChEBI",
+            "url": "http://www.ebi.ac.uk/chebi",
+            "type": ""
+          },
+          {
+            "name": "ChEMBL",
+            "url": "http://www.ebi.ac.uk/chembl",
+            "type": ""
+          },
+          {
+            "name": "Electron Microscopy Public Image Archive (EMPIAR)",
+            "url": "https://www.ebi.ac.uk/empiar/",
+            "type": ""
+          },
+          {
+            "name": "EMDB",
+            "url": "https://www.ebi.ac.uk/pdbe/emdb/",
+            "type": ""
+          },
+          {
+            "name": "Ensembl",
+            "url": "https://www.ensembl.org/index.html",
+            "type": ""
+          },
+          {
+            "name": "Ensembl Genomes",
+            "url": "http://www.ensemblgenomes.org/",
+            "type": ""
+          },
+          {
+            "name": "European Genome-phenome Archive (EGA)",
+            "url": "https://ega-archive.org/",
+            "type": ""
+          },
+          {
+            "name": "EuropePMC",
+            "url": "http://europepmc.org/",
+            "type": ""
+          },
+          {
+            "name": "EVA",
+            "url": "https://www.ebi.ac.uk/eva/",
+            "type": ""
+          },
+          {
+            "name": "Expression Atlas",
+            "url": "http://www.ebi.ac.uk/gxa",
+            "type": ""
+          },
+          {
+            "name": "GO annotation (GOA)",
+            "url": "https://www.ebi.ac.uk/GOA/index",
+            "type": ""
+          },
+          {
+            "name": "GWAS Catalog",
+            "url": "https://www.ebi.ac.uk/gwas/",
+            "type": ""
+          },
+          {
+            "name": "Identifiers.org",
+            "url": "http://identifiers.org",
+            "type": ""
+          },
+          {
+            "name": "IntAct",
+            "url": "http://www.ebi.ac.uk/intact/",
+            "type": ""
+          },
+          {
+            "name": "InterPro",
+            "url": "https://www.ebi.ac.uk/interpro/",
+            "type": ""
+          },
+          {
+            "name": "MetaboLights",
+            "url": "http://www.ebi.ac.uk/metabolights",
+            "type": ""
+          },
+          {
+            "name": "MGnify",
+            "url": "https://www.ebi.ac.uk/metagenomics/",
+            "type": ""
+          },
+          {
+            "name": "Omics Discovery Index (OmicsDI)",
+            "url": "https://www.omicsdi.org/",
+            "type": ""
+          },
+          {
+            "name": "OpenTargets Platform",
+            "url": "https://platform.opentargets.org/",
+            "type": ""
+          },
+          {
+            "name": "PRIDE",
+            "url": "http://www.ebi.ac.uk/pride",
+            "type": ""
+          },
+          {
+            "name": "Protein Data Bank in Europe (PDBe)",
+            "url": "http://www.ebi.ac.uk/pdbe/",
+            "type": ""
+          },
+          {
+            "name": "Reactome",
+            "url": "http://www.reactome.org/",
+            "type": ""
+          },
+          {
+            "name": "Rfam",
+            "url": "http://rfam.xfam.org/",
+            "type": ""
+          },
+          {
+            "name": "RNA Central",
+            "url": "https://rnacentral.org/",
+            "type": ""
+          },
+          {
+            "name": "The European Nucleotide Archive (ENA)",
+            "url": "https://www.ebi.ac.uk/ena/",
+            "type": ""
+          },
+          {
+            "name": "The Ontology Lookup Service (OLS)",
+            "url": "http://www.ebi.ac.uk/ontology-lookup",
+            "type": ""
+          },
+          {
+            "name": "UniProtKB",
+            "url": "http://www.uniprot.org/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/embl-ebi",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "Estonia",
+        "slug": "estonia",
+        "label": "ELIXIR-Estonia",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/estonia",
+        "declared_service_count": 9,
+        "services": [
+          {
+            "name": "ClustVis",
+            "url": "http://biit.cs.ut.ee/clustvis/",
+            "type": ""
+          },
+          {
+            "name": "g:Profiler",
+            "url": "http://biit.cs.ut.ee/gprofiler/",
+            "type": ""
+          },
+          {
+            "name": "GraphWeb",
+            "url": "http://biit.cs.ut.ee/graphweb/",
+            "type": ""
+          },
+          {
+            "name": "KEGGAnim",
+            "url": "http://biit.cs.ut.ee/kegganim/",
+            "type": ""
+          },
+          {
+            "name": "MEM",
+            "url": "http://biit.cs.ut.ee/mem/",
+            "type": ""
+          },
+          {
+            "name": "MultiPLX",
+            "url": "http://bioinfo.ut.ee/multiplx/",
+            "type": ""
+          },
+          {
+            "name": "Primer3",
+            "url": "http://primer3.ut.ee",
+            "type": ""
+          },
+          {
+            "name": "SNPmasker",
+            "url": "https://bioinfo.ut.ee/snpmasker/",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Estonia)",
+            "url": "https://elixir.ut.ee/training",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/estonia",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "Finland",
+        "slug": "finland",
+        "label": "ELIXIR-Finland",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/finland",
+        "declared_service_count": 13,
+        "services": [
+          {
+            "name": "AAI - REMS",
+            "url": "https://www.elixir-finland.org/en/aai-rems-2/",
+            "type": ""
+          },
+          {
+            "name": "Authentication and Authorization Infrastructure (AAI)",
+            "url": "https://www.elixir-europe.org/services/compute/aai",
+            "type": ""
+          },
+          {
+            "name": "Collections and registries from the Finnish population: SISU data resource",
+            "url": "http://www.sisuproject.fi/",
+            "type": ""
+          },
+          {
+            "name": "CSC Chipster",
+            "url": "http://chipster.csc.fi/",
+            "type": ""
+          },
+          {
+            "name": "CSC Cloud",
+            "url": "https://research.csc.fi/cloud-computing",
+            "type": ""
+          },
+          {
+            "name": "ePouta",
+            "url": "https://research.csc.fi/-/epouta",
+            "type": ""
+          },
+          {
+            "name": "Federated EGA Finland",
+            "url": "https://research.csc.fi/-/fega",
+            "type": ""
+          },
+          {
+            "name": "Rahti",
+            "url": "https://rahti.csc.fi/",
+            "type": ""
+          },
+          {
+            "name": "RDMkit",
+            "url": "https://rdmkit.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "Resource Entitlement Management System (REMS)",
+            "url": "https://www.elixir-finland.org/en/aai-rems-2/",
+            "type": ""
+          },
+          {
+            "name": "Sensitive Data Services",
+            "url": "https://research.csc.fi/en/sensitive-data",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Finland)",
+            "url": "https://www.csc.fi/web/training",
+            "type": ""
+          },
+          {
+            "name": "User Training",
+            "url": "https://www.csc.fi/en/training",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/finland",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:38+00:00"
+        }
+      },
+      {
+        "name": "France",
+        "slug": "france",
+        "label": "ELIXIR-France",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/france",
+        "declared_service_count": 38,
+        "services": [
+          {
+            "name": "AgroLD (Agronomic Linked Data)",
+            "url": "http://www.agrold.org",
+            "type": ""
+          },
+          {
+            "name": "ANISEED",
+            "url": "https://www.aniseed.cnrs.fr/",
+            "type": ""
+          },
+          {
+            "name": "ARIA",
+            "url": "https://ariaweb.pasteur.fr/login?next=/",
+            "type": ""
+          },
+          {
+            "name": "AuReMe",
+            "url": "http://aureme.genouest.org/",
+            "type": ""
+          },
+          {
+            "name": "BioImage Informatics Index (BISE)",
+            "url": "https://biii.eu/",
+            "type": ""
+          },
+          {
+            "name": "CRISPRCas++",
+            "url": "https://crisprcas.i2bc.paris-saclay.fr/",
+            "type": ""
+          },
+          {
+            "name": "DSW@IFB",
+            "url": "https://dsw.france-bioinformatique.fr",
+            "type": ""
+          },
+          {
+            "name": "EDAM",
+            "url": "http://edamontology.org/page",
+            "type": ""
+          },
+          {
+            "name": "FAIDARE",
+            "url": "https://urgi.versailles.inrae.fr/faidare/",
+            "type": ""
+          },
+          {
+            "name": "FAIR-checker",
+            "url": "https://fair-checker.france-bioinformatique.fr",
+            "type": ""
+          },
+          {
+            "name": "GenomeHubs",
+            "url": "https://www.southgreen.fr/genomehubs",
+            "type": ""
+          },
+          {
+            "name": "GENOMICUS",
+            "url": "http://www.genomicus.biologie.ens.fr/genomicus",
+            "type": ""
+          },
+          {
+            "name": "Gigwa",
+            "url": "https://southgreen.fr/content/gigwa",
+            "type": ""
+          },
+          {
+            "name": "GINsim",
+            "url": "http://ginsim.org",
+            "type": ""
+          },
+          {
+            "name": "GnpIS",
+            "url": "https://urgi.versailles.inrae.fr/gnpis/",
+            "type": ""
+          },
+          {
+            "name": "IMGT",
+            "url": "https://www.imgt.org",
+            "type": ""
+          },
+          {
+            "name": "Lifemap",
+            "url": "http://lifemap.univ-lyon1.fr",
+            "type": ""
+          },
+          {
+            "name": "LoRDEC",
+            "url": "http://www.atgc-montpellier.fr/lordec/",
+            "type": ""
+          },
+          {
+            "name": "MATRIXDB",
+            "url": "http://matrixdb.univ-lyon1.fr/",
+            "type": ""
+          },
+          {
+            "name": "MetExplore",
+            "url": "https://metexplore.toulouse.inra.fr/index.html/",
+            "type": ""
+          },
+          {
+            "name": "MicroScope",
+            "url": "http://www.genoscope.cns.fr/agc/microscope/home/",
+            "type": ""
+          },
+          {
+            "name": "NNCR",
+            "url": "https://www.france-bioinformatique.fr/en/compute-and-storage/",
+            "type": ""
+          },
+          {
+            "name": "Norine",
+            "url": "http://bioinfo.cristal.univ-lille.fr/norine/",
+            "type": ""
+          },
+          {
+            "name": "Ocean Gene Atlas",
+            "url": "http://tara-oceans.mio.osupytheas.fr/ocean-gene-atlas/",
+            "type": ""
+          },
+          {
+            "name": "Orphadata",
+            "url": "https://www.orphadata.com/",
+            "type": ""
+          },
+          {
+            "name": "Orphanet",
+            "url": "http://www.orpha.net/consor/cgi-bin/index.php",
+            "type": ""
+          },
+          {
+            "name": "ParameciumDB",
+            "url": "https://paramecium.i2bc.paris-saclay.fr",
+            "type": ""
+          },
+          {
+            "name": "PEP-FOLD4",
+            "url": "https://bioserv.rpbs.univ-paris-diderot.fr/services/PEP-FOLD4/#overview",
+            "type": ""
+          },
+          {
+            "name": "Phylogeny.fr",
+            "url": "http://www.phylogeny.fr/",
+            "type": ""
+          },
+          {
+            "name": "PhyML",
+            "url": "https://github.com/stephaneguindon/phyml",
+            "type": ""
+          },
+          {
+            "name": "ReMap",
+            "url": "https://remap.univ-amu.fr/",
+            "type": ""
+          },
+          {
+            "name": "REPET",
+            "url": "https://urgi.versailles.inrae.fr/Tools/REPET",
+            "type": ""
+          },
+          {
+            "name": "RSAT",
+            "url": "http://rsat.eu/",
+            "type": ""
+          },
+          {
+            "name": "SulfAtlas",
+            "url": "http://abims.sb-roscoff.fr/sulfatlas/",
+            "type": ""
+          },
+          {
+            "name": "use-galaxy.fr",
+            "url": "https://usegalaxy.fr",
+            "type": ""
+          },
+          {
+            "name": "VarAFT",
+            "url": "https://varaft.eu/",
+            "type": ""
+          },
+          {
+            "name": "WheatIS",
+            "url": "https://urgi.versailles.inrae.fr/wheatis/",
+            "type": ""
+          },
+          {
+            "name": "Workflow4Metabolomics",
+            "url": "https://workflow4metabolomics.org/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/france",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Germany",
+        "slug": "germany",
+        "label": "ELIXIR-Germany",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
+        "declared_service_count": 128,
+        "services": [
+          {
+            "name": "ActivityFinder",
+            "url": "https://proteins.plus/2ozr#activityfinder",
+            "type": ""
+          },
+          {
+            "name": "Alfred",
+            "url": "https://www.gear-genomics.com/alfred/",
+            "type": ""
+          },
+          {
+            "name": "Aruna",
+            "url": "https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/software/aruna",
+            "type": ""
+          },
+          {
+            "name": "ASA3P",
+            "url": "https://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/software/ASAP",
+            "type": ""
+          },
+          {
+            "name": "BacDive",
+            "url": "https://bacdive.dsmz.de/",
+            "type": ""
+          },
+          {
+            "name": "Bakta",
+            "url": "https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/software/bakta",
+            "type": ""
+          },
+          {
+            "name": "Berlin RNA Toolbox",
+            "url": "http://bioinformatics.mdc-berlin.de/rna.html",
+            "type": ""
+          },
+          {
+            "name": "BIBIServ",
+            "url": "https://bibiserv.cebitec.uni-bielefeld.de/",
+            "type": ""
+          },
+          {
+            "name": "BIIGLE",
+            "url": "https://biigle.de/",
+            "type": ""
+          },
+          {
+            "name": "BiocompR",
+            "url": "https://github.com/YoannPa/BiocompR",
+            "type": ""
+          },
+          {
+            "name": "BioConda & BioContainers",
+            "url": "https://github.com/bioconda",
+            "type": ""
+          },
+          {
+            "name": "BiocWorkflowTools",
+            "url": "https://bioconductor.org/packages/BiocWorkflowTools/",
+            "type": ""
+          },
+          {
+            "name": "Bioinformatics consulting and analysis of proteomics data",
+            "url": "https://www.mpc.ruhr-uni-bochum.de/service/consulting/index.html.en",
+            "type": ""
+          },
+          {
+            "name": "biomaRt",
+            "url": "https://bioconductor.org/packages/biomaRt/",
+            "type": ""
+          },
+          {
+            "name": "BRENDA",
+            "url": "https://www.brenda-enzymes.org/index.php",
+            "type": ""
+          },
+          {
+            "name": "CalibraCurve",
+            "url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+            "type": ""
+          },
+          {
+            "name": "CATS - Crop Analysis Tool Suite",
+            "url": "https://cats.ipk-gatersleben.de/",
+            "type": ""
+          },
+          {
+            "name": "CellNetAnalyzer (CNA)",
+            "url": "https://www2.mpi-magdeburg.mpg.de/projects/cna/cna.html",
+            "type": ""
+          },
+          {
+            "name": "CellNetAnalyzer CNApy",
+            "url": "https://github.com/cnapy-org/CNApy",
+            "type": ""
+          },
+          {
+            "name": "ChrAccR",
+            "url": "https://greenleaflab.github.io/ChrAccR/",
+            "type": ""
+          },
+          {
+            "name": "Circlize",
+            "url": "https://cran.r-project.org/web/packages/circlize/index.html",
+            "type": ""
+          },
+          {
+            "name": "Cloud/HPC",
+            "url": "https://cloud.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "CloWM",
+            "url": "https://clowm.bi.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "ComplexHeatmaps",
+            "url": "http://bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html",
+            "type": ""
+          },
+          {
+            "name": "Computer-Assisted Structure Elucidation of Metabolites",
+            "url": "https://www.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "COPASI",
+            "url": "https://copasi.org/",
+            "type": ""
+          },
+          {
+            "name": "Curare",
+            "url": "https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/bigi/Services_folder/…",
+            "type": ""
+          },
+          {
+            "name": "Data Clinic RDM",
+            "url": "https://www.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "DEEP data portal",
+            "url": "https://deep.dkfz.de/#/home",
+            "type": ""
+          },
+          {
+            "name": "DELLY",
+            "url": "https://github.com/dellytools/delly",
+            "type": ""
+          },
+          {
+            "name": "DeSeq2",
+            "url": "https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+            "type": ""
+          },
+          {
+            "name": "DexSeq",
+            "url": "https://bioconductor.org/packages/release/bioc/html/DEXSeq.html",
+            "type": ""
+          },
+          {
+            "name": "Dorothea",
+            "url": "https://saezlab.github.io/dorothea/",
+            "type": ""
+          },
+          {
+            "name": "e!DAL-PGP",
+            "url": "https://edal-pgp.ipk-gatersleben.de/",
+            "type": ""
+          },
+          {
+            "name": "E-CRISP",
+            "url": "http://www.e-crisp.org",
+            "type": ""
+          },
+          {
+            "name": "EBImage",
+            "url": "https://bioconductor.org/packages/release/bioc/html/EBImage.html",
+            "type": ""
+          },
+          {
+            "name": "EDGAR",
+            "url": "https://edgar3.computational.bio.uni-giessen.de/",
+            "type": ""
+          },
+          {
+            "name": "EnrichedHeatmaps",
+            "url": "http://bioconductor.org/packages/devel/bioc/html/EnrichedHeatmap.html",
+            "type": ""
+          },
+          {
+            "name": "Enterotyping",
+            "url": "https://enterotype.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "EURISCO",
+            "url": "http://eurisco.ecpgr.org",
+            "type": ""
+          },
+          {
+            "name": "European Galaxy Server",
+            "url": "http://usegalaxy.eu/",
+            "type": ""
+          },
+          {
+            "name": "Evolutionary genealogy of genes: Non-supervised Orthologous Groups (eggNOG)",
+            "url": "http://eggnog.embl.de",
+            "type": ""
+          },
+          {
+            "name": "FAIRDOMHub",
+            "url": "https://fairdomhub.org",
+            "type": ""
+          },
+          {
+            "name": "Flash Suite",
+            "url": "https://www.openms.de/applications/flashdeconv/",
+            "type": ""
+          },
+          {
+            "name": "Freiburg RNA Toolbox",
+            "url": "http://rna.informatik.uni-freiburg.de/",
+            "type": ""
+          },
+          {
+            "name": "Fusion",
+            "url": "https://fusion.cebitec.uni-bielefeld.de",
+            "type": ""
+          },
+          {
+            "name": "Galaxy Image Analysis",
+            "url": "https://github.com/BMCV/galaxy-image-analysis",
+            "type": ""
+          },
+          {
+            "name": "Galaxy Training Network",
+            "url": "https://training.galaxyproject.org/",
+            "type": ""
+          },
+          {
+            "name": "GEAR-Genomics",
+            "url": "https://www.gear-genomics.com/",
+            "type": ""
+          },
+          {
+            "name": "GenExVis",
+            "url": "https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/bigi/Services_folder/…",
+            "type": ""
+          },
+          {
+            "name": "GenomeCRISPR",
+            "url": "http://genomecrispr.dkfz.de",
+            "type": ""
+          },
+          {
+            "name": "GenomeRNAi",
+            "url": "http://www.genomernai.org/",
+            "type": ""
+          },
+          {
+            "name": "gtrellis",
+            "url": "http://bioconductor.org/packages/devel/bioc/html/gtrellis.html",
+            "type": ""
+          },
+          {
+            "name": "Gulbenkian Training Programme in Bioinformatics (GTPB) (ELIXIR Portugal)",
+            "url": "http://hdl.handle.net/10400.7/852",
+            "type": ""
+          },
+          {
+            "name": "HELIXER",
+            "url": "https://github.com/weberlab-hhu/Helixer",
+            "type": ""
+          },
+          {
+            "name": "HilbertCurve",
+            "url": "http://bioconductor.org/packages/devel/bioc/html/HilbertCurve.html",
+            "type": ""
+          },
+          {
+            "name": "HLA Ligand Atlas",
+            "url": "https://hla-ligand-atlas.org/welcome",
+            "type": ""
+          },
+          {
+            "name": "Human Omics Analysis Toolbox",
+            "url": "https://www.denbi.de/services/1683-human-omics-analysis-toolbox",
+            "type": ""
+          },
+          {
+            "name": "IHW",
+            "url": "http://bioconductor.org/packages/IHW/",
+            "type": ""
+          },
+          {
+            "name": "iPATH",
+            "url": "https://pathways.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "iTOL",
+            "url": "https://itol.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "KNIME based cellular phenotyping of microscope image data",
+            "url": "https://hub.knime.com/manuel/spaces/Public/NucleiClassificationTraining_OMICS20…",
+            "type": ""
+          },
+          {
+            "name": "Leipzig – Vienna RNA Package and Toolbox",
+            "url": "https://www.bioinf.uni-leipzig.de/",
+            "type": ""
+          },
+          {
+            "name": "LIFS webportal",
+            "url": "https://lifs-tools.org/",
+            "type": ""
+          },
+          {
+            "name": "LIMIX",
+            "url": "https://github.com/PMBio/limix",
+            "type": ""
+          },
+          {
+            "name": "LPSN",
+            "url": "https://lpsn.dsmz.de/",
+            "type": ""
+          },
+          {
+            "name": "Machine learning consulting",
+            "url": "https://www.mpc.ruhr-uni-bochum.de/mpc/service/consulting/index.html.en",
+            "type": ""
+          },
+          {
+            "name": "MaCPepDB",
+            "url": "https://macpepdb.mpc.rub.de/",
+            "type": ""
+          },
+          {
+            "name": "MAGAR",
+            "url": "https://bioconductor.org/packages/release/bioc/html/MAGAR.html",
+            "type": ""
+          },
+          {
+            "name": "Magellan",
+            "url": "https://digital.bihealth.org/",
+            "type": ""
+          },
+          {
+            "name": "MassBank",
+            "url": "https://massbank.eu/MassBank//",
+            "type": ""
+          },
+          {
+            "name": "Mechismo",
+            "url": "http://mechismo.russelllab.org/about",
+            "type": ""
+          },
+          {
+            "name": "MeDeCom",
+            "url": "https://github.com/CompEpigen/MeDeCom",
+            "type": ""
+          },
+          {
+            "name": "MediaDive",
+            "url": "https://mediadive.dsmz.de/",
+            "type": ""
+          },
+          {
+            "name": "MeltDB",
+            "url": "https://meltdb.cebitec.uni-bielefeld.de",
+            "type": ""
+          },
+          {
+            "name": "Mercator",
+            "url": "http://mapman.gabipd.org/web/guest/app/mercator",
+            "type": ""
+          },
+          {
+            "name": "MetaProteomeAnalyzer",
+            "url": "http://www.mpa.ovgu.de/",
+            "type": ""
+          },
+          {
+            "name": "MetFrag",
+            "url": "https://msbi.ipb-halle.de/MetFrag/",
+            "type": ""
+          },
+          {
+            "name": "methview.qc",
+            "url": "https://github.com/YoannPa/methview.qc",
+            "type": ""
+          },
+          {
+            "name": "MHCquant",
+            "url": "https://nf-co.re/mhcquant",
+            "type": ""
+          },
+          {
+            "name": "Microbiome Analysis Toolbox",
+            "url": "https://microbiome-tools.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "MOFA",
+            "url": "https://github.com/bioFAM/MOFA",
+            "type": ""
+          },
+          {
+            "name": "mOTUs",
+            "url": "https://motu-tool.org/",
+            "type": ""
+          },
+          {
+            "name": "OmniPath",
+            "url": "https://omnipathdb.org/",
+            "type": ""
+          },
+          {
+            "name": "OpenMS",
+            "url": "https://www.openms.de/",
+            "type": ""
+          },
+          {
+            "name": "OTP",
+            "url": "https://gitlab.com/one-touch-pipeline/otp/",
+            "type": ""
+          },
+          {
+            "name": "PANGAEA",
+            "url": "https://www.pangaea.de/",
+            "type": ""
+          },
+          {
+            "name": "PATCH",
+            "url": "https://www.denbi.de/services/1685-patch",
+            "type": ""
+          },
+          {
+            "name": "PeptideShaker",
+            "url": "http://compomics.github.io/projects/peptide-shaker.html",
+            "type": ""
+          },
+          {
+            "name": "PiGx pipelines",
+            "url": "https://bioinformatics.mdc-berlin.de/pigx/",
+            "type": ""
+          },
+          {
+            "name": "Plant Genome Annotation",
+            "url": "https://github.com/PGSB-HMGU/plant.annot",
+            "type": ""
+          },
+          {
+            "name": "PlantsDB",
+            "url": "http://pgsb.helmholtz-muenchen.de/plant/plantsdb.jsp",
+            "type": ""
+          },
+          {
+            "name": "Platon",
+            "url": "https://github.com/oschwengers/platon",
+            "type": ""
+          },
+          {
+            "name": "Precog",
+            "url": "http://precog.russelllab.org/",
+            "type": ""
+          },
+          {
+            "name": "PROGENy",
+            "url": "https://saezlab.github.io/progeny/",
+            "type": ""
+          },
+          {
+            "name": "Protein Inference Algorithms (PIA)",
+            "url": "https://github.com/medbioinf/pia",
+            "type": ""
+          },
+          {
+            "name": "ProteinsPlus",
+            "url": "https://proteins.plus/",
+            "type": ""
+          },
+          {
+            "name": "QuPE",
+            "url": "https://www.cebitec.uni-bielefeld.de/brf/software/qupe",
+            "type": ""
+          },
+          {
+            "name": "RDMkit",
+            "url": "https://rdmkit.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "ReadXplorer",
+            "url": "https://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/software/ReadXplorer",
+            "type": ""
+          },
+          {
+            "name": "ReferenceSeeker",
+            "url": "https://github.com/oschwengers/referenceseeker",
+            "type": ""
+          },
+          {
+            "name": "rGREAT",
+            "url": "http://bioconductor.org/packages/devel/bioc/html/rGREAT.html",
+            "type": ""
+          },
+          {
+            "name": "rhdf5/Rhdf5lib",
+            "url": "https://github.com/grimbough/rhdf5",
+            "type": ""
+          },
+          {
+            "name": "RNA Galaxy Workbench",
+            "url": "https://hub.docker.com/r/bgruening/galaxy-rna-workbench/",
+            "type": ""
+          },
+          {
+            "name": "RNA-seq end-to-end workflow",
+            "url": "https://www.bioconductor.org/help/course-materials/2015/CSAMA2015/lab/rnaseqCSA…",
+            "type": ""
+          },
+          {
+            "name": "RnBeads 2.0",
+            "url": "https://rnbeads.org/",
+            "type": ""
+          },
+          {
+            "name": "Roddy",
+            "url": "http://github.com/TheRoddyWMS",
+            "type": ""
+          },
+          {
+            "name": "SABIO-RK",
+            "url": "http://sabio.h-its.org/",
+            "type": ""
+          },
+          {
+            "name": "SIAMCAT",
+            "url": "https://siamcat.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "SIDER",
+            "url": "http://sideeffects.embl.de/",
+            "type": ""
+          },
+          {
+            "name": "SILVA",
+            "url": "https://www.arb-silva.de/",
+            "type": ""
+          },
+          {
+            "name": "SILVAngs",
+            "url": "https://ngs.arb-silva.de/silvangs/",
+            "type": ""
+          },
+          {
+            "name": "slalom",
+            "url": "https://github.com/bioFAM/slalom",
+            "type": ""
+          },
+          {
+            "name": "SMART",
+            "url": "http://smart.embl-heidelberg.de/",
+            "type": ""
+          },
+          {
+            "name": "SSAM",
+            "url": "https://github.com/hidihlabs/SSAM",
+            "type": ""
+          },
+          {
+            "name": "SSAM-lite",
+            "url": "https://github.com/hidihlabs/SSAM-lite",
+            "type": ""
+          },
+          {
+            "name": "STAMPS",
+            "url": "https://stamps.isas.de/",
+            "type": ""
+          },
+          {
+            "name": "Statistical consulting and analysis of proteomics data",
+            "url": "https://www.mpc.ruhr-uni-bochum.de/service/consulting/index.html.en",
+            "type": ""
+          },
+          {
+            "name": "Toolbox for Large Scale Genomics",
+            "url": "https://www.dkfz.de/en/forschung/zentrale_einrichtungen/cf-omics/CF_omics.html",
+            "type": ""
+          },
+          {
+            "name": "Training Course Data Stewardship",
+            "url": "https://www.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "Training Course RDM",
+            "url": "https://www.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "Trimmomatic",
+            "url": "https://github.com/usadellab/Trimmomatic",
+            "type": ""
+          },
+          {
+            "name": "TYGS",
+            "url": "https://tygs.dsmz.de/",
+            "type": ""
+          },
+          {
+            "name": "WASP",
+            "url": "https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/software/wasp",
+            "type": ""
+          },
+          {
+            "name": "WESkit",
+            "url": "https://gitlab.com/one-touch-pipeline/weskit",
+            "type": ""
+          },
+          {
+            "name": "Workflow Plug-Ins",
+            "url": "https://www.denbi.de/",
+            "type": ""
+          },
+          {
+            "name": "Workflow plug-Ins for NGS processing",
+            "url": "https://www.denbi.de/services/1684-workflow-plug-ins-for-ngs-processing",
+            "type": ""
+          },
+          {
+            "name": "YAPSA",
+            "url": "https://bioconductor.org/packages/release/bioc/html/YAPSA.html",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Greece",
+        "slug": "greece",
+        "label": "ELIXIR-Greece",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/greece",
+        "declared_service_count": 35,
+        "services": [
+          {
+            "name": "ACT",
+            "url": "https://www.michalopoulos.net/act/",
+            "type": ""
+          },
+          {
+            "name": "AMYL-PRED 2",
+            "url": "http://aias.biol.uoa.gr/AMYLPRED2/",
+            "type": ""
+          },
+          {
+            "name": "ANASTASIA",
+            "url": "http://motherbox.chemeng.ntua.gr/anastasia_dev/",
+            "type": ""
+          },
+          {
+            "name": "BioTextQuest(+)",
+            "url": "http://bioinformatics.med.uoc.gr/biotextquest",
+            "type": ""
+          },
+          {
+            "name": "BioTranslator",
+            "url": "https://www.elixir-greece.org/node/65",
+            "type": ""
+          },
+          {
+            "name": "BRIDEdb",
+            "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1068-8",
+            "type": ""
+          },
+          {
+            "name": "CHRONOS",
+            "url": "http://bioconductor.org/packages/release/bioc/html/CHRONOS.html",
+            "type": ""
+          },
+          {
+            "name": "DEsubs",
+            "url": "http://bioconductor.org/packages/release/bioc/html/DEsubs.html",
+            "type": ""
+          },
+          {
+            "name": "DGP",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC434425/",
+            "type": ""
+          },
+          {
+            "name": "DIANA-LncBase",
+            "url": "https://diana.e-ce.uth.gr/lncbasev3",
+            "type": ""
+          },
+          {
+            "name": "DIANA-microT",
+            "url": "http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=MicroT_CDS/index",
+            "type": ""
+          },
+          {
+            "name": "DIANA-mirExTra v2.0",
+            "url": "http://www.microrna.gr/mirextrav2",
+            "type": ""
+          },
+          {
+            "name": "DIANA-miRGen v3.0",
+            "url": "http://www.microrna.gr/mirgen",
+            "type": ""
+          },
+          {
+            "name": "DIANA-miRPath v3.0",
+            "url": "http://www.microrna.gr/miRPathv3",
+            "type": ""
+          },
+          {
+            "name": "easyFRAP",
+            "url": "https://easyfrap.vmnet.upatras.gr/",
+            "type": ""
+          },
+          {
+            "name": "EG-CI",
+            "url": "https://egci-beta.imsi.athenarc.gr/",
+            "type": ""
+          },
+          {
+            "name": "FINDbase",
+            "url": "https://findbase.org/#/",
+            "type": ""
+          },
+          {
+            "name": "GprotPRED",
+            "url": "http://aias.biol.uoa.gr/GprotPRED/",
+            "type": ""
+          },
+          {
+            "name": "M-IOLITE",
+            "url": "http://miolite2.iceht.forth.gr/",
+            "type": ""
+          },
+          {
+            "name": "MCL",
+            "url": "https://micans.org/mcl/",
+            "type": ""
+          },
+          {
+            "name": "MESBL GC-MS metabolite peak database",
+            "url": "https://elixir-greece.org/node/76",
+            "type": ""
+          },
+          {
+            "name": "METAGEN",
+            "url": "http://www.compgen.org/tools/metagen",
+            "type": ""
+          },
+          {
+            "name": "metaseqR",
+            "url": "https://www.bioconductor.org/packages/release/bioc/html/metaseqR.html",
+            "type": ""
+          },
+          {
+            "name": "Micro-CTvlab",
+            "url": "https://www.lifewatch.eu/microctvlab",
+            "type": ""
+          },
+          {
+            "name": "MicroTSS",
+            "url": "https://elixir-greece.org/node/49",
+            "type": ""
+          },
+          {
+            "name": "Network Analyzer",
+            "url": "https://www.elixir-greece.org/node/42",
+            "type": ""
+          },
+          {
+            "name": "OMPdb",
+            "url": "http://www.ompdb.org/",
+            "type": ""
+          },
+          {
+            "name": "PCA-correlated SNPs tool",
+            "url": "https://www.elixir-greece.org/node/44",
+            "type": ""
+          },
+          {
+            "name": "PICKLE",
+            "url": "http://www.pickle.gr",
+            "type": ""
+          },
+          {
+            "name": "POTAMOS",
+            "url": "http://195.251.201.206/",
+            "type": ""
+          },
+          {
+            "name": "Proteosign",
+            "url": "http://bioinformatics.med.uoc.gr/ProteoSign/",
+            "type": ""
+          },
+          {
+            "name": "SweeD",
+            "url": "https://github.com/alachins/sweed",
+            "type": ""
+          },
+          {
+            "name": "SymCurv",
+            "url": "http://genome.crg.es/cgi-bin/SymCurv/SymCurv.pl",
+            "type": ""
+          },
+          {
+            "name": "UniReD",
+            "url": "http://bioinformatics.med.uoc.gr/unired/",
+            "type": ""
+          },
+          {
+            "name": "Variant Ranker",
+            "url": "http://paschou-lab.mbg.duth.gr/html5up/index.html",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/greece",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Hungary",
+        "slug": "hungary",
+        "label": "ELIXIR-Hungary",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/hungary",
+        "declared_service_count": 32,
+        "services": [
+          {
+            "name": "BiSearch",
+            "url": "http://bisearch.enzim.hu",
+            "type": ""
+          },
+          {
+            "name": "Cancer Hallmarks",
+            "url": "https://cancerhallmarks.com/",
+            "type": ""
+          },
+          {
+            "name": "CanSysPlot",
+            "url": "https://www.Cansysplot.com/",
+            "type": ""
+          },
+          {
+            "name": "CCTOP",
+            "url": "http://cctop.ttk.hu",
+            "type": ""
+          },
+          {
+            "name": "ChIPSummitDB",
+            "url": "https://summit.med.unideb.hu/summitdb/",
+            "type": ""
+          },
+          {
+            "name": "CoNSEnsX+",
+            "url": "http://consensx.itk.ppke.hu/",
+            "type": ""
+          },
+          {
+            "name": "EpigenPlot",
+            "url": "https://www.epigenplot.com/",
+            "type": ""
+          },
+          {
+            "name": "HMMTOP",
+            "url": "http://www.enzim.hu/hmmtop",
+            "type": ""
+          },
+          {
+            "name": "HTP",
+            "url": "https://htp.unitmp.org",
+            "type": ""
+          },
+          {
+            "name": "Hungarian Cancer Registry",
+            "url": "https://onkol.hu/nemzeti-rakregiszter-es-biostatisztikai-kozpont/",
+            "type": ""
+          },
+          {
+            "name": "IsoMut",
+            "url": "http://www.genomics.hu/tools/isomut/isomut.html",
+            "type": ""
+          },
+          {
+            "name": "IUPred",
+            "url": "https://iupred2a.elte.hu/",
+            "type": ""
+          },
+          {
+            "name": "Kaplan-Meier Plotter (KmPlot)",
+            "url": "https://kmplot.com/",
+            "type": ""
+          },
+          {
+            "name": "Kooplex",
+            "url": "https://k8plex-edu.elte.hu/hub/",
+            "type": ""
+          },
+          {
+            "name": "MemDis",
+            "url": "http://memdis.ttk.hu",
+            "type": ""
+          },
+          {
+            "name": "MÉTA",
+            "url": "http://novenyzetiterkep.hu/english",
+            "type": ""
+          },
+          {
+            "name": "Metaanalysis Online",
+            "url": "https://metaanalysisonline.com/",
+            "type": ""
+          },
+          {
+            "name": "Multiple Testing Correction",
+            "url": "https://multipletesting.com/",
+            "type": ""
+          },
+          {
+            "name": "muTarget",
+            "url": "https://www.mutarget.com/",
+            "type": ""
+          },
+          {
+            "name": "PDBTM",
+            "url": "https://pdbtm.unitmp.org",
+            "type": ""
+          },
+          {
+            "name": "PolarProtDb",
+            "url": "http://polarprotdb.ttk.hu/",
+            "type": ""
+          },
+          {
+            "name": "PolarProtPred",
+            "url": "http://polarprotpred.ttk.hu",
+            "type": ""
+          },
+          {
+            "name": "Recurrence Online",
+            "url": "http://www.recurrenceonline.com/",
+            "type": ""
+          },
+          {
+            "name": "ROC plotter",
+            "url": "http://www.rocplot.org",
+            "type": ""
+          },
+          {
+            "name": "TFLink",
+            "url": "https://tflink.net/",
+            "type": ""
+          },
+          {
+            "name": "TmAlphaFold",
+            "url": "https://tmalphafold.ttk.hu/",
+            "type": ""
+          },
+          {
+            "name": "TMCrys",
+            "url": "http://tmcrys.enzim.ttk.mta.hu/",
+            "type": ""
+          },
+          {
+            "name": "TMDet",
+            "url": "https://tmdet.unitmp.org/",
+            "type": ""
+          },
+          {
+            "name": "TNMplot",
+            "url": "https://tnmplot.com/analysis/",
+            "type": ""
+          },
+          {
+            "name": "TOPDB",
+            "url": "https://topdb.unitmp.org",
+            "type": ""
+          },
+          {
+            "name": "TSTMP",
+            "url": "http://tstmp.enzim.ttk.mta.hu/",
+            "type": ""
+          },
+          {
+            "name": "UniTmp",
+            "url": "https://www.unitmp.org/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/hungary",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Ireland",
+        "slug": "ireland",
+        "label": "ELIXIR-Ireland",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/ireland",
+        "declared_service_count": 6,
+        "services": [
+          {
+            "name": "Bioconductor",
+            "url": "https://www.bioconductor.org/",
+            "type": ""
+          },
+          {
+            "name": "CancerGD.org",
+            "url": "http://www.cancergd.org/",
+            "type": ""
+          },
+          {
+            "name": "CellMix",
+            "url": "http://web.cbio.uct.ac.za/~renaud/CRAN/web/CellMix/",
+            "type": ""
+          },
+          {
+            "name": "Clustal Omega",
+            "url": "http://clustal.org",
+            "type": ""
+          },
+          {
+            "name": "LymAnalyzer",
+            "url": "https://sourceforge.net/projects/lymanalyzer/",
+            "type": ""
+          },
+          {
+            "name": "Riboseq.org",
+            "url": "http://riboseq.org",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/ireland",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Israel",
+        "slug": "israel",
+        "label": "ELIXIR-Israel",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/israel",
+        "declared_service_count": null,
+        "services": [
+          {
+            "name": "ELIXIR community meets in Uppsala for All Hands 2024",
+            "url": "/news/all-hands-meeting-2024",
+            "type": null
+          },
+          {
+            "name": "ELIXIR releases 2023 Annual Report",
+            "url": "/news/elixir-releases-2023-annual-report",
+            "type": null
+          },
+          {
+            "name": "Dublin hosts ELIXIR community for All Hands 2023",
+            "url": "/news/dublin-hosts-elixir-community-all-hands-2023",
+            "type": null
+          },
+          {
+            "name": "Measuring the impact of ELIXIR’s training",
+            "url": "/news/training-metrics-db",
+            "type": null
+          },
+          {
+            "name": "ELIXIR community meets in Amsterdam for All Hands 2022",
+            "url": "/news/all-hands-2022",
+            "type": null
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/israel",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Italy",
+        "slug": "italy",
+        "label": "ELIXIR-Italy",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/italy",
+        "declared_service_count": 69,
+        "services": [
+          {
+            "name": "APICURON",
+            "url": "https://apicuron.org",
+            "type": ""
+          },
+          {
+            "name": "Argot",
+            "url": "http://www.medcomp.medicina.unipd.it/Argot2-5/",
+            "type": ""
+          },
+          {
+            "name": "ARIES",
+            "url": "https://aries.iss.it/",
+            "type": ""
+          },
+          {
+            "name": "AspicDB",
+            "url": "http://srv00.recas.ba.infn.it/ASPicDB/",
+            "type": ""
+          },
+          {
+            "name": "BaCelLo",
+            "url": "http://gpcr.biocomp.unibo.it/bacello/index.htm",
+            "type": ""
+          },
+          {
+            "name": "BUSCA",
+            "url": "https://busca.biocomp.unibo.it/",
+            "type": ""
+          },
+          {
+            "name": "Cloud Services",
+            "url": "https://elixir-italy.org/",
+            "type": ""
+          },
+          {
+            "name": "CoCoMaps",
+            "url": "http://www.molnac.unisa.it/BioTools/cocomaps/",
+            "type": ""
+          },
+          {
+            "name": "Colombos",
+            "url": "http://colombos.net/",
+            "type": ""
+          },
+          {
+            "name": "CONTIGuator",
+            "url": "http://contiguator.sourceforge.net/",
+            "type": ""
+          },
+          {
+            "name": "CorGAT",
+            "url": "http://corgat.cloud.ba.infn.it/galaxy",
+            "type": ""
+          },
+          {
+            "name": "DeepMito",
+            "url": "https://busca.biocomp.unibo.it/deepmito/",
+            "type": ""
+          },
+          {
+            "name": "DeepSig",
+            "url": "https://deepsig.biocomp.unibo.it",
+            "type": ""
+          },
+          {
+            "name": "DisProt",
+            "url": "http://www.disprot.org/",
+            "type": ""
+          },
+          {
+            "name": "Dissemination",
+            "url": "https://elixir-iib-training.github.io/website/all_events/",
+            "type": ""
+          },
+          {
+            "name": "DOME",
+            "url": "https://www.dome-ml.org/",
+            "type": ""
+          },
+          {
+            "name": "ESpritz",
+            "url": "http://protein.bio.unipd.it/espritz/",
+            "type": ""
+          },
+          {
+            "name": "Feature-Viewer",
+            "url": "http://protein.bio.unipd.it/feature-viewer/",
+            "type": ""
+          },
+          {
+            "name": "Galactosemia Proteins Database",
+            "url": "https://elixir-italy.org/service/galactosemia-proteins-database/",
+            "type": ""
+          },
+          {
+            "name": "GATK-LODn",
+            "url": "https://nico-curti.github.io/PhDthesis/md/Appendix/Profiling/Pipeline.html",
+            "type": ""
+          },
+          {
+            "name": "HapCol",
+            "url": "http://hapcol.algolab.eu/",
+            "type": ""
+          },
+          {
+            "name": "HmtDB",
+            "url": "http://www.hmtdb.uniba.it/, https://ngdc.cncb.ac.cn/databasecommons/database/id/568",
+            "type": ""
+          },
+          {
+            "name": "HPC PlatformsCompute Services",
+            "url": "https://elixir-italy.org/services/",
+            "type": ""
+          },
+          {
+            "name": "HPC@Cineca",
+            "url": "http://www.beaconlab.it/HPC-cineca",
+            "type": ""
+          },
+          {
+            "name": "I-Mutant 2.0",
+            "url": "http://folding.biofold.org/i-mutant/i-mutant2.0.html",
+            "type": ""
+          },
+          {
+            "name": "IDP ontology",
+            "url": "https://disprot.org/about",
+            "type": ""
+          },
+          {
+            "name": "INGA",
+            "url": "https://inga.bio.unipd.it/",
+            "type": ""
+          },
+          {
+            "name": "INPS-MD",
+            "url": "https://inpsmd.biocomp.unibo.it/",
+            "type": ""
+          },
+          {
+            "name": "Italian COVID-19 Data Portal",
+            "url": "https://www.covid19dataportal.it/",
+            "type": ""
+          },
+          {
+            "name": "ITSoneDB",
+            "url": "http://itsonedb.cloud.ba.infn.it",
+            "type": ""
+          },
+          {
+            "name": "ITSoneWB",
+            "url": "http://itsonewb.cloud.ba.infn.it/galaxy",
+            "type": ""
+          },
+          {
+            "name": "Laniakea@ReCaS",
+            "url": "https://laniakea-elixir-it.github.io/",
+            "type": ""
+          },
+          {
+            "name": "Medusa",
+            "url": "http://combo.dbe.unifi.it/medusa",
+            "type": ""
+          },
+          {
+            "name": "Mentha",
+            "url": "http://mentha.uniroma2.it/",
+            "type": ""
+          },
+          {
+            "name": "Micca",
+            "url": "https://compmetagen.github.io/micca",
+            "type": ""
+          },
+          {
+            "name": "MINT",
+            "url": "http://mint.bio.uniroma2.it/",
+            "type": ""
+          },
+          {
+            "name": "MitoZoa",
+            "url": "http://srv00.recas.ba.infn.it/mitozoa/",
+            "type": ""
+          },
+          {
+            "name": "MobiDB",
+            "url": "http://mobidb.bio.unipd.it/",
+            "type": ""
+          },
+          {
+            "name": "MobiDB-lite",
+            "url": "http://protein.bio.unipd.it/mobidblite/",
+            "type": ""
+          },
+          {
+            "name": "MToolBox",
+            "url": "https://bio.tools/MToolBox",
+            "type": ""
+          },
+          {
+            "name": "Ontology for Nutritional Studies",
+            "url": "https://bioportal.bioontology.org/ontologies/ONS",
+            "type": ""
+          },
+          {
+            "name": "Orione",
+            "url": "https://orione.crs4.it",
+            "type": ""
+          },
+          {
+            "name": "Pasta",
+            "url": "http://protein.bio.unipd.it/pasta2",
+            "type": ""
+          },
+          {
+            "name": "PatSearch",
+            "url": "http://itbtools.ba.itb.cnr.it/patsearch",
+            "type": ""
+          },
+          {
+            "name": "PED",
+            "url": "https://proteinensemble.org/",
+            "type": ""
+          },
+          {
+            "name": "PhD-SNP",
+            "url": "http://snps.biofold.org/phd-snp/",
+            "type": ""
+          },
+          {
+            "name": "PhD-SNPg",
+            "url": "https://snps.biofold.org/phd-snpg/",
+            "type": ""
+          },
+          {
+            "name": "PiCnIc",
+            "url": "https://sites.google.com/site/troncopackage/picnic",
+            "type": ""
+          },
+          {
+            "name": "PLUMED",
+            "url": "http://plumed.github.io/doc-v2.4/user-doc/html/index.html",
+            "type": ""
+          },
+          {
+            "name": "PMDB",
+            "url": "http://srv00.recas.ba.infn.it/PMDB/help.php",
+            "type": ""
+          },
+          {
+            "name": "PredGPI",
+            "url": "https://busca.biocomp.unibo.it/predgpi/",
+            "type": ""
+          },
+          {
+            "name": "Pscan",
+            "url": "http://emboss.open-bio.org/rel/rel6/apps/pscan.html",
+            "type": ""
+          },
+          {
+            "name": "PyMod2.0",
+            "url": "http://schubert.bio.uniroma1.it/pymod/index.html",
+            "type": ""
+          },
+          {
+            "name": "RAP",
+            "url": "https://bioinformatics.cineca.it/rap/",
+            "type": ""
+          },
+          {
+            "name": "ReCaS Platform as a Service (PaaS)",
+            "url": "https://www.recas-bari.it/index.php/en/recas-bari-services/cloud-recas-saas",
+            "type": ""
+          },
+          {
+            "name": "REDIdb",
+            "url": "http://srv00.recas.ba.infn.it/redidb/",
+            "type": ""
+          },
+          {
+            "name": "REDIportal",
+            "url": "http://srv00.recas.ba.infn.it/atlas/",
+            "type": ""
+          },
+          {
+            "name": "REDItools",
+            "url": "https://github.com/BioinfoUNIBA/REDItools",
+            "type": ""
+          },
+          {
+            "name": "RepeatsDB",
+            "url": "http://repeatsdb.bio.unipd.it/",
+            "type": ""
+          },
+          {
+            "name": "RING",
+            "url": "http://protein.bio.unipd.it/ring",
+            "type": ""
+          },
+          {
+            "name": "SIGNOR",
+            "url": "http://signor.uniroma2.it/",
+            "type": ""
+          },
+          {
+            "name": "SNPs & GO",
+            "url": "http://snps-and-go.biocomp.unibo.it/snps-and-go/",
+            "type": ""
+          },
+          {
+            "name": "SpliceAid-F",
+            "url": "http://srv00.recas.ba.infn.it/SpliceAidF/",
+            "type": ""
+          },
+          {
+            "name": "Storage Services",
+            "url": "https://elixir-italy.org/",
+            "type": ""
+          },
+          {
+            "name": "The B6 database",
+            "url": "http://bioinformatics.unipr.it/cgi-bin/bioinformatics/B6db/home.pl",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Italy)",
+            "url": "https://elixir-italy.org/",
+            "type": ""
+          },
+          {
+            "name": "UTRdb / UTRSite",
+            "url": "http://utrdb.ba.itb.cnr.it/",
+            "type": ""
+          },
+          {
+            "name": "Vinyl",
+            "url": "http://beaconlab.it/VINYL",
+            "type": ""
+          },
+          {
+            "name": "Weeder",
+            "url": "http://www.beaconlab.it/modtools",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/italy",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Luxembourg",
+        "slug": "luxembourg",
+        "label": "ELIXIR-Luxembourg",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/luxembourg",
+        "declared_service_count": 5,
+        "services": [
+          {
+            "name": "Data Archiving",
+            "url": "https://elixir-luxembourg.org/services/catalog/data-hosting/",
+            "type": ""
+          },
+          {
+            "name": "Disease Maps Development and Hosting",
+            "url": "https://minerva-web.lcsb.uni.lu",
+            "type": ""
+          },
+          {
+            "name": "FAIR Cookbook",
+            "url": "https://faircookbook.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Luxembourg)",
+            "url": "https://elixir-luxembourg.org/training",
+            "type": ""
+          },
+          {
+            "name": "Translational Medicine Data Catalog (TMDC)",
+            "url": "https://datacatalog.elixir-luxembourg.org/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/luxembourg",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:39+00:00"
+        }
+      },
+      {
+        "name": "Netherlands",
+        "slug": "netherlands",
+        "label": "ELIXIR-Netherlands",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/netherlands",
+        "declared_service_count": 10,
+        "services": [
+          {
+            "name": "BridgeDb",
+            "url": "https://bridgedb.github.io/",
+            "type": ""
+          },
+          {
+            "name": "BYOD (Bring Your Own Data) events (ELIXIR Netherlands)",
+            "url": "http://www.dtls.nl/fair-data/byod/",
+            "type": ""
+          },
+          {
+            "name": "Consulting/Expertise",
+            "url": "https://www.dtls.nl/elixir-nl/",
+            "type": ""
+          },
+          {
+            "name": "FAIR service suite",
+            "url": "https://www.dtls.nl/fair-data/fair-data/",
+            "type": ""
+          },
+          {
+            "name": "Help Desk (SURF)",
+            "url": "https://www.surf.nl/en/about-surf/subsidiaries/surfsara/",
+            "type": ""
+          },
+          {
+            "name": "MOLGENIS",
+            "url": "https://molgenis.github.io/",
+            "type": ""
+          },
+          {
+            "name": "OpenConext",
+            "url": "https://openconext.org/",
+            "type": ""
+          },
+          {
+            "name": "Tools for FAIRification",
+            "url": "https://www.dtls.nl/fair-data/find-fair-data-tools/",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Netherlands)",
+            "url": "https://www.dtls.nl/elixir-nl/elixir-nl-2/training-education/",
+            "type": ""
+          },
+          {
+            "name": "WikiPathways",
+            "url": "https://www.wikipathways.org/index.php/WikiPathways",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/netherlands",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Norway",
+        "slug": "norway",
+        "label": "ELIXIR-Norway",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/norway",
+        "declared_service_count": 11,
+        "services": [
+          {
+            "name": "CHOPCHOP",
+            "url": "https://chopchop.rc.fas.harvard.edu",
+            "type": ""
+          },
+          {
+            "name": "EDAM",
+            "url": "http://edamontology.org/page",
+            "type": ""
+          },
+          {
+            "name": "FAIRtracks",
+            "url": "https://fairtracks.net/standards/",
+            "type": ""
+          },
+          {
+            "name": "JASPAR",
+            "url": "https://jaspar.genereg.net/",
+            "type": ""
+          },
+          {
+            "name": "LiceBase",
+            "url": "https://licebase.org/",
+            "type": ""
+          },
+          {
+            "name": "Marine Metagenomics Portal (MMP)",
+            "url": "https://mmp.sfb.uit.no",
+            "type": ""
+          },
+          {
+            "name": "MirGeneDB",
+            "url": "https://mirgenedb.org/",
+            "type": ""
+          },
+          {
+            "name": "SalmoBase",
+            "url": "https://salmobase.org/",
+            "type": ""
+          },
+          {
+            "name": "SARS-CoV-2 DB",
+            "url": "https://covid19.sfb.uit.no/",
+            "type": ""
+          },
+          {
+            "name": "The Genomic HyperBrowser",
+            "url": "https://hyperbrowser.uio.no/hb/",
+            "type": ""
+          },
+          {
+            "name": "TSD",
+            "url": "https://www.uio.no/english/services/it/research/sensitive-data/index.html",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/norway",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Portugal",
+        "slug": "portugal",
+        "label": "ELIXIR-Portugal",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/portugal",
+        "declared_service_count": 16,
+        "services": [
+          {
+            "name": "BioData.pt Beacon",
+            "url": "https://beacon.biodata.pt",
+            "type": ""
+          },
+          {
+            "name": "BioData.pt Data Stewardship Wizard",
+            "url": "https://biodatapt.dsw.elixir-europe.org/wizard/",
+            "type": ""
+          },
+          {
+            "name": "BioSurfDB",
+            "url": "https://www.biosurfdb.org",
+            "type": ""
+          },
+          {
+            "name": "CorkOakDB",
+            "url": "http://corkoakdb.org/",
+            "type": ""
+          },
+          {
+            "name": "D-cellerate",
+            "url": "https://github.com/BioData-PT/D-cellerate",
+            "type": ""
+          },
+          {
+            "name": "DMPortal",
+            "url": "https://dmportal.biodata.pt",
+            "type": ""
+          },
+          {
+            "name": "ELIXIR PT Computing Services",
+            "url": "https://elixir-portugal.org/elixir-pt-computing-services",
+            "type": ""
+          },
+          {
+            "name": "EvoPPI",
+            "url": "http://evoppi.i3s.up.pt/",
+            "type": ""
+          },
+          {
+            "name": "FEGA Portugal",
+            "url": "https://fegaportugal.biodata.pt",
+            "type": ""
+          },
+          {
+            "name": "Pegi3s",
+            "url": "https://pegi3s.github.io/dockerfiles/",
+            "type": ""
+          },
+          {
+            "name": "PHYLOViZ",
+            "url": "http://www.phyloviz.net/",
+            "type": ""
+          },
+          {
+            "name": "Plant Experimental Assay Ontology (PEAO)",
+            "url": "https://bitbucket.org/PlantExpAssay/ontology",
+            "type": ""
+          },
+          {
+            "name": "pydna",
+            "url": "https://github.com/pydna-group/pydna",
+            "type": ""
+          },
+          {
+            "name": "Ready for BioData Management",
+            "url": "https://biodata.pt/training/programmes/r4bdm",
+            "type": ""
+          },
+          {
+            "name": "sRNA Portal workflow",
+            "url": "https://github.com/forestbiotech-lab/sRNA-Portal-workflow",
+            "type": ""
+          },
+          {
+            "name": "YEASTRACT",
+            "url": "http://yeastract-plus.org",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/portugal",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Slovenia",
+        "slug": "slovenia",
+        "label": "ELIXIR-Slovenia",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/slovenia",
+        "declared_service_count": 11,
+        "services": [
+          {
+            "name": "BITOLA",
+            "url": "https://ibmi.mf.uni-lj.si/sl/bitola",
+            "type": ""
+          },
+          {
+            "name": "ClowdFlows",
+            "url": "http://workflow.ijs.si/",
+            "type": ""
+          },
+          {
+            "name": "Consultation",
+            "url": "https://elixir-slovenia.org/",
+            "type": ""
+          },
+          {
+            "name": "DictyExpress",
+            "url": "http://dictyexpress.biolab.si",
+            "type": ""
+          },
+          {
+            "name": "ENZO",
+            "url": "http://enzo.cmm.ki.si",
+            "type": ""
+          },
+          {
+            "name": "Orange",
+            "url": "http://orange.biolab.si/",
+            "type": ""
+          },
+          {
+            "name": "Orange4WS",
+            "url": "http://orange4ws.ijs.si/",
+            "type": ""
+          },
+          {
+            "name": "PIPAx",
+            "url": "http://pipa.biolab.si/",
+            "type": ""
+          },
+          {
+            "name": "ProBiS",
+            "url": "http://probis.cmm.ki.si/",
+            "type": ""
+          },
+          {
+            "name": "SegMine",
+            "url": "http://segmine.ijs.si/",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Slovenia)",
+            "url": "https://elixir-slovenia.org/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/slovenia",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Spain",
+        "slug": "spain",
+        "label": "ELIXIR-Spain",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/spain",
+        "declared_service_count": 40,
+        "services": [
+          {
+            "name": "3D interacting domains (3Did)",
+            "url": "https://3did.irbbarcelona.org/",
+            "type": ""
+          },
+          {
+            "name": "3DBIONOTES API",
+            "url": "https://3dbionotes.cnb.csic.es/ws/api",
+            "type": ""
+          },
+          {
+            "name": "3DBIONOTES-WS and COVID19 Structural Hub",
+            "url": "http://3dbionotes-ws.cnb.csic.es",
+            "type": ""
+          },
+          {
+            "name": "Agile Protein Interactomes DataServer Interactomes (APID Interactomes)",
+            "url": "http://apid.dep.usal.es",
+            "type": ""
+          },
+          {
+            "name": "Annotating PRincpial splice ISoforms (APPRIS)",
+            "url": "http://appris.bioinfo.cnio.es",
+            "type": ""
+          },
+          {
+            "name": "Annotations of Pathological Mutations on Proteins (PMut)",
+            "url": "https://mmb.irbbarcelona.org/PMut",
+            "type": ""
+          },
+          {
+            "name": "Beyondcell",
+            "url": "https://github.com/cnio-bu/beyondcell",
+            "type": ""
+          },
+          {
+            "name": "BioExcel Building Blocks (BioBB)",
+            "url": "https://mmb.irbbarcelona.org/biobb/",
+            "type": ""
+          },
+          {
+            "name": "CANcer TExt Mining SharedTask (CANTEMIST)",
+            "url": "https://temu.bsc.es/cantemist/",
+            "type": ""
+          },
+          {
+            "name": "Collaborative Spanish Variant Server (CSVS)",
+            "url": "http://csvs.babelomics.org/",
+            "type": ""
+          },
+          {
+            "name": "Drug REpositioning for IMmune Transcriptome (DREIMT)",
+            "url": "http://www.dreimt.org",
+            "type": ""
+          },
+          {
+            "name": "EGA beacon",
+            "url": "https://ega-archive.org/about/projects-and-funders/beacon/",
+            "type": ""
+          },
+          {
+            "name": "Environment for Tree Exploration toolkit (ETE Toolkit)",
+            "url": "http://etetoolkit.org/",
+            "type": ""
+          },
+          {
+            "name": "Evolutionary genealogy of genes: Non-supervised Orthologous Groups (eggNOG)",
+            "url": "http://eggnog.embl.de",
+            "type": ""
+          },
+          {
+            "name": "FAIR Cookbook",
+            "url": "https://faircookbook.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "FAIRTracks Validation Service",
+            "url": "http://fairtracks.bsc.es/api/",
+            "type": ""
+          },
+          {
+            "name": "footprintDB",
+            "url": "https://floresta.eead.csic.es/footprintdb",
+            "type": ""
+          },
+          {
+            "name": "Genomes for Life. Cohort Study of the Genomes of Catalonia (GCAT)",
+            "url": "http://www.gcatbiobank.org/",
+            "type": ""
+          },
+          {
+            "name": "GET_HOMOLOGUES",
+            "url": "https://github.com/eead-csic-compbio/get_homologues",
+            "type": ""
+          },
+          {
+            "name": "Hipathia suite",
+            "url": "http://hipathia.babelomics.org/",
+            "type": ""
+          },
+          {
+            "name": "INB Integrated platform for macromolecular flexibility (FlexPortal)",
+            "url": "https://mmb.irbbarcelona.org/FlexPortal",
+            "type": ""
+          },
+          {
+            "name": "Interactive Onco Genomics (IntOGen)",
+            "url": "https://www.intogen.org",
+            "type": ""
+          },
+          {
+            "name": "Interactome3D",
+            "url": "https://interactome3d.irbbarcelona.org",
+            "type": ""
+          },
+          {
+            "name": "manta/mvgwas-nf",
+            "url": "https://github.com/dgarrimar/manta",
+            "type": ""
+          },
+          {
+            "name": "Mapping human disease-mutations at systemic level (dSysMap)",
+            "url": "https://dsysmap.irbbarcelona.org",
+            "type": ""
+          },
+          {
+            "name": "MasterOfPores",
+            "url": "https://github.com/biocorecrg/master_of_pores",
+            "type": ""
+          },
+          {
+            "name": "Metabolites Biological Role (MBROLE)",
+            "url": "http://csbg.cnb.csic.es/mbrole3/",
+            "type": ""
+          },
+          {
+            "name": "MetaPhOrs",
+            "url": "http://orthology.phylomedb.org",
+            "type": ""
+          },
+          {
+            "name": "Nextflow",
+            "url": "https://nextflow.io",
+            "type": ""
+          },
+          {
+            "name": "NLP4BIA tools",
+            "url": "https://huggingface.co/BSC-NLP4BIA",
+            "type": ""
+          },
+          {
+            "name": "OpenEBench",
+            "url": "https://openebench.bsc.es",
+            "type": ""
+          },
+          {
+            "name": "PanDrugs",
+            "url": "https://www.pandrugs.org",
+            "type": ""
+          },
+          {
+            "name": "PhylomeDB",
+            "url": "http://phylomeDB.org",
+            "type": ""
+          },
+          {
+            "name": "Redundans",
+            "url": "https://github.com/Gabaldonlab/redundans",
+            "type": ""
+          },
+          {
+            "name": "Regulatory Sequence Analysis Tools Plants (RSAT Plants)",
+            "url": "https://rsat.eead.csic.es/plants",
+            "type": ""
+          },
+          {
+            "name": "Ruby bioinformatics toolkit (rbbt)",
+            "url": "http://mikisvaz.github.io/rbbt",
+            "type": ""
+          },
+          {
+            "name": "SQANTI",
+            "url": "https://github.com/ConesaLab/SQANTI3",
+            "type": ""
+          },
+          {
+            "name": "Sqtlseeker2-nf",
+            "url": "https://github.com/guigolab/sqtlseeker2-nf",
+            "type": ""
+          },
+          {
+            "name": "Tree-based Consistency Objective Function for Alignment Evaluation (T-Coffee)",
+            "url": "https://tcoffee.org",
+            "type": ""
+          },
+          {
+            "name": "Workflow Execution Service backend (WfExS-backend)",
+            "url": "https://github.com/inab/WfExS-backend",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/spain",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Sweden",
+        "slug": "sweden",
+        "label": "ELIXIR-Sweden",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/sweden",
+        "declared_service_count": 3,
+        "services": [
+          {
+            "name": "Human Protein Atlas (HPA)",
+            "url": "http://www.proteinatlas.org/",
+            "type": ""
+          },
+          {
+            "name": "Metabolic Atlas",
+            "url": "https://metabolicatlas.org/",
+            "type": ""
+          },
+          {
+            "name": "Training Metrics Database",
+            "url": "https://tmd.elixir-europe.org.",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/sweden",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "Switzerland",
+        "slug": "switzerland",
+        "label": "ELIXIR-Switzerland",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/switzerland",
+        "declared_service_count": 51,
+        "services": [
+          {
+            "name": "ASAP",
+            "url": "https://asap.epfl.ch/",
+            "type": ""
+          },
+          {
+            "name": "BEAST 2",
+            "url": "https://www.beast2.org/",
+            "type": ""
+          },
+          {
+            "name": "Bgee",
+            "url": "https://www.bgee.org/",
+            "type": ""
+          },
+          {
+            "name": "BioMedIT Network",
+            "url": "https://www.biomedit.ch/",
+            "type": ""
+          },
+          {
+            "name": "BUSCO",
+            "url": "http://busco.ezlab.org/",
+            "type": ""
+          },
+          {
+            "name": "CAMEO",
+            "url": "http://cameo3d.org",
+            "type": ""
+          },
+          {
+            "name": "Cellosaurus",
+            "url": "https://www.cellosaurus.org/",
+            "type": ""
+          },
+          {
+            "name": "CLASTR",
+            "url": "https://www.cellosaurus.org/str-search/",
+            "type": ""
+          },
+          {
+            "name": "ENZYME",
+            "url": "https://enzyme.expasy.org/",
+            "type": ""
+          },
+          {
+            "name": "Expasy",
+            "url": "http://www.expasy.org",
+            "type": ""
+          },
+          {
+            "name": "FAIR Cookbook",
+            "url": "https://faircookbook.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "Glittr.org",
+            "url": "https://glittr.org/",
+            "type": ""
+          },
+          {
+            "name": "Glyco@Expasy",
+            "url": "https://glycoproteome.expasy.org/glycomics-expasy/",
+            "type": ""
+          },
+          {
+            "name": "GlyConnect",
+            "url": "https://glyconnect.expasy.org/",
+            "type": ""
+          },
+          {
+            "name": "HAMAP",
+            "url": "http://hamap.expasy.org",
+            "type": ""
+          },
+          {
+            "name": "iPtgxDBs",
+            "url": "https://iptgxdb.expasy.org/",
+            "type": ""
+          },
+          {
+            "name": "ISMARA",
+            "url": "https://ismara.unibas.ch",
+            "type": ""
+          },
+          {
+            "name": "MATRIXDB",
+            "url": "http://matrixdb.univ-lyon1.fr/",
+            "type": ""
+          },
+          {
+            "name": "MetaGraph",
+            "url": "https://metagraph.ethz.ch/",
+            "type": ""
+          },
+          {
+            "name": "MetaNetX",
+            "url": "http://www.metanetx.org/",
+            "type": ""
+          },
+          {
+            "name": "MHC Motif Atlas",
+            "url": "http://mhcmotifatlas.org/",
+            "type": ""
+          },
+          {
+            "name": "Microbe Atlas",
+            "url": "https://microbeatlas.org/landing",
+            "type": ""
+          },
+          {
+            "name": "Model Archive",
+            "url": "https://www.modelarchive.org/",
+            "type": ""
+          },
+          {
+            "name": "mOTUs",
+            "url": "https://motu-tool.org/",
+            "type": ""
+          },
+          {
+            "name": "Nextstrain",
+            "url": "https://nextstrain.org/",
+            "type": ""
+          },
+          {
+            "name": "OMA",
+            "url": "https://omabrowser.org",
+            "type": ""
+          },
+          {
+            "name": "OMArk",
+            "url": "https://omark.omabrowser.org/",
+            "type": ""
+          },
+          {
+            "name": "OrthoDB",
+            "url": "https://www.orthodb.org",
+            "type": ""
+          },
+          {
+            "name": "PAXdb",
+            "url": "https://pax-db.org/",
+            "type": ""
+          },
+          {
+            "name": "Progenetix",
+            "url": "https://progenetix.org/",
+            "type": ""
+          },
+          {
+            "name": "prolfqua",
+            "url": "https://github.com/fgcz/prolfqua",
+            "type": ""
+          },
+          {
+            "name": "PROSITE",
+            "url": "http://prosite.expasy.org",
+            "type": ""
+          },
+          {
+            "name": "rawrr",
+            "url": "https://bioconductor.org/packages/rawrr",
+            "type": ""
+          },
+          {
+            "name": "REALPHY",
+            "url": "https://realphy.unibas.ch/realphy/",
+            "type": ""
+          },
+          {
+            "name": "Rhea",
+            "url": "http://www.rhea-db.org",
+            "type": ""
+          },
+          {
+            "name": "sciCORE",
+            "url": "http://scicore.unibas.ch/",
+            "type": ""
+          },
+          {
+            "name": "SIBiLS",
+            "url": "https://sibils.org/",
+            "type": ""
+          },
+          {
+            "name": "SPSP",
+            "url": "https://spsp.ch/",
+            "type": ""
+          },
+          {
+            "name": "STRING",
+            "url": "http://string-db.org",
+            "type": ""
+          },
+          {
+            "name": "SWISS-MODEL Repository",
+            "url": "https://swissmodel.expasy.org/repository",
+            "type": ""
+          },
+          {
+            "name": "SWISS-MODEL Server",
+            "url": "https://swissmodel.expasy.org",
+            "type": ""
+          },
+          {
+            "name": "SwissBioPics",
+            "url": "https://www.swissbiopics.org/",
+            "type": ""
+          },
+          {
+            "name": "SwissDrugDesign",
+            "url": "https://www.molecular-modelling.ch/swiss-drug-design.html",
+            "type": ""
+          },
+          {
+            "name": "SwissLipids",
+            "url": "http://www.swisslipids.org/#/",
+            "type": ""
+          },
+          {
+            "name": "SwissRegulon",
+            "url": "https://swissregulon.unibas.ch/sr/swissregulon",
+            "type": ""
+          },
+          {
+            "name": "Training (ELIXIR Switzerland)",
+            "url": "http://www.sib.swiss/training",
+            "type": ""
+          },
+          {
+            "name": "Unilectin",
+            "url": "https://unilectin.unige.ch/",
+            "type": ""
+          },
+          {
+            "name": "UniProtKB",
+            "url": "http://www.uniprot.org/",
+            "type": ""
+          },
+          {
+            "name": "V-pipe",
+            "url": "https://cbg-ethz.github.io/V-pipe/",
+            "type": ""
+          },
+          {
+            "name": "Variomes",
+            "url": "https://variomes.text-analytics.ch/",
+            "type": ""
+          },
+          {
+            "name": "ViralZone",
+            "url": "http://viralzone.expasy.org",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/switzerland",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:40+00:00"
+        }
+      },
+      {
+        "name": "UK",
+        "slug": "uk",
+        "label": "ELIXIR-UK",
+        "url": "https://elixir-europe.org/about-us/who-we-are/nodes/uk",
+        "declared_service_count": 32,
+        "services": [
+          {
+            "name": "Birmingham Metabolomics Training Centre",
+            "url": "https://www.birmingham.ac.uk/facilities/metabolomics-training-centre",
+            "type": ""
+          },
+          {
+            "name": "Cafe Variome",
+            "url": "https://www.cafevariome.org/",
+            "type": ""
+          },
+          {
+            "name": "Cambridge Bioinformatics Training Centre",
+            "url": "https://bioinfotraining.bio.cam.ac.uk/",
+            "type": ""
+          },
+          {
+            "name": "CATH/Gene3D",
+            "url": "http://www.cathdb.info/",
+            "type": ""
+          },
+          {
+            "name": "COPO",
+            "url": "https://copo-project.org/",
+            "type": ""
+          },
+          {
+            "name": "DRASP (The Dundee Resource for Sequence Analysis and Structure Prediction)",
+            "url": "http://www.compbio.dundee.ac.uk/drsasp.html",
+            "type": ""
+          },
+          {
+            "name": "Edinburgh Genomics Training",
+            "url": "https://genomics.ed.ac.uk/service/training/",
+            "type": ""
+          },
+          {
+            "name": "Ensembl Farmed and Domesticated Animals",
+            "url": "https://www.ensembl.org/index.html",
+            "type": ""
+          },
+          {
+            "name": "FAIR Cookbook",
+            "url": "https://faircookbook.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "FAIRDOM: Seek",
+            "url": "https://fair-dom.org/platform/seek/",
+            "type": ""
+          },
+          {
+            "name": "FAIRsharing",
+            "url": "https://fairsharing.org",
+            "type": ""
+          },
+          {
+            "name": "Flybase",
+            "url": "https://flybase.org/",
+            "type": ""
+          },
+          {
+            "name": "GWAS Central",
+            "url": "https://help.gwascentral.org/about/",
+            "type": ""
+          },
+          {
+            "name": "Health Data Research Gateway",
+            "url": "https://healthdatagateway.org/en",
+            "type": ""
+          },
+          {
+            "name": "HGNC",
+            "url": "https://www.genenames.org/",
+            "type": ""
+          },
+          {
+            "name": "InterMine",
+            "url": "http://intermine.org",
+            "type": ""
+          },
+          {
+            "name": "ISA Tools Commons",
+            "url": "http://isa-tools.org",
+            "type": ""
+          },
+          {
+            "name": "IUPHAR/BPS Guide to PHARMACOLOGY",
+            "url": "http://www.guidetopharmacology.org",
+            "type": ""
+          },
+          {
+            "name": "Jalview",
+            "url": "http://www.jalview.org/",
+            "type": ""
+          },
+          {
+            "name": "KnetMiner",
+            "url": "https://knetminer.com/",
+            "type": ""
+          },
+          {
+            "name": "LIPID Maps",
+            "url": "https://www.lipidmaps.org/",
+            "type": ""
+          },
+          {
+            "name": "Missense3D",
+            "url": "http://missense3d.bc.ic.ac.uk/",
+            "type": ""
+          },
+          {
+            "name": "NEOF",
+            "url": "https://neof.org.uk/training/",
+            "type": ""
+          },
+          {
+            "name": "PHI-base",
+            "url": "http://www.phi-base.org",
+            "type": ""
+          },
+          {
+            "name": "Phyre2",
+            "url": "http://www.sbg.bio.ic.ac.uk/~phyre2/html/page.cgi?id=index",
+            "type": ""
+          },
+          {
+            "name": "PomBase",
+            "url": "https://www.pombase.org/",
+            "type": ""
+          },
+          {
+            "name": "PSIPRED",
+            "url": "http://bioinf.cs.ucl.ac.uk/psipred/",
+            "type": ""
+          },
+          {
+            "name": "RDMkit",
+            "url": "https://rdmkit.elixir-europe.org/",
+            "type": ""
+          },
+          {
+            "name": "TeSS Training Portal",
+            "url": "https://tess.elixir-europe.org",
+            "type": ""
+          },
+          {
+            "name": "Variant Validator",
+            "url": "https://www.variantvalidator.org/",
+            "type": ""
+          },
+          {
+            "name": "VEuPathDB",
+            "url": "https://veupathdb.org/veupathdb/app",
+            "type": ""
+          },
+          {
+            "name": "WorkflowHub",
+            "url": "https://workflowhub.eu/",
+            "type": ""
+          }
+        ],
+        "page_provenance": {
+          "source_url": "https://elixir-europe.org/about-us/who-we-are/nodes/uk",
+          "fetched_via": "live",
+          "retrieved": "2026-09-17T15:50:41+00:00"
+        }
+      }
+    ]
+  },
+  "communities": {
+    "source_url": "https://elixir-europe.org/communities",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:41+00:00",
+    "count": 19,
+    "items": [
+      {
+        "name": "3D-BioInfo",
+        "url": "https://elixir-europe.org/communities/3d-bioinfo"
+      },
+      {
+        "name": "Biodiversity",
+        "url": "https://elixir-europe.org/communities/biodiversity"
+      },
+      {
+        "name": "Cancer Data",
+        "url": "https://elixir-europe.org/communities/cancer-data"
+      },
+      {
+        "name": "Domestic Animals Genome and Phenome",
+        "url": "https://elixir-europe.org/communities/domestic-animals-genome-phenome"
+      },
+      {
+        "name": "Federated Human Data",
+        "url": "https://elixir-europe.org/communities/human-data"
+      },
+      {
+        "name": "Food and Nutrition",
+        "url": "https://elixir-europe.org/communities/food-and-nutrition"
+      },
+      {
+        "name": "Galaxy",
+        "url": "https://elixir-europe.org/communities/galaxy"
+      },
+      {
+        "name": "Human Copy Number Variation",
+        "url": "https://elixir-europe.org/communities/human-copy-number-variation"
+      },
+      {
+        "name": "Intrinsically Disordered Proteins",
+        "url": "https://elixir-europe.org/communities/intrinsically-disordered-proteins"
+      },
+      {
+        "name": "Metabolomics",
+        "url": "https://elixir-europe.org/communities/metabolomics"
+      },
+      {
+        "name": "Microbial Biotechnology",
+        "url": "https://elixir-europe.org/communities/microbial-biotechnology"
+      },
+      {
+        "name": "Microbiome",
+        "url": "https://elixir-europe.org/communities/microbiome"
+      },
+      {
+        "name": "Plant Sciences",
+        "url": "https://elixir-europe.org/communities/plant-sciences"
+      },
+      {
+        "name": "Proteomics",
+        "url": "https://elixir-europe.org/communities/proteomics"
+      },
+      {
+        "name": "Rare Diseases",
+        "url": "https://elixir-europe.org/communities/rare-diseases"
+      },
+      {
+        "name": "Research Data Management",
+        "url": "https://elixir-europe.org/communities/research-data-management"
+      },
+      {
+        "name": "Single-Cell Omics",
+        "url": "https://elixir-europe.org/communities/single-cell-omics"
+      },
+      {
+        "name": "Systems Biology",
+        "url": "https://elixir-europe.org/communities/systems-biology"
+      },
+      {
+        "name": "Toxicology",
+        "url": "https://elixir-europe.org/communities/toxicology"
+      }
+    ]
+  },
+  "cdr": {
+    "source_url": "https://elixir-europe.org/platforms/data/core-data-resources",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:41+00:00",
+    "count": 39,
+    "items": [
+      {
+        "name": "ArrayExpress",
+        "url": "https://www.ebi.ac.uk/arrayexpress/",
+        "description": "Functional Genomics Data from high-throughput functional genomics experiments."
+      },
+      {
+        "name": "BacDive",
+        "url": "https://bacdive.dsmz.de/",
+        "description": "Bacterial Diversity - information on taxonomy, morphology, physiology, and ecology of bacterial strains with genome and other molecular data. BacDive is a bacterial metadatabase that provides strain-linked information about bacterial and archaeal biodiversity. ."
+      },
+      {
+        "name": "Bgee",
+        "url": "https://www.bgee.org/",
+        "description": "Bgee is a database for retrieval and comparison of gene expression patterns across multiple animal species. It provides an intuitive answer to the question “where is a gene expressed?” and supports research in cancer and agriculture, as well as evolutionary biology."
+      },
+      {
+        "name": "BioImage Archive",
+        "url": "https://www.ebi.ac.uk/bioimage-archive/",
+        "description": "The BioImage Archive is a public repository for biological images, supporting the deposition and reuse of reference imaging data that underpin published research across the life sciences."
+      },
+      {
+        "name": "BioStudies",
+        "url": "https://www.ebi.ac.uk/biostudies/",
+        "description": "The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured archives at EMBL-EBI. The database can accept a wide range of types of studies described via a simple format"
+      },
+      {
+        "name": "BRENDA",
+        "url": "http://www.brenda-enzymes.org/",
+        "description": "Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures, integration of external data and prediction algorithms."
+      },
+      {
+        "name": "CATH",
+        "url": "http://www.cathdb.info/",
+        "description": "A hierarchical domain classification of protein structures in the Protein Data Bank."
+      },
+      {
+        "name": "Cellosaurus",
+        "url": "https://www.cellosaurus.org/",
+        "description": "A knowledge resource on cell lines. It attempts to describe all cell lines used in biomedical research."
+      },
+      {
+        "name": "ChEBI",
+        "url": "https://www.ebi.ac.uk/chebi/",
+        "description": "Dictionary of molecular entities focused on ‘small’ chemical compounds."
+      },
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/",
+        "description": "Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities."
+      },
+      {
+        "name": "EGA",
+        "url": "https://ega-archive.org/",
+        "description": "Personally identifiable genetic and phenotypic data resulting from biomedical research projects."
+      },
+      {
+        "name": "EMDB",
+        "url": "https://www.ebi.ac.uk/emdb/",
+        "description": "The Electron Microscopy Data Bank (EMDB) is a public repository for electron cryo-microscopy maps and tomograms of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, sub-tomogram averaging, fibre diffractio"
+      },
+      {
+        "name": "ENA",
+        "url": "https://www.ebi.ac.uk/ena/browser/home",
+        "description": "The European Nucleotide Archive (ENA) provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation."
+      },
+      {
+        "name": "Ensembl",
+        "url": "http://www.ensembl.org/index.html",
+        "description": "Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation."
+      },
+      {
+        "name": "Ensembl Genomes",
+        "url": "http://ensemblgenomes.org/",
+        "description": "Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species."
+      },
+      {
+        "name": "Europe PMC",
+        "url": "https://europepmc.org/",
+        "description": "Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines."
+      },
+      {
+        "name": "GWAS Catalog",
+        "url": "https://www.ebi.ac.uk/gwas/",
+        "description": "The NHGRI-EBI GWAS Catalog: a curated collection of all human genome-wide association studies, produced by a collaboration between EMBL-EBI and NHGRI."
+      },
+      {
+        "name": "HGNC",
+        "url": "https://www.genenames.org/",
+        "description": "The HGNC (HUGO Gene Nomenclature Committee) is a resource for approved human gene nomenclature containing ~42000 gene symbols and names and 1300+ gene families and sets."
+      },
+      {
+        "name": "Human Protein Atlas",
+        "url": "https://www.proteinatlas.org/",
+        "description": "The Human Protein Atlas (HPA) aims to map all the human proteins in cells, tissues and organs using integration of various omics technologies, including antibody-based imaging, mass spectrometry-based proteomics, transcriptomics and systems biology. This data allows exploration of the human proteome"
+      },
+      {
+        "name": "The IMEx Consortium: represented by IntAct and MINT",
+        "url": "http://www.ebi.ac.uk/intact/",
+        "description": "IntAct provides a freely available, open source database system and analysis tools for molecular interaction data. MINT focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators."
+      },
+      {
+        "name": "IMGT",
+        "url": "https://www.imgt.org/",
+        "description": "A comprehensive information system for immunoglobulins or antibodies, T cell receptors, major histocompatibility complexes and related proteins. It provides expertly annotated data supporting immunogenetics, immunoinformatics, clinical and veterinary research and antibody engineering."
+      },
+      {
+        "name": "InterPro",
+        "url": "https://www.ebi.ac.uk/interpro/",
+        "description": "Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites. Note: This is an umbrella resource to which many collaborating databases contribute. In naming InterPro as a Core Data Resource, the critical role of the constituent"
+      },
+      {
+        "name": "JASPAR",
+        "url": "https://jaspar.elixir.no/",
+        "description": "JASPAR is the largest open-access database of curated and non-redundant transcription factor (TF) binding profiles from six different taxonomic groups."
+      },
+      {
+        "name": "MGnify",
+        "url": "https://www.ebi.ac.uk/metagenomics",
+        "description": "The MGnify platform facilitates the assembly, analysis and archiving of microbiome-derived nucleic acid sequences. The platform provides access to taxonomic assignments and functional annotations for nearly half a million analyses covering metabarcoding, metatranscriptomic, and metagenomic datasets,"
+      },
+      {
+        "name": "LIPID MAPS®",
+        "url": "https://www.lipidmaps.org/",
+        "description": "LIPID MAPS is designed to be an open, systematic and standardised Lipidomics resource. Providing information on Lipids and their structures, properties and functions in biological processes."
+      },
+      {
+        "name": "LPSN",
+        "url": "https://lpsn.dsmz.de/",
+        "description": "LPSN (List of Prokaryotic names with Standing in Nomenclature) provides authoritative information on the nomenclature of prokaryotes."
+      },
+      {
+        "name": "Orphadata Science",
+        "url": "https://www.orphadata.com/orphadata-science/",
+        "description": "The Orphadata Science platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format."
+      },
+      {
+        "name": "OMA",
+        "url": "https://omabrowser.org/oma/home/",
+        "description": "OMA is a method and database for the inference of orthologs among complete genomes, supporting comparative genomics analyses."
+      },
+      {
+        "name": "OrthoDB",
+        "url": "https://www.orthodb.org/",
+        "description": "OrthoDB is a catalog of orthologous protein-coding genes across a wide range of species, supporting evolutionary and functional genomics studies."
+      },
+      {
+        "name": "PDBe",
+        "url": "https://www.ebi.ac.uk/pdbe/",
+        "description": "Biological macromolecular structures."
+      },
+      {
+        "name": "PomBase",
+        "url": "https://www.pombase.org/",
+        "description": "PomBase is a comprehensive database for the fission yeast Schizosaccharomyces pombe, providing structural and functional annotation, literature curation and access to large-scale data sets."
+      },
+      {
+        "name": "PRIDE",
+        "url": "https://www.ebi.ac.uk/pride/archive/",
+        "description": "Mass spectrometry-based proteomics data, including peptide and protein expression information (identifications and quantification values) and the supporting mass spectra evidence."
+      },
+      {
+        "name": "Reactome",
+        "url": "https://reactome.org",
+        "description": "REACTOME is an open-source, open access, manually curated and peer-reviewed pathway database."
+      },
+      {
+        "name": "Rhea",
+        "url": "https://www.rhea-db.org",
+        "description": "Rhea is an expert-curated knowledgebase of chemical and transport reactions of biological interest, and the standard for enzyme and transporter annotation in UniProtKB."
+      },
+      {
+        "name": "SILVA",
+        "url": "https://www.arb-silva.de/",
+        "description": "SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya)."
+      },
+      {
+        "name": "STRING",
+        "url": "https://string-db.org/",
+        "description": "Known and predicted protein-protein interactions."
+      },
+      {
+        "name": "SWISS-MODEL",
+        "url": "https://swissmodel.expasy.org/",
+        "description": "SWISS-MODEL is a fully automated protein structure homology-modelling server, accessible via the Expasy web server, or from the program DeepView (Swiss Pdb-Viewer). The purpose of this server is to make protein modelling accessible to all life science researchers worldwide."
+      },
+      {
+        "name": "UniProt",
+        "url": "http://www.uniprot.org/",
+        "description": "Comprehensive resource for protein sequence and annotation data."
+      },
+      {
+        "name": "VEuPathDB",
+        "url": "https://veupathdb.org/veupathdb/app",
+        "description": "VEuPathDB provides access to diverse genomic and other large scale datasets related to eukaryotic pathogens and invertebrate vectors of disease. Organisms supported by this resource include (but are not limited to) the US-based NIAID list of emerging and re-emerging infectious diseases."
+      }
+    ]
+  },
+  "edd": {
+    "source_url": "https://elixir-europe.org/platforms/data/elixir-deposition-databases",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:41+00:00",
+    "count": 18,
+    "items": [
+      {
+        "name": "ArrayExpress",
+        "url": "https://www.ebi.ac.uk/arrayexpress/ ",
+        "description": "Functional genomics data. Stores data from high-throughput functional genomics experiments."
+      },
+      {
+        "name": "BioModels",
+        "url": "http://www.ebi.ac.uk/biomodels/",
+        "description": "Computational models of biological processes."
+      },
+      {
+        "name": "BioSamples",
+        "url": "https://www.ebi.ac.uk/biosamples/",
+        "description": "BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry."
+      },
+      {
+        "name": "BioStudies",
+        "url": "https://www.ebi.ac.uk/biostudies/",
+        "description": "Descriptions of biological studies, links to data from these studies in other databases, as well as data that do not fit in the structured archives."
+      },
+      {
+        "name": "BioImage Archive",
+        "url": "https://www.ebi.ac.uk/bioimage-archive/",
+        "description": "Public repository for biological images supporting deposition and access to reference imaging data underpinning published research."
+      },
+      {
+        "name": "EGA",
+        "url": "https://ega-archive.org/",
+        "description": "Personally identifiable genetic and phenotypic data resulting from biomedical research projects."
+      },
+      {
+        "name": "EMDB",
+        "url": "https://www.ebi.ac.uk/pdbe/emdb/",
+        "description": "The Electron Microscopy Data Bank is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures."
+      },
+      {
+        "name": "EMPIAR",
+        "url": "https://www.ebi.ac.uk/empiar/",
+        "description": "EMPIAR, the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB). EMPIAR also accommodates 3D datasets obtained with volume EM techniques and soft and hard X-ray tomography."
+      },
+      {
+        "name": "ENA",
+        "url": "https://www.ebi.ac.uk/ena/browser/home",
+        "description": "The European Nucleotide Archive (ENA) provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation."
+      },
+      {
+        "name": "EVA",
+        "url": "http://www.ebi.ac.uk/eva/",
+        "description": "The European Variation Archive covers genetic variation data from all species."
+      },
+      {
+        "name": "GWAS Catalog",
+        "url": "https://www.ebi.ac.uk/gwas/",
+        "description": "The NHGRI-EBI GWAS Catalog is a curated collection of all human genome-wide association studies, produced by a collaboration between EMBL-EBI and NHGRI."
+      },
+      {
+        "name": "IntAct",
+        "url": "http://www.ebi.ac.uk/intact/",
+        "description": "IntAct provides a freely available, open source database system and analysis tools for molecular interaction data."
+      },
+      {
+        "name": "LIPID MAPS®",
+        "url": "https://www.lipidmaps.org//",
+        "description": "LIPID MAPS is designed to be an open, systematic and standardised lipidomics resource. Providing information on Lipids and their structures, properties and functions in biological processes."
+      },
+      {
+        "name": "DisProt",
+        "url": "https://disprot.org/",
+        "description": "DisProt is a manually curated deposition database of intrinsically disordered proteins and protein regions, providing experimentally validated disorder annotations and associated functional information."
+      },
+      {
+        "name": "MetaboLights",
+        "url": "http://www.ebi.ac.uk/metabolights/",
+        "description": "Metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments."
+      },
+      {
+        "name": "ModelArchive",
+        "url": "https://www.modelarchive.org/",
+        "description": "ModelArchive provides a unique stable accession code (DOI) for each deposited theoretical model of a macromolecular structure."
+      },
+      {
+        "name": "PDBe",
+        "url": "https://www.ebi.ac.uk/pdbe/",
+        "description": "Biological macromolecular structures."
+      },
+      {
+        "name": "PRIDE",
+        "url": "https://www.ebi.ac.uk/pride/archive/",
+        "description": "Mass spectrometry-based proteomics data, including peptide and protein expression information (identifications and quantification values) and the supporting mass spectra evidence."
+      }
+    ]
+  },
+  "rir": {
+    "source_url": "https://elixir-europe.org/platforms/interoperability/rirs",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:41+00:00",
+    "count": 21,
+    "items": [
+      {
+        "name": "3DBIONOTES API",
+        "url": "https://3dbionotes.cnb.csic.es/ws/api",
+        "description": "A reusable platform-independent API call component for protein and gene metadata alignment, annotation, and integration across major bioinformatic data resources."
+      },
+      {
+        "name": "BioImage Informatics Index",
+        "url": "https://biii.eu/",
+        "description": "A bioimaging resource (tool/workflow) finder based on biological questions, methods and tools with linked literature of the resource."
+      },
+      {
+        "name": "Bgee Knowledge Graph",
+        "url": "https://www.bgee.org/",
+        "description": "The Bgee database through its SPARQL endpoint provides access to gene expression patterns in multiple animal species, which result from the integration and harmonisation of several data sources."
+      },
+      {
+        "name": "BridgeDb",
+        "url": "https://www.bridgedb.org",
+        "description": "A combination of a software framework and an API for mapping identifiers for related objects in life sciences."
+      },
+      {
+        "name": "Data Stewardship Wizard (DSW)",
+        "url": "https://ds-wizard.org/",
+        "description": "Data Stewardship Wizard (DSW) is a service for data management planning, i.e. preparing data management plans."
+      },
+      {
+        "name": "DisGeNET RDF API",
+        "url": "http://www.disgenet.org/rdf",
+        "description": "An RDF SPARQL Endpoint for DisGeNET, a knowledge platform on human disease genes and variants."
+      },
+      {
+        "name": "European Galaxy Server",
+        "url": "https://usegalaxy.eu/",
+        "description": "Galaxy is an interoperable open-source platform for scientific data analysis and sharing, covering diverse research fields such as *omics, machine learning, and climate science."
+      },
+      {
+        "name": "FAIR Cookbook",
+        "url": "https://faircookbook.elixir-europe.org/",
+        "description": "The FAIR Cookbook, a live, open, online, collaborative resource of hands-on recipes for “FAIR doers” in the Life Sciences."
+      },
+      {
+        "name": "FAIRsharing",
+        "url": "https://fairsharing.org",
+        "description": "A FAIR-supporting resource including a registry on data standards, repositories and policy, alongside informative and educational tools and services."
+      },
+      {
+        "name": "FAIRtracks",
+        "url": "https://fairtracks.github.io/ ",
+        "description": "A set of JSON Schemas defining a draft minimal standard used to consolidate genomic track metadata from various sources, which can be queried by downstream clients through the TrackFind webtool/API."
+      },
+      {
+        "name": "g:Profiler",
+        "url": "https://biit.cs.ut.ee/gprofiler/",
+        "description": "A gene-centric data integrator with web UI and API services."
+      },
+      {
+        "name": "Identifiers.org",
+        "url": "https://identifiers.org",
+        "description": "Provider of persistent and compact identifiers for data objects in life sciences through a curated registry and associated resolver."
+      },
+      {
+        "name": "InterMine",
+        "url": "http://intermine.org",
+        "description": "Framework to integrate life sciences data based on an extensible data model, providing web interface and RESTful web services."
+      },
+      {
+        "name": "ISA Framework",
+        "url": "https://isa-tools.org",
+        "description": "The ISA (Investigation > Study > Assay) provides formats and tools to manage the experimental descriptions throughout the research life cycle, from collection, curation and deposition in public repositories, to analysis with existing tools and publication in data journals."
+      },
+      {
+        "name": "Jalview",
+        "url": "https://www.jalview.org/",
+        "description": "Jalview is a Win/Mac/Linux/Web interactive graphical interface and command line tool for molecular sequence, alignment and 3D structure bioinformatics resource interoperability."
+      },
+      {
+        "name": "MOLGENIS",
+        "url": "https://molgenis.github.io",
+        "description": "A flexible data integration platform to facilitate FAIR research data and accelerate scientific collaborations."
+      },
+      {
+        "name": "Omics Discovery Index (OmicsDI)",
+        "url": "https://www.omicsdi.org/",
+        "description": "Provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)."
+      },
+      {
+        "name": "Ontology Lookup Service",
+        "url": "https://www.ebi.ac.uk/ols/index",
+        "description": "Repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions through web UI or RESTFUL API."
+      },
+      {
+        "name": "OpenEBench",
+        "url": "https://openebench.bsc.es/",
+        "description": "OpenEBench is a platform to evaluate life sciences tools from two points of view: Scientific performance through community-based benchmarking and Quality through an Observatory of Software Quality."
+      },
+      {
+        "name": "PLAZA",
+        "url": "https://bioinformatics.psb.ugent.be/plaza/",
+        "description": "Provides an integrative resource for functional, evolutionary, and comparative genomics in plants."
+      },
+      {
+        "name": "RDMkit",
+        "url": "https://rdmkit.elixir-europe.org/",
+        "description": "The RDMkit is an open-source, online toolkit for researchers and data stewards, providing Research Data Management (RDM) best practices in line with the FAIR principles."
+      }
+    ]
+  },
+  "gcbr": {
+    "source_url": "https://globalbiodata.org/what-we-do/global-core-biodata-resources/list-of-current-global-core-biodata-resources/",
+    "fetched_via": "live",
+    "retrieved": "2026-09-17T15:50:41+00:00",
+    "count": 52,
+    "items": [
+      {
+        "name": "Alliance of Genome Resources",
+        "url": "https://www.alliancegenome.org/",
+        "host_countries": "USA , Canada, UK"
+      },
+      {
+        "name": "BacDive",
+        "url": "https://bacdive.dsmz.de/",
+        "host_countries": "Germany"
+      },
+      {
+        "name": "BAR: Bio-Analytic Resource for Plant Biology",
+        "url": "https://bar.utoronto.ca/",
+        "host_countries": "Canada"
+      },
+      {
+        "name": "Bgee",
+        "url": "https://bgee.org/",
+        "host_countries": "Switzerland"
+      },
+      {
+        "name": "BRENDA",
+        "url": "https://www.brenda-enzymes.org/",
+        "host_countries": "Germany"
+      },
+      {
+        "name": "Catalogue of Life",
+        "url": "https://catalogueoflife.org",
+        "host_countries": "Netherlands , China, Denmark, UK, USA"
+      },
+      {
+        "name": "CATH",
+        "url": "http://www.cathdb.info/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "Cellosaurus",
+        "url": "https://www.cellosaurus.org",
+        "host_countries": "Switzerland"
+      },
+      {
+        "name": "ChEBI",
+        "url": "https://www.ebi.ac.uk/chebi",
+        "host_countries": "UK"
+      },
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "CIViC: Clinical Interpretation of Variants in Cancer",
+        "url": "https://civicdb.org/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Clinical Genome Resource",
+        "url": "https://www.clinicalgenome.org",
+        "host_countries": "USA"
+      },
+      {
+        "name": "ClinPGX",
+        "url": "https://www.clinpgx.org/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "DNA Data Bank of Japan",
+        "url": "https://www.ddbj.nig.ac.jp",
+        "host_countries": "Japan"
+      },
+      {
+        "name": "EcoCyc",
+        "url": "http://ecocyc.org/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Ensembl",
+        "url": "https://www.ensembl.org",
+        "host_countries": "UK"
+      },
+      {
+        "name": "Europe PMC",
+        "url": "http://europepmc.org/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "European Nucleotide Archive",
+        "url": "https://www.ebi.ac.uk/ena",
+        "host_countries": "UK"
+      },
+      {
+        "name": "FlyBase",
+        "url": "https://flybase.org/",
+        "host_countries": "USA , UK"
+      },
+      {
+        "name": "GENCODE",
+        "url": "https://www.gencodegenes.org/",
+        "host_countries": "UK , Spain, USA"
+      },
+      {
+        "name": "Gene Ontology",
+        "url": "http://geneontology.org",
+        "host_countries": "USA , UK"
+      },
+      {
+        "name": "Global Biodiversity Information Facility",
+        "url": "https://www.gbif.org/",
+        "host_countries": "Denmark"
+      },
+      {
+        "name": "gnomAD",
+        "url": "https://gnomad.broadinstitute.org/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "GSA: Genome Sequence Archive",
+        "url": "https://ngdc.cncb.ac.cn/gsa",
+        "host_countries": "China"
+      },
+      {
+        "name": "GWAS Catalog",
+        "url": "https://www.ebi.ac.uk/gwas/",
+        "host_countries": "UK , USA"
+      },
+      {
+        "name": "GXD",
+        "url": "https://www.informatics.jax.org/expression.shtml/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "HGNC: HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org",
+        "host_countries": "UK"
+      },
+      {
+        "name": "Human Disease Ontology Knowledgebase",
+        "url": "https://disease-ontology.org",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Human Protein Atlas",
+        "url": "https://www.proteinatlas.org",
+        "host_countries": "Sweden"
+      },
+      {
+        "name": "IMEx: International Molecular Exchange Consortium",
+        "url": "https://www.imexconsortium.org/",
+        "host_countries": "UK , Canada, France, Italy, USA"
+      },
+      {
+        "name": "InterPro",
+        "url": "https://www.ebi.ac.uk/interpro/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "IUPHAR/BPS Guide to PHARMACOLOGY",
+        "url": "https://www.guidetopharmacology.org/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "LIPID MAPS",
+        "url": "https://www.lipidmaps.org/",
+        "host_countries": "UK , USA"
+      },
+      {
+        "name": "LPSN: List of Prokaryotic names with Standing in Nomenclature",
+        "url": "https://lpsn.dsmz.de",
+        "host_countries": "The List of Prokaryotic names with Standing in Nomenclature (LPSN) provides comprehensive information on the nomenclature of prokaryotes and related data."
+      },
+      {
+        "name": "MGD: Mouse Genome Database",
+        "url": "http://www.informatics.jax.org",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Orphadata Science",
+        "url": "http://www.orphadata.org/cgi-bin/index.php",
+        "host_countries": "France"
+      },
+      {
+        "name": "PANTHER",
+        "url": "http://pantherdb.org",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Planteome",
+        "url": "https://planteome.org/",
+        "host_countries": "USA"
+      },
+      {
+        "name": "PomBase",
+        "url": "https://www.pombase.org/",
+        "host_countries": "UK"
+      },
+      {
+        "name": "Protein Data Bank",
+        "url": "https://www.wwpdb.org",
+        "host_countries": "USA , Japan, UK"
+      },
+      {
+        "name": "ProteomeXchange Consortium",
+        "url": "https://www.proteomexchange.org",
+        "host_countries": "UK , China, Japan, USA"
+      },
+      {
+        "name": "Rat Genome Database",
+        "url": "https://rgd.mcw.edu",
+        "host_countries": "USA"
+      },
+      {
+        "name": "Reactome",
+        "url": "https://reactome.org",
+        "host_countries": "Canada , UK, USA"
+      },
+      {
+        "name": "Rhea",
+        "url": "https://www.rhea-db.org/",
+        "host_countries": "Switzerland"
+      },
+      {
+        "name": "Saccharomyces Genome Database",
+        "url": "https://yeastgenome.org",
+        "host_countries": "USA"
+      },
+      {
+        "name": "SILVA",
+        "url": "https://www.arb-silva.de",
+        "host_countries": "Germany"
+      },
+      {
+        "name": "STRING",
+        "url": "https://string-db.org/",
+        "host_countries": "Switzerland , Denmark, Germany"
+      },
+      {
+        "name": "UCSC Genome Browser",
+        "url": "https://genome.ucsc.edu",
+        "host_countries": "USA , Germany, Japan"
+      },
+      {
+        "name": "UniProt",
+        "url": "https://www.uniprot.org/",
+        "host_countries": "UK , Switzerland, USA"
+      },
+      {
+        "name": "VEuPathDB",
+        "url": "https://veupathdb.org/veupathdb/app",
+        "host_countries": "USA , UK"
+      },
+      {
+        "name": "WormBase",
+        "url": "http://www.wormbase.org",
+        "host_countries": "USA , Canada, UK"
+      },
+      {
+        "name": "ZFIN: The Zebrafish Information Network",
+        "url": "http://zfin.org",
+        "host_countries": "USA"
+      }
+    ]
+  },
+  "generated": "2026-09-17T15:50:41+00:00"
+}

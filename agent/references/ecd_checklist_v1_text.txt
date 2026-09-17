@@ -1,0 +1,460 @@
+         ELIXIR Community Database (ECD)
+                    Checklist Version 1 - July, 2025
+
+Authors
+Role            Full Name (Affiliation)          ORCID
+
+Lead - Author   Gavin Farrell (ELIXIR-IT)        0000-0001-5166-8551
+
+Author          Allyson Lister (ELIXIR-UK)       0000-0002-7702-4495
+
+Author          Amy Curwin (ELIXIR-ES)           0000-0003-1086-2483
+
+Author          Bruno Fosso (ELIXIR-IT)          0000-0003-2324-086X
+
+Author          Egon Willighagen (ELIXIR-NL)     0000-0001-7542-0286
+
+Author          Fabio Liberante (ELIXIR Hub)     0000-0002-0192-5385
+
+Author          Helge Hecht (ELIXIR-CZ)          0000-0001-6744-996X
+
+Author          James Seager (ELIXIR-UK)         0000-0001-7487-610X
+
+Author          John Hancock (ELIXIR-SI)         0000-0003-2991-2217
+
+Author          Katharina F. Heil (ELIXIR Hub)   0000-0003-3341-3736
+
+Author          Monique Zahn (ELIXIR-CH)         0000-0001-7961-6091
+
+Author          Niclas Jareborg (ELIXIR-SE)      0000-0002-4520-044X
+
+Author          Patrick Ruch (ELIXIR-CH)         0000-0002-3374-2962
+
+Author          Robert Waterhouse (ELIXIR-CH)    0000-0003-4199-9052
+
+Author          Sergi Beltran (ELIXIR-ES)        0000-0002-2810-3445
+
+Author          Steffen Neumann (ELIXIR-DE)      0000-0002-7899-7192
+
+Author          Ulrike Wittig (ELIXIR-DE)        0000-0002-9077-5664
+
+PI - Author     Federica Quaglia (ELIXIR-IT)     0000-0002-0341-4888
+
+PI - Author     Silvio Tosatto (ELIXIR-IT)       0000-0003-4525-7793
+Contributors
+ Role             Full Name (Affiliation)                         ORCID
+
+ Contributor      Alessandro Cestaro (ELIXIR-IT)                  0000-0003-1439-5165
+
+ Contributor      Carissa Bleker (ELIXIR-SI)                      0000-0003-1617-7145
+
+ Contributor      Christos Ouzounis (ELIXIR-GR)                   0000-0002-0086-8657
+
+ Contributor      Daniel Arend (ELIXIR-DE)                        0000-0002-2455-5938
+
+ Contributor      Karel Berka (ELIXIR-CZ)                         0000-0001-9472-2589
+
+ Contributor      Lorenz Reimer (ELIXIR-DE)                       0000-0002-7805-0660
+
+ Contributor      Nicholas Owen (ELIXIR-UK)                       0000-0002-7067-8082
+
+ Contributor      Vitor Martins dos Santos (ELIXIR-NL)            0000-0002-2352-9017
+
+
+
+
+ELIXIR Community Database Checklist
+Purpose
+This document is a lightweight checklist to assess the suitability of an ELIXIR Service Delivery Plan
+(SDP) resource to be selected by an ELIXIR Community for ELIXIR Community Database (ECD)
+status. It is hoped to identify high quality biodata resources serving ELIXIR Community scientific
+niches that may never be within scope of ELIXIR Core Data Resource (CDR) or ELIXIR Deposition
+Database (EDD) status. The checklist will ultimately help ELIXIR Communities receiving an ECD
+status application determine:
+    ●​ If a resource is of a minimum quality to be awarded an ECD status.
+    ●​ If a resource would benefit further from ELIXIR Community engagement to support their
+         development roadmap and advance their service quality based on Community user needs.
+    ●​ Identify gaps & opportunities:
+               ○​ Best practices and international standards adoption to support interoperability.
+               ○​ Reduce database silos and ensure ECD biodata resources can federate data into the
+                  existing biodata ecosystem of resources (within and beyond ELIXIR).
+
+Checklist completion information
+All fields must be completed by the ECD applicant and the application submitted in PDF format to:
+elixir-community-databases@elixir-europe.org.
+
+Note - checklist feedback: This checklist is designed for the pilot ECD programme, it will be
+adapted and refined in further versions based on the ECD pilot feedback participants. All feedback
+can be submitted alongside the application to: elixir-community-databases@elixir-europe.org
+
+Note - text length: Keep text short and succinct, please do not give too much text.
+Note - reapplications: Are only possible after 12 months and all failing feedback must be addressed
+in bullets in Appendix 1 (Only for resubmissions).
+
+Sections
+    Section 1: Eligibility check
+    Section 2: Resource Background
+    Section 3: User base monitoring
+    Section 4: Development, Staff & Governance
+    Section 5: Interoperability, Standards & Data flow
+    Section 6: Data & Software Management
+    Section 7: Use of ELIXIR Biodatabase Supports
+    Section 8: Final Declaration
+    Appendix 1: ECD Reapplication
+
+
+Applicant details
+
+ Submitter(s) name                         First Last (indicate lead)
+
+ Submitter(s) email                        Email (institutional only)
+
+ ELIXIR Node(s)                            ELIXIR-XX
+
+ ELIXIR Institute(s)                       Name
+
+ Resource name                             Name
+
+ Resource weblink                          URL
+
+ Resource software repo (e.g. GitHub)      URL
+
+ ELIXIR Community submitted to               To choose
+
+
+ Date submitted                            day-month-year
+
+
+Section 1: Eligibility check
+Please read the following eligibility requirements before completing this application. For any
+questions or uncertainties please contact: elixir-community-databases@elixir-europe.org.
+    1.​ The primary applicant is a member of an ELIXIR Node & Node institute (check here).
+
+
+    2.​ The applicant is submitting an ELIXIR Node Service as listed on the ELIXIR SDP (check
+        here).
+   3.​ The service being submitted contains biological data and is one of the following:
+          a.​ A deposition database (public store of biodata)
+          b.​ A curated knowledgebase (curated biodata information extracted from literature)
+          c.​ A biodata registry
+          d.​ An aggregation database
+
+
+   4.​ The service does not already hold a status of:
+          a.​ Core Data Resource (CDR)
+          b.​ ELIXIR Deposition Database (EDD)
+          c.​ Global Core Biodata Resource (GCBR)
+          d.​ Recommended Interoperability Resource (RIR)
+
+
+   5.​ For federated and consortia databases (multi-site, multi-branding, non-ELIXIR
+       Involvement), please contact the support email to determine eligibility.
+
+
+      I confirm that my biodata resource is eligible under the above criteria: To choose
+
+Section 2: Resource Background
+   1.​ Biodata resource key info:
+          a.​ Gap your resource serves:
+                  i.​ [100 words - keep short]
+          b.​ Biological data type(s) held & total entries:
+                  i.​ Biodata type (number of entries)
+                 ii.​ …
+          c.​ Uniqueness:
+                  i.​   To choose
+                 ii.​ List overlapping resources serving the same gap
+                iii.​ State what your resource does better than resources serving the same gap
+                      [100 words - keep short]
+          d.​ Relevance to designated ELIXIR Community:
+                  i.​   To choose
+                 ii.​ [100 words - keep short]
+          e.​ Peer-reviewed article on your database itself (e.g. NAR Database/+)
+                  i.​   To choose
+                 ii.​ If yes: provide link
+
+
+   2.​ How long ago did your resource officially go live?
+          a.​ To choose
+
+
+   3.​ Has your resource been part of:
+          a.​ A funded ELIXIR Community Commission Service work plan?
+                 i.​   To choose
+                ii.​ If yes: provide short description/link [100 words - keep short]
+          b.​ A funded ELIXIR CMR/BFSP/HDTR Science Tier Commission Service work plan?
+                 i.​   To choose
+                ii.​ If yes: provide short description/link [100 words - keep short]
+          c.​ An ELIXIR BioHackathon project /AHM workshop/ other?
+                 i.​   To choose
+                ii.​ If yes: provide short description/link [100 words - keep short]
+
+
+   4.​ Is your resource a niche biodata resource of use by a narrower life science subdomain
+       e.g. aligned under one of the ELIXIR Community focus areas?
+           a.​ To choose
+
+
+   5.​ Do you believe there is scope for your resource to eventually mature into a CDR/EDD
+       scale resource (e.g. ENA/UniProt/+)?
+           a.​ To choose
+
+
+   6.​ Have you already applied for CDR/EDD status?
+          a.​ To choose
+
+
+
+Section 3: User base monitoring
+   1.​ Do you have resource monitoring in place? e.g. for uptime & response time metrics.
+          a.​ To choose
+          b.​ If yes: provide short description [100 words - keep short]
+
+
+   2.​ Are you tracking any quantitative resource usage data metrics? e.g. monthly users/+
+           a.​ To choose
+           b.​ If yes: provide short description [100 words - keep short]
+              (do not provide any metrics)
+
+
+   3.​ Have you considered the possible user base growth of your target domain community?
+          a.​ To choose
+          b.​ If yes: provide short description [150 words - keep short] , e.g.
+                   i.​ Active user growth trends
+                  ii.​ Conference sizes
+                iii.​ Publications & possible ingestible data
+                 iv.​ Other…
+Section 4: Development, Staff & Governance
+   1.​ Do you have a resource update strategy or development roadmap?
+          a.​ To choose
+          b.​ If yes: provide short description [100 words - keep short]
+
+
+   2.​ Does your resource collect user base feedback and community input for its development
+       roadmap?
+          a.​ To choose
+          b.​ If yes: provide short description [100 words - keep short]
+
+
+   3.​ Does your resource have a helpdesk?
+          a.​ To choose
+          b.​ If yes: provide short description [100 words - keep short]
+
+
+   4.​ Does your resource have details publicly available about who works on your resource?
+          a.​ To choose     [100 words - keep short]
+
+
+   5.​ How many people (approximate in FTE) work on your resource?
+          a.​ To choose   [100 words - keep short]
+
+
+   6.​ Is the resource operated across more than one institution?
+            a.​ To choose
+            b.​ If yes: provide short description [100 words - keep short]
+
+
+   7.​ Does your resource have dedicated funding to:
+          a.​ Retain staff to curate data, maintain & update it?
+                 i.​   To choose
+                ii.​ If yes: provide short description (institutional support/in-kind
+                      support/grants/+) [100 words - keep short]
+          b.​ Provide dedicated hardware to keep it live & online (at least for next 2 years)?
+                 i.​   To choose
+                ii.​ If yes: provide short description [100 words - keep short]
+
+
+   8.​ Do you know how many of your team members would have to leave the project for the
+       resource to stop further development/new data ingestion?
+           a.​ To choose
+           b.​ If yes: provide short description [100 words - keep short]
+   9.​ Does your resource have a scientific advisory board (SAB)?
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   10.​Does your resource have a privacy statement?
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   11.​Does your resource have an ethics policy? (e.g. for sensitive data)
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+
+Section 5: Interoperability, Standards & Data flow
+   1.​ Does your resource use metadata standards for its data?
+          a.​ To choose
+          b.​ If yes: provide short description/link(s) (FAIRsharing standard link if available) [100
+              words - keep short]
+
+
+   2.​ Does your resource use an ontology for its data?
+          a.​ To choose
+          b.​ If yes: provide short description/link(s) (Ontology Lookup Service link if available)
+              [100 words - keep short]
+
+
+   3.​ Does your resource expose structured data (e.g. JSON/W3C/DCAT)?
+          a.​ To choose
+          b.​ If yes: provide short description/link(s) [100 words - keep short]
+
+
+   4.​ Does your resource provide an API/FTP/other protocols for exposing and retrieving the
+       data in a machine actionable manner?
+          a.​ To choose
+          b.​ If yes: provide short list
+
+
+   5.​ Does your resource pull data from other data resources? (inflow of data)
+          a.​ To choose
+          b.​ If yes: provide short list
+   6.​ Do other resources pull data from your resource? (outflow of data)
+          a.​ To choose
+          b.​ If yes: provide short list
+
+
+   7.​ Have you identified/roadmapped existing (ELIXIR) biodata resources that could
+       augment their database entries by pulling in your data?
+          a.​ To choose
+          b.​ If yes: provide short list & information [100 words - keep short]
+
+
+
+Section 6: Data & Software Management
+Data
+   1.​ Do you have a publicly available data management plan?
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   2.​ What is the license for use of the data in your resource?
+         a.​ Provide short description [100 words - keep short]
+
+
+   3.​ Do you have a clear plan for long-term storage and off-site backups?
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   4.​ Do you maintain version archives of the database contents?
+          a.​ To choose
+          b.​ If yes: provide short description [100 words - keep short]
+Software
+   5.​ Do you have a publicly available software management plan?
+          a.​ To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   6.​ What is the license for use of the software of your resource?
+         a.​ Provide short description [100 words - keep short]
+
+
+   7.​ Is your data resource’s software available in containerised format for reuse?
+       (eg: Docker image/Podman/Singularity)
+
+           a.​   To choose
+          b.​ If yes: provide short description/link [100 words - keep short]
+
+
+   8.​ Is your data resource’s software open source? (i.e. the code base is reusable and
+       available to redeploy?)
+           a.​ To choose
+           b.​ If yes: provide short description/link [100 words - keep short]
+
+
+
+
+Section 7: Use of ELIXIR Biodatabase Supports
+   1.​ Is your resource listed in a database registry such as FAIRsharing?
+           a.​ To choose
+           b.​ If yes: provide link
+
+
+   2.​ Does your resource have its identifiers registered in identifiers.org?
+          a.​ To choose
+          b.​ If yes: provide link
+
+
+   3.​ Are any analysis tools & workflows provided by your resource registered in relevant
+       registries such as bio.tools and WorkflowHub?
+           a.​ To choose
+           b.​ If yes: provide link
+
+
+   4.​ Are any training materials for your resource registered in TeSS?
+
+          a.​ To choose
+          b.​ If yes: provide link
+
+
+   5.​ If reliant on data curation does your resource use APICURON for curator credit and
+       recognition?
+            a.​ To choose
+            b.​ If yes: provide link
+
+
+   6.​ If reliant on a user authentication and authorisation infrastructure (AAI) service, do you
+       use LS-AAI?
+            a.​ To choose
+
+
+   7.​ Do you use any resource monitoring supports such as OpenEBench’s observatory?
+            a.​ To choose
+            b.​ If yes: provide link
+
+
+    8.​ Please provide a screenshot from the FAIRchecker result for your resource:
+            a.​
+
+
+    9.​ Are you aware of and developing your resource in alignment with RDMkit guidance?
+
+            a.​ To choose
+
+
+    10.​Are you aware of and developing your resource in alignment with RSQkit guidance?
+
+            a.​ To choose
+
+
+
+Section 8: Final Declaration
+By submitting this application form, I To choose     that:
+
+    1.​ Our resource is subject to a one year health check period following a successful ECD
+        application.
+    2.​ We agree to actively engage with the ELIXIR Community accrediting our ECD to identify
+        and address achievable checklist gaps where development resources allow.
+
+
+
+
+Appendix 1: ECD Reapplication
+If this is a resubmission after the 12 month feedback period has passed since the formal ECD
+Rejection by a Community after an initial failed application, please state under each section in
+succinct bullets what has been done to address the original feedback.
+Note: to be considered for reapplication this section must be completed in detail.
+
+Section 1: Eligibility check
+   ●​
+
+Section 2: Resource Background
+   ●​
+
+Section 3: User base monitoring
+   ●​
+
+Section 4: Development, Staff & Governance
+   ●​
+
+Section 5: Interoperability, Standards & Data flow
+   ●​
+
+Section 6: Data & Software Management
+   ●​
+
+Section 7: Use of ELIXIR Biodatabase Supports
+   ●​
+

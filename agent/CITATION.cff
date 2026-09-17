@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this skill in your work, please cite it as below, together with the ECD Checklist and Process it implements."
+title: "ECD Agent Skill: agentic pre-filling of the ELIXIR Community Database (ECD) Checklist"
+type: software
+license: CC-BY-4.0
+version: 0.1.0
+date-released: 2026-09-17
+keywords:
+  - ELIXIR
+  - ELIXIR Community Database
+  - ECD
+  - agent skill
+  - Claude
+  - biodata resources
+  - FAIR
+  - FAIRsharing
+  - bioinformatics
+authors:
+  - family-names: Farrell
+    given-names: Gavin
+    affiliation: University of Padua, Italy
+    orcid: "https://orcid.org/0000-0001-5166-8551"
+references:
+  - type: report
+    title: "ELIXIR Community Databases (ECD) Checklist - V1"
+    doi: 10.5281/zenodo.17289009
+    year: 2025
+    authors:
+      - family-names: Farrell
+        given-names: Gavin
+      - name: ELIXIR
+  - type: report
+    title: "ELIXIR Community Databases (ECD) Process - V1"
+    doi: 10.5281/zenodo.17288943
+    year: 2025
+    authors:
+      - family-names: Farrell
+        given-names: Gavin
+      - name: ELIXIR

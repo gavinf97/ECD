@@ -1,0 +1,12 @@
+# ECD Agent Skill — Python 3.10+
+requests>=2.31
+Jinja2>=3.1
+python-docx>=1.1
+reportlab>=4.0
+PyMuPDF>=1.24
+openpyxl>=3.1        # only for --services-xlsx
+pytest>=8.0          # tests
+# Optional but recommended (SPA rendering + FAIR-Checker screenshot):
+#   pip install playwright && playwright install chromium
+# or point ECD_PLAYWRIGHT_PYTHON at an interpreter that already has Playwright.
+# PDF rendering uses LibreOffice (`soffice`) when available, reportlab otherwise.

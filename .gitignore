@@ -1,0 +1,16 @@
+# Repo-wide ignores. Component-specific rules live in agent/.gitignore and uptime/.gitignore.
+.DS_Store
+Thumbs.db
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+~$*
+
+# Outputs if the agent skill or tracker is run from the repo root
+ecd-assessments/
+workdir/
+_data/

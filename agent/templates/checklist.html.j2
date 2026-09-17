@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECD Checklist · {{ meta.resource_name }}</title>
+<style>
+:root {
+  --bg: #f7f7f4; --surface: #ffffff; --surface-2: #f0efea; --text: #1d1d1b; --muted: #62625d; --border: #deddd6;
+  --accent: #1f5fa8; --accent-soft: #e3edf8;
+  --ok: #1d7a46; --ok-soft: #e1f2e8; --warn: #9a5b00; --warn-soft: #fbefd9; --todo: #a8321f; --todo-soft: #f9e3de;
+  --info: #5a4bb0; --info-soft: #ebe8f8; --neutral-soft: #ecebe6;
+  --radius: 10px; --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161615; --surface: #1f1f1d; --surface-2: #262624; --text: #ecebe6; --muted: #a3a29b; --border: #34342f;
+    --accent: #7fb0eb; --accent-soft: #1d2b3b;
+    --ok: #6fcf97; --ok-soft: #173024; --warn: #f0b458; --warn-soft: #34281a; --todo: #f08a78; --todo-soft: #3a211c;
+    --info: #b2a6f3; --info-soft: #28243f; --neutral-soft: #2b2b28;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161615; --surface: #1f1f1d; --surface-2: #262624; --text: #ecebe6; --muted: #a3a29b; --border: #34342f;
+  --accent: #7fb0eb; --accent-soft: #1d2b3b;
+  --ok: #6fcf97; --ok-soft: #173024; --warn: #f0b458; --warn-soft: #34281a; --todo: #f08a78; --todo-soft: #3a211c;
+  --info: #b2a6f3; --info-soft: #28243f; --neutral-soft: #2b2b28;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.55 var(--sans); }
+a { color: var(--accent); overflow-wrap: anywhere; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 28px 16px 64px; }
+header h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+header .sub { color: var(--muted); font-size: 0.92rem; }
+.notice { margin: 18px 0; padding: 12px 14px; border-radius: var(--radius); background: var(--warn-soft); color: var(--text);
+  border: 1px solid var(--border); font-size: 0.9rem; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 18px 0 8px; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; }
+.stat .n { font-size: 1.5rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+.stat .l { color: var(--muted); font-size: 0.8rem; }
+.bar { display: flex; height: 8px; border-radius: 99px; overflow: hidden; background: var(--neutral-soft); margin: 10px 0 4px; }
+.bar span { display: block; height: 100%; }
+nav.toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 6px; }
+nav.toc a { text-decoration: none; font-size: 0.82rem; padding: 4px 10px; border-radius: 99px; background: var(--surface);
+  border: 1px solid var(--border); color: var(--text); }
+section.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin: 18px 0; }
+section.card > h2 { margin: 0; padding: 14px 16px; font-size: 1.1rem; border-bottom: 1px solid var(--border); }
+.intro { color: var(--muted); font-size: 0.88rem; padding: 10px 16px 0; margin: 0; }
+.group { padding: 12px 16px 0; font-weight: 600; }
+.q { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.q:last-child { border-bottom: 0; }
+.q.criterion { background: var(--surface-2); }
+.qhead { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+.prompt { font-weight: 600; flex: 1 1 420px; min-width: 0; }
+.prompt .num { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 4px; }
+.tag { font-size: 0.72rem; color: var(--muted); font-weight: 500; margin-left: 6px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font-size: 0.74rem; padding: 2px 9px; border-radius: 99px; white-space: nowrap; border: 1px solid transparent; }
+.s-verified { background: var(--ok-soft); color: var(--ok); }
+.s-applicant_provided { background: var(--info-soft); color: var(--info); }
+.s-inferred { background: var(--warn-soft); color: var(--warn); }
+.s-not_found { background: var(--neutral-soft); color: var(--muted); }
+.s-needs_applicant, .s-query_failed, .s-pending { background: var(--todo-soft); color: var(--todo); }
+.conf { background: transparent; border-color: var(--border); color: var(--muted); }
+.answer { margin-top: 8px; display: grid; gap: 6px; }
+.row { display: grid; grid-template-columns: 170px 1fr; gap: 10px; font-size: 0.93rem; }
+.row .k { color: var(--muted); font-size: 0.82rem; }
+.choice { display: inline-block; font-weight: 650; padding: 1px 10px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+.missing { color: var(--todo); font-style: italic; }
+ul.items { margin: 0; padding-left: 18px; }
+.hint { font-size: 0.85rem; color: var(--warn); margin-top: 6px; }
+details { margin-top: 8px; }
+details summary { cursor: pointer; color: var(--muted); font-size: 0.83rem; }
+.ev { margin: 6px 0 0; padding-left: 18px; font-size: 0.84rem; }
+.ev li { margin: 3px 0; }
+.ev .src { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.ev q { color: var(--muted); }
+table.kv { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+table.kv td { padding: 9px 16px; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.kv td:first-child { color: var(--muted); width: 38%; }
+table.fair { border-collapse: collapse; font-size: 0.85rem; margin-top: 8px; }
+table.fair td, table.fair th { padding: 4px 10px; border-bottom: 1px solid var(--border); text-align: left; }
+.score-2 { color: var(--ok); font-weight: 650; } .score-1 { color: var(--warn); font-weight: 650; } .score-0 { color: var(--todo); font-weight: 650; }
+img.shot { max-width: 100%; border: 1px solid var(--border); border-radius: 8px; margin-top: 8px; }
+footer { color: var(--muted); font-size: 0.8rem; margin-top: 30px; }
+@media (max-width: 640px) {
+  .row { grid-template-columns: 1fr; gap: 2px; }
+  table.kv td:first-child { width: 45%; }
+  header h1 { font-size: 1.4rem; }
+}
+@media print { nav.toc, details summary { display: none; } details { display: block; } section.card { break-inside: avoid-page; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>{{ meta.resource_name }} — ECD Checklist</h1>
+  <div class="sub">{{ schema.title }} · {{ schema.checklist_version }} ·
+    <a href="https://doi.org/{{ schema.source.checklist.doi }}">Checklist</a> ·
+    <a href="https://doi.org/{{ schema.source.process.doi }}">Process</a> ·
+    <a href="{{ meta.resource_url }}">{{ meta.resource_url }}</a></div>
+</header>
+
+<div class="notice">Pre-filled by the ECD Agent Skill on {{ rendered[:10] }} from public registries and the resource website.
+The applicant must review every answer, complete the red items and confirm the declarations before submitting the PDF to
+<a href="mailto:{{ schema.source.submission_email }}">{{ schema.source.submission_email }}</a>.</div>
+
+{% set counts = validation.status_counts %}
+{% set total = counts.values() | sum %}
+<div class="summary">
+  {% for key, label in [("verified","Verified"),("applicant_provided","Applicant provided"),("inferred","Inferred – review"),("not_found","Not found"),("needs_applicant","Applicant input needed"),("query_failed","Lookup failed"),("pending","Not assessed")] %}
+  {% if counts.get(key) %}<div class="stat"><div class="n">{{ counts.get(key) }}</div><div class="l">{{ label }}</div></div>{% endif %}
+  {% endfor %}
+</div>
+<div class="bar" role="img" aria-label="Answer status distribution">
+  {% for key, var in [("verified","--ok"),("applicant_provided","--info"),("inferred","--warn"),("not_found","--muted"),("needs_applicant","--todo"),("query_failed","--todo"),("pending","--todo")] %}
+  {% if counts.get(key) %}<span style="width: {{ (100 * counts.get(key) / total) | round(2) }}%; background: var({{ var }});"></span>{% endif %}
+  {% endfor %}
+</div>
+{% if validation.errors %}<div class="notice"><strong>Validation errors:</strong><ul class="items">{% for e in validation.errors %}<li>{{ e }}</li>{% endfor %}</ul></div>{% endif %}
+
+<nav class="toc">{% for s in sections %}<a href="#{{ s.id }}">{{ s.title.split(":")[0] }}</a>{% endfor %}</nav>
+
+{% macro chips(q) %}
+<div class="chips"><span class="chip s-{{ q.status }}">{{ q.status_label }}</span>{% if q.confidence %}<span class="chip conf">{{ q.confidence }} confidence</span>{% endif %}</div>
+{% endmacro %}
+
+{% macro evidence(q) %}
+{% if q.evidence %}
+<details><summary>Evidence ({{ q.evidence | length }})</summary>
+<ul class="ev">{% for e in q.evidence %}<li><span class="src">{{ e.source }}</span>{% if e.url %} · <a href="{{ e.url }}" rel="noopener">{{ e.url }}</a>{% endif %}{% if e.snippet %}<br><q>{{ e.snippet }}</q>{% endif %}</li>{% endfor %}</ul>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% for section in sections %}
+<section class="card" id="{{ section.id }}">
+<h2>{{ section.title }}</h2>
+{% if section.intro %}<p class="intro">{{ section.intro }}</p>{% endif %}
+{% if section.id == "APP" %}
+<table class="kv">
+{% for q in section.questions %}
+<tr><td>{{ q.prompt }}</td><td>
+  {% if q.choice or q.text %}{{ q.choice or q.text }}{% elif q.links %}{% for l in q.links %}<a href="{{ l }}">{{ l }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}
+  <div style="margin-top:4px">{{ chips(q) }}</div>{% if q.hint %}<div class="hint">{{ q.hint }}</div>{% endif %}{{ evidence(q) }}
+</td></tr>
+{% endfor %}
+</table>
+{% else %}
+{% set ns = namespace(group=None, sub=None) %}
+{% for q in section.questions %}
+{% if q.subgroup and q.subgroup != ns.sub %}<div class="group">{{ q.subgroup }}</div>{% set ns.sub = q.subgroup %}{% endif %}
+{% if q.group and q.group != ns.group %}<div class="group">{{ q.group }}</div>{% set ns.group = q.group %}{% endif %}
+<div class="q{% if not q.in_form %} criterion{% endif %}" id="{{ q.id }}">
+  <div class="qhead">
+    <div class="prompt"><span class="num">{{ q.number }}</span>{{ q.prompt }}{% if not q.in_form %}<span class="tag">eligibility criterion · pre-check</span>{% endif %}</div>
+    {{ chips(q) }}
+  </div>
+  <div class="answer">
+    {% if "choice" in q.parts %}
+    <div class="row"><div class="k">{{ q.choice_label or "Answer" }}</div><div>{% if q.choice is not none %}<span class="choice">{{ q.choice }}</span>{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}</div></div>
+    {% endif %}
+    {% if "list" in q.parts and (q.list or q.show.list) %}
+    <div class="row"><div class="k">{{ q.list_label or "List" }}</div><div>{% if q.list %}<ul class="items">{% for i in q.list %}<li>{{ i }}</li>{% endfor %}</ul>{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}</div></div>
+    {% endif %}
+    {% if "text" in q.parts and (q.text or q.show.text) %}
+    <div class="row"><div class="k">{{ q.text_label or "Response" }}{% if q.word_limit %} · {{ q.word_limit }} words{% endif %}</div><div>{% if q.text %}{{ q.text }}{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}</div></div>
+    {% endif %}
+    {% if "links" in q.parts and (q.links or q.show.links) %}
+    <div class="row"><div class="k">{{ q.links_label or "Link(s)" }}</div><div>{% if q.links %}{% for l in q.links %}<a href="{{ l }}" rel="noopener">{{ l }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}</div></div>
+    {% endif %}
+    {% if "image" in q.parts %}
+    <div class="row"><div class="k">Screenshot</div><div>
+      {% if q.image_data %}<img class="shot" src="{{ q.image_data }}" alt="FAIR-Checker result screenshot">{% else %}<span class="missing">{{ placeholder }}</span>{% endif %}
+      {% if fair and fair.scores %}
+      <table class="fair"><tr><th>Metric</th><th>Score</th></tr>
+      {% for r in fair.scores %}<tr><td>{{ r.metric }} {{ r.label or "" }}</td><td class="score-{{ r.score }}">{{ r.score }}/2</td></tr>{% endfor %}
+      </table>
+      {% if fair.assessment_url %}<div style="margin-top:6px"><a href="{{ fair.assessment_url }}">FAIR-Checker assessment{% if fair.overall_percent %} ({{ fair.overall_percent }}%){% endif %}</a></div>{% endif %}
+      {% endif %}
+    </div></div>
+    {% endif %}
+  </div>
+  {% if q.hint %}<div class="hint">Hint: {{ q.hint }}</div>{% endif %}
+  {{ evidence(q) }}
+</div>
+{% endfor %}
+{% endif %}
+</section>
+{% endfor %}
+
+<footer>Generated {{ rendered }} · ECD Agent Skill · Checklist questions © ELIXIR, CC BY 4.0
+(<a href="https://doi.org/{{ schema.source.checklist.doi }}">{{ schema.source.checklist.doi }}</a>).</footer>
+</div>
+</body>
+</html>
