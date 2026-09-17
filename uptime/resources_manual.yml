@@ -1,0 +1,14 @@
+# Resources tracked in addition to the spreadsheet import.
+# These entries survive re-running import_resources.py and override spreadsheet rows with the same id.
+resources:
+  - id: dome-registry
+    name: DOME Registry
+    url: https://registry.dome-ml.org
+    node: ELIXIR Italy
+    domain: Cross-domain / infrastructure
+  - id: dome-ml
+    name: DOME-ML
+    url: https://dome-ml.org
+    listed_url: https://www.dome-ml.org/
+    node: ELIXIR Italy
+    domain: Cross-domain / infrastructure

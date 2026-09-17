@@ -1,0 +1,30 @@
+name: uptime-tests
+
+on:
+  push:
+    branches: [main]
+    paths: ["uptime/**", ".github/workflows/uptime-*.yml"]
+  pull_request:
+    paths: ["uptime/**", ".github/workflows/uptime-*.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: uptime
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            uptime/requirements.txt
+            uptime/requirements-dev.txt
+      - run: pip install -r uptime/requirements.txt -r uptime/requirements-dev.txt
+      - run: python -m pytest uptime/tests -q
