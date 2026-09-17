@@ -1,0 +1,187 @@
+{"ts": "2026-09-17T16:07:30Z", "id": "2dprots", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "3d-interacting-domains-3did", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "agrold-agronomic-linked-data", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "alphafold-db", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "amtdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "aniseed", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "tls_error", "error": "HTTPSConnectionPool(host='www.aniseed.cnrs.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.aniseed.cnrs.fr'. (_ssl.c:1010)\")))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "annotating-princpial-splice-isoforms-appris", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "aspicdb", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "bacdive", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "begdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "bgee", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "bioimage-informatics-index-bise", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "biomart", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "biophysical-proteome-atlas", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "biosurfdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "brenda", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "cath-gene3d", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "cellosaurus", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "channelsdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "chebi", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "chembl", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "chipsummitdb", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connection_refused", "error": "HTTPSConnectionPool(host='summit.med.unideb.hu', port=443): Max retries exceeded with url: /summitdb/ (Caused by NewConnectionError(\"HTTPSConnection(host='summit.med.unideb.hu', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "collections-and-registries-from-the-finnish-population-sisu-data-resource", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "corkoakdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "deep-data-portal", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "dgp", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "disprot", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "dmportal", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "dolbico", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "dome-registry", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "dome-ml", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "ensembl", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "enzyme", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "evolutionary-genealogy-of-genes-non-supervised-orthologous-groups-eggnog", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "evoppi", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "expression-atlas", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "faidare", "event": "state_change", "from": null, "to": "challenged", "code": 200, "reason": "challenge:anubis", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "findbase", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "fireprotdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "flybase", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "galactosemia-proteins-database", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "genomecrispr", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "genomehubs", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.southgreen.fr', port=443): Max retries exceeded with url: /genomehubs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.southgreen.fr', port=443) at 0x7f481c2968d0>, 'Connection to www.southgreen.fr timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "genomernai", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "genomicus", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "globalfungi", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "gnpis", "event": "state_change", "from": null, "to": "challenged", "code": 200, "reason": "challenge:anubis", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "go-annotation-goa", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "gwas-central", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "hamap", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "hcvivdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "hervd", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "hgnc", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "hla-ligand-atlas", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "read_timeout", "error": "HTTPSConnectionPool(host='hla-ligand-atlas.org', port=443): Read timed out. (read timeout=10)"}
+{"ts": "2026-09-17T16:07:30Z", "id": "hmtdb", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPConnectionPool(host='www.hmtdb.uniba.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.hmtdb.uniba.it', port=80) at 0x7f481c294830>, 'Connection to www.hmtdb.uniba.it timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "htp", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "human-protein-atlas-hpa", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "idsm", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "imgt", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "intermine", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "interpro", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "iptgxdbs", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "iresite", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "italian-covid-19-data-portal", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.covid19dataportal.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.covid19dataportal.it', port=443) at 0x7f481c2885c0>, 'Connection to www.covid19dataportal.it timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "itsonedb", "event": "state_change", "from": null, "to": "down", "code": 502, "reason": "http_502", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "iuphar-bps-guide-to-pharmacology", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "jaspar", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "licebase", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "macpepdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "marine-metagenomics-portal-mmp", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "tls_error", "error": "HTTPSConnectionPool(host='mmp.sfb.uit.no', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "massbank", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "matrixdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mediadive", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "meltdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mem", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "metabolic-atlas", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "metanetx", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "metaphors", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mgnify", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mhc-motif-atlas", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "micro-ctvlab", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "microbe-atlas", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mint", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPConnectionPool(host='mint.bio.uniroma2.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='mint.bio.uniroma2.it', port=80) at 0x7f481c06a840>, 'Connection to mint.bio.uniroma2.it timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "mirgenedb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mitozoa", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "mobidb", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='mobidb.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mobidb.org', port=443) at 0x7f481c2500b0>, 'Connection to mobidb.org timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "molgenis", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "molmedb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "nextstrain", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "norine", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPConnectionPool(host='bioinfo.cristal.univ-lille.fr', port=80): Max retries exceeded with url: /norine/ (Caused by ConnectTimeoutError(<HTTPConnection(host='bioinfo.cristal.univ-lille.fr', port=80) at 0x7f481c068740>, 'Connection to bioinfo.cristal.univ-lille.fr timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "ocean-gene-atlas", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='tara-oceans.mio.osupytheas.fr', port=443): Max retries exceeded with url: /ocean-gene-atlas/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tara-oceans.mio.osupytheas.fr', port=443) at 0x7f481c069cd0>, 'Connection to tara-oceans.mio.osupytheas.fr timed out. (connect "}
+{"ts": "2026-09-17T16:07:30Z", "id": "olida", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "oma", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "omics-discovery-index-omicsdi", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "omnipath", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "ompdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "opentargets-platform", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "orphadata", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "orphanet", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "orthodb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "pandrugs", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "parameciumdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "paxdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "pdbtm", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "ped", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "phi-base", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "phylomedb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "pickle", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "read_timeout", "error": "HTTPConnectionPool(host='www.pickle.gr', port=80): Read timed out. (read timeout=20)"}
+{"ts": "2026-09-17T16:07:30Z", "id": "pippa", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "plantsdb", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPConnectionPool(host='pgsb.helmholtz-muenchen.de', port=80): Max retries exceeded with url: /plant/plantsdb.jsp (Caused by ConnectTimeoutError(<HTTPConnection(host='pgsb.helmholtz-muenchen.de', port=80) at 0x7f481c251b20>, 'Connection to pgsb.helmholtz-muenchen.de timed out. (connect timeout=10)'"}
+{"ts": "2026-09-17T16:07:30Z", "id": "pmdb", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "polarprotdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "pombase", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "progenetix", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "prosite", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "reactome", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "redidb", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "rediportal", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "remap", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='remap.univ-amu.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='remap.univ-amu.fr', port=443) at 0x7f481c252d80>, 'Connection to remap.univ-amu.fr timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "repeatsdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "rexdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "rfam", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "rhea", "event": "state_change", "from": null, "to": "challenged", "code": 403, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "riboseq-org", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "rna-central", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "sabio-rk", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "salmobase", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "sars-cov-2-db", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "dns_error", "error": "HTTPSConnectionPool(host='covid19.sfb.uit.no', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='covid19.sfb.uit.no', port=443): Failed to resolve 'covid19.sfb.uit.no' ([Errno -2] Name or service not known)\"))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "sibils", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "sider", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "signor", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "silva", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "smart", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "spliceaid-f", "event": "state_change", "from": null, "to": "down", "code": 404, "reason": "http_404", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "srna-portal-workflow", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "stamps", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "dns_error", "error": "HTTPSConnectionPool(host='stamps.isas.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='stamps.isas.de', port=443): Failed to resolve 'stamps.isas.de' ([Errno -2] Name or service not known)\"))"}
+{"ts": "2026-09-17T16:07:30Z", "id": "string", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "sulfatlas", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "swicz", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "swiss-model-repository", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "swisslipids", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "swissregulon", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "tabloid-proteome", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "tflink", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "the-b6-database", "event": "state_change", "from": null, "to": "down", "code": 503, "reason": "http_503", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "tmalphafold", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "topdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "training-metrics-database", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "translational-medicine-data-catalog-tmdc", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "tstmp", "event": "state_change", "from": null, "to": "down", "code": null, "reason": "read_timeout", "error": "HTTPConnectionPool(host='tstmp.enzim.ttk.mta.hu', port=80): Read timed out. (read timeout=20)"}
+{"ts": "2026-09-17T16:07:30Z", "id": "unicatdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "unilectin", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "uniprotkb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "unitmp", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "utrdb-utrsite", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "validatordb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "valtrendsdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "veupathdb", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "viralzone", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "wataa", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "wheatis", "event": "state_change", "from": null, "to": "challenged", "code": 200, "reason": "challenge:anubis", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "wikipathways", "event": "state_change", "from": null, "to": "challenged", "code": 200, "reason": "challenge:cloudflare", "error": null}
+{"ts": "2026-09-17T16:07:30Z", "id": "yeastract", "event": "state_change", "from": null, "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:09:45Z", "id": "dgp", "event": "state_change", "from": "up", "to": "challenged", "code": 200, "reason": "challenge:browser-check", "error": null}
+{"ts": "2026-09-17T16:09:45Z", "id": "genomehubs", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T16:09:45Z", "id": "mobidb", "event": "down_reason_changed", "from": "connect_timeout", "to": "read_timeout", "code": null, "reason": "read_timeout", "error": "HTTPSConnectionPool(host='mobidb.org', port=443): Read timed out. (read timeout=10)"}
+{"ts": "2026-09-17T21:40:47Z", "id": "hla-ligand-atlas", "event": "state_change", "from": "down", "to": "up", "code": 403, "reason": "http_403", "error": null}
+{"ts": "2026-09-17T23:27:12Z", "id": "bacdive", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='bacdive.dsmz.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='bacdive.dsmz.de', port=443) at 0x7fc55512f020>, 'Connection to bacdive.dsmz.de timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "brenda", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.brenda-enzymes.org', port=443): Max retries exceeded with url: /index.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.brenda-enzymes.org', port=443) at 0x7fc5548dd880>, 'Connection to www.brenda-enzymes.org timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "corkoakdb", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='corkoakdb.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='corkoakdb.org', port=443) at 0x7fc5548dd190>, 'Connection to corkoakdb.org timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "dmportal", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='dmportal.biodata.pt', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='dmportal.biodata.pt', port=443) at 0x7fc554ab06b0>, 'Connection to dmportal.biodata.pt timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "genomehubs", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.southgreen.fr', port=443): Max retries exceeded with url: /genomehubs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.southgreen.fr', port=443) at 0x7fc5548be690>, 'Connection to www.southgreen.fr timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "genomicus", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.genomicus.bio.ens.psl.eu', port=443): Max retries exceeded with url: /genomicus-110.01/cgi-bin/search.pl (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.genomicus.bio.ens.psl.eu', port=443) at 0x7fc554a962d0>, 'Connection to www.genomicus.bio.ens.psl.eu timed "}
+{"ts": "2026-09-17T23:27:12Z", "id": "hla-ligand-atlas", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "read_timeout", "error": "HTTPSConnectionPool(host='hla-ligand-atlas.org', port=443): Read timed out. (read timeout=20)"}
+{"ts": "2026-09-17T23:27:12Z", "id": "mediadive", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='mediadive.dsmz.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mediadive.dsmz.de', port=443) at 0x7fc554ac3cb0>, 'Connection to mediadive.dsmz.de timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "mobidb", "event": "down_reason_changed", "from": "read_timeout", "to": "connect_timeout", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='mobidb.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mobidb.org', port=443) at 0x7fc5548dcfb0>, 'Connection to mobidb.org timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "silva", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='www.arb-silva.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.arb-silva.de', port=443) at 0x7fc554a8f140>, 'Connection to www.arb-silva.de timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:27:12Z", "id": "yeastract", "event": "state_change", "from": "up", "to": "down", "code": null, "reason": "connect_timeout", "error": "HTTPSConnectionPool(host='yeastract-plus.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='yeastract-plus.org', port=443) at 0x7fc554aa7cb0>, 'Connection to yeastract-plus.org timed out. (connect timeout=10)'))"}
+{"ts": "2026-09-17T23:33:07Z", "id": "bacdive", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "brenda", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "corkoakdb", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "dgp", "event": "state_change", "from": "challenged", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "dmportal", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "genomehubs", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "mediadive", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "silva", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
+{"ts": "2026-09-17T23:33:07Z", "id": "yeastract", "event": "state_change", "from": "down", "to": "up", "code": 200, "reason": "ok", "error": null}
