@@ -37,8 +37,8 @@ import urllib3
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (DEFAULT_CONFIG, INTERVAL_MINUTES, USER_AGENT, bucket_index,  # noqa: E402
-                    daily_path, empty_counts, events_path, iso, load_json, load_resources,
-                    log, state_path, utcnow, write_json)
+                    daily_path, effective_url, empty_counts, events_path, iso, load_json,
+                    load_resources, log, state_path, utcnow, write_json)
 
 MAX_BODY_BYTES = 64 * 1024
 CONNECT_TIMEOUT = 10
@@ -141,7 +141,7 @@ def fetch(url: str, verify: bool = True) -> dict:
 
 
 def check_resource(res: dict) -> dict:
-    url = res["url"]
+    url = effective_url(res)
     verify = res.get("check", {}).get("verify_tls", True)
     got = fetch(url, verify=verify)
     tls_warning = None

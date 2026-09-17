@@ -1,6 +1,7 @@
-# ECD uptime tracker: check every resource in uptime/resources.yml once an hour.
+# ECD uptime tracker: check every resource in uptime/resources.yml once an hour, for ever.
 # Code comes from main (uptime/ only); results are committed to the `uptime-data` branch,
 # squashed to one commit per UTC day, so main's history is never touched by the tracker.
+# The branch is also the GitHub Pages source, so pushing to it republishes the dashboard.
 name: uptime-check
 
 on:
@@ -48,6 +49,32 @@ jobs:
 
       - name: Summarise
         run: python repo/uptime/scripts/summarize.py --config repo/uptime/resources.yml --data _data
+
+      - name: Publish the dashboard
+        run: |
+          cp repo/uptime/dashboard/index.html _data/index.html
+          touch _data/.nojekyll   # serve paths starting with _ and skip the Jekyll build
+
+      - name: Show the status in this run's summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          s = json.load(open("_data/summary.json"))
+          t, m = s["totals"], s["monitoring"]
+          print(f"## {'🔴' if m['stale'] else '🟢'} {s['resource_count']} resources checked\n")
+          print(f"🟢 up **{t['up']}** · 🟡 challenged **{t['challenged']}** · "
+                f"🔴 down **{t['down']}** · 🔗 URL review **{t['url_review']}**\n")
+          print(f"Run {m['runs_total']} · checked every {m['interval_minutes']} min · {s['generated']}\n")
+          print("[Dashboard](https://gavinf97.github.io/ECD/) · "
+                "[STATUS.md](https://github.com/gavinf97/ECD/blob/uptime-data/STATUS.md)\n")
+          down = [r for r in s["resources"] if r["state"] == "down"]
+          if down:
+              print(f"<details><summary>{len(down)} down</summary>\n")
+              print("| Resource | Reason | Since |\n|---|---|---|")
+              for r in sorted(down, key=lambda r: r["name"].lower()):
+                  print(f"| {r['name']} | `{r['reason']}` | {r['since']} |")
+              print("\n</details>")
+          PY
 
       - name: Commit results (one commit per UTC day)
         working-directory: _data

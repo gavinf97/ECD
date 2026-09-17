@@ -1,6 +1,7 @@
 import pytest
 
 from check import classify, detect_challenge
+from common import effective_url
 
 
 @pytest.mark.parametrize("fixture,code,headers,state,reason", [
@@ -54,3 +55,11 @@ def test_ddos_guard_header_only_with_blocking_status():
 
 def test_normal_page_mentioning_robot_is_not_a_challenge(fixture_text):
     assert detect_challenge(200, {}, fixture_text("normal_page.html")) is None
+
+
+def test_effective_url_prefers_the_check_override():
+    """`url` is owned by the spreadsheet import; a hand-fixed address goes in `check.url`."""
+    listed = {"id": "x", "url": "https://old.example.org/"}
+    assert effective_url(listed) == "https://old.example.org/"
+    assert effective_url({**listed, "check": {"verify_tls": False}}) == "https://old.example.org/"
+    assert effective_url({**listed, "check": {"url": "https://new.example.org/"}}) == "https://new.example.org/"

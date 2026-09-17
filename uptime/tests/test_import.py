@@ -36,13 +36,13 @@ def test_reimport_preserves_hand_edits(tmp_path, resources):
     write_yaml(resources, out, DEFAULT_XLSX, DEFAULT_DIVISION)
     doc = yaml.safe_load(out.read_text())
     doc["resources"][0]["enabled"] = False
-    doc["resources"][0]["ecd"]["provisional_start"] = "2026-10-01"
+    doc["resources"][0]["check"] = {"url": "https://moved.example.org/"}
     out.write_text(yaml.safe_dump(doc, sort_keys=False))
 
     again = build(DEFAULT_XLSX, DEFAULT_MANUAL, DEFAULT_DIVISION, existing=out)
     first = next(r for r in again if r["id"] == doc["resources"][0]["id"])
     assert first["enabled"] is False
-    assert first["ecd"]["provisional_start"] == "2026-10-01"
+    assert first["check"] == {"url": "https://moved.example.org/"}
 
 
 def test_committed_resources_yml_is_valid():

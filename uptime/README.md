@@ -1,28 +1,80 @@
 # ECD uptime tracker
 
-This tracks the uptime of ELIXIR biodata resources for the **ELIXIR Community Database (ECD)**.
+Continuous uptime monitoring of ELIXIR biodata resources for the
+**ELIXIR Community Database (ECD)**.
 
-[ECD Process V1](https://doi.org/10.5281/zenodo.17288943) §5 sets a one-year health check after a resource gets provisional ECD status. The resource needs **99% uptime** during that year to get full ECD status (see also Appendix 3, "Uptime Failure"). This folder is the tracker that records that uptime.
+[![monitoring](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/monitoring.json)](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml)
+[![resources monitored](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/resources.json)](https://gavinf97.github.io/ECD/)
+[![responding](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/up.json)](https://gavinf97.github.io/ECD/)
+[![down](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/down.json)](https://github.com/gavinf97/ECD/blob/uptime-data/STATUS.md#needs-attention)
+[![last check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/last-check.json)](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml)
 
-**Live status:** [`STATUS.md` on the `uptime-data` branch](https://github.com/gavinf97/ECD/blob/uptime-data/STATUS.md). Machine-readable results are in [`summary.json`](https://github.com/gavinf97/ECD/blob/uptime-data/summary.json).
+## 1. Where to see the status
 
-This folder does not depend on the ECD Agent Skill in `../agent`, and the agent does not depend on it.
+| Where | What you get |
+|---|---|
+| **🖥️ [Dashboard → gavinf97.github.io/ECD](https://gavinf97.github.io/ECD/)** | Status tiles, a "needs attention" list, per-resource 30-day uptime strips, search, and filters by node and state. |
+| **📄 [STATUS.md](https://github.com/gavinf97/ECD/blob/uptime-data/STATUS.md)** | The same status as a GitHub-rendered page: what is down, which URLs need review, every resource, recent state changes. |
+| **⚙️ [Actions → uptime-check](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml)** | Every run, each with a status summary attached. This is where you confirm monitoring is alive. |
+| **🔢 [summary.json](https://github.com/gavinf97/ECD/blob/uptime-data/summary.json)** | All of it, machine-readable. |
 
-## What is monitored
+Every surface leads with whether monitoring is **ACTIVE** or **STALE**. Stale means no check
+has landed for more than 3 intervals — the usual cause is GitHub disabling the schedule after
+60 days of repository inactivity; re-enable it in the Actions tab.
 
-[`resources.yml`](resources.yml) lists **163 resources**:
+## 2. Where the results are deposited
 
-- **161** rows from the *Databases & knowledgebases* division of the ELIXIR services audit, [`sources/ELIXIR_services_enriched_2026-09-14.xlsx`](sources/). The check URL is the resolved `url` column, or the ELIXIR-listed `URL` column when that is empty.
-- **2** manual entries in [`resources_manual.yml`](resources_manual.yml): the DOME Registry and DOME-ML.
+On the **[`uptime-data`](https://github.com/gavinf97/ECD/tree/uptime-data) branch**, never on
+`main`. Hourly result commits would otherwise bury the code history. The branch is also the
+GitHub Pages source, so pushing to it republishes the dashboard.
 
-## How it works
+```
+branch uptime-data
+├── index.html      the dashboard (copied from uptime/dashboard/ by the workflow)
+├── STATUS.md       the status page
+├── summary.json    current status of every resource
+├── history.json    per-resource daily uptime, last 90 days
+├── state.json      current state per resource: since, first_seen, consecutive downs, last code
+├── events.jsonl    append-only audit trail of state changes and changes of failure reason
+├── badges/*.json   shields.io endpoints behind the badges
+└── daily/YYYY/YYYY-MM-DD.json    per resource: checks, up, challenged, down, latency histogram
+```
 
-The [`uptime-check`](../.github/workflows/uptime-check.yml) GitHub Actions workflow runs **once an hour**, at 17 minutes past (see [Check interval](#check-interval)):
+`STATUS.md`, `summary.json`, `history.json`, `badges/` and the branch's own `README.md` are all
+rewritten by [`scripts/summarize.py`](scripts/summarize.py) after every check — never edit them
+by hand. Commits are squashed to one per UTC day and force-pushed. Raw per-check rows are not
+kept, so the branch grows by about 10 MB a year.
 
-1. [`scripts/check.py`](scripts/check.py) sends a `GET` to each URL. Redirects are followed; only the first 64 KB of the body is read, with a 10 s connect and 20 s read timeout. The User-Agent is `ECD-Uptime-Monitor/0.1 (+https://github.com/gavinf97/ECD)`.
+## 3. What is monitored
+
+[`resources.yml`](resources.yml) lists **163 resources**, all enabled:
+
+- **161** rows from the *Databases & knowledgebases* division of the ELIXIR services audit,
+  [`sources/ELIXIR_services_enriched_2026-09-14.xlsx`](sources/). The check URL is the resolved
+  `url` column, or the ELIXIR-listed `URL` column when that is empty.
+- **2** manual entries in [`resources_manual.yml`](resources_manual.yml): the DOME Registry and
+  DOME-ML.
+
+Every one is checked on every run. There are no per-resource timers, periods or deadlines:
+monitoring runs indefinitely. 99% — the ECD health-check target in
+[ECD Process V1](https://doi.org/10.5281/zenodo.17288943) §5 — is reported as a reference line
+only, to sort the "below target" list.
+
+This folder does not depend on the ECD Agent Skill in `../agent`, and the agent does not depend
+on it.
+
+## 4. How it works
+
+The [`uptime-check`](../.github/workflows/uptime-check.yml) workflow runs **once an hour**, at
+17 minutes past (see [Check interval](#check-interval)):
+
+1. [`scripts/check.py`](scripts/check.py) sends a `GET` to each URL. Redirects are followed; only
+   the first 64 KB of the body is read, with a 10 s connect and 20 s read timeout. The User-Agent
+   is `ECD-Uptime-Monitor/0.1 (+https://github.com/gavinf97/ECD)`.
 2. Each failure is checked again 30 s later. A check is recorded as down only if it fails both times.
-3. [`scripts/summarize.py`](scripts/summarize.py) rebuilds `summary.json` and `STATUS.md`.
-4. The results are committed to the **`uptime-data`** branch, one commit per UTC day. The tracker never commits to `main`.
+3. [`scripts/summarize.py`](scripts/summarize.py) rebuilds every report listed in §2.
+4. The workflow copies `dashboard/index.html` to the data branch and commits, one commit per UTC
+   day. It never commits to `main`.
 
 ### Classification
 
@@ -31,53 +83,57 @@ The [`uptime-check`](../.github/workflows/uptime-check.yml) GitHub Actions workf
 | `up` | Final response is 2xx/3xx, or a 4xx other than 404/410 (e.g. 401/403/429: the server is responding but restricting access) | yes |
 | `challenged` | A bot-challenge page is served (Cloudflare "Just a moment…", Anubis, DDoS-Guard, "Checking your browser") | yes; counted separately |
 | `down` | 5xx, timeout, DNS error, connection refused/reset, redirect loop, or a TLS error a browser would also reject (expired certificate, hostname mismatch, self-signed certificate) | no |
-| `down` + `url_review` | 404/410 on the check URL. The resource has probably moved, so fix the URL | no |
+| `down` + `url_review` | 404/410 on the check URL. The resource has moved or been retired, so the URL needs fixing — see below | no |
 
-If TLS verification fails only because the certificate chain is incomplete, the resource is checked again without verification. When that works, it is recorded as `up` with a `tls_warning`, because browsers repair incomplete chains.
+If TLS verification fails only because the certificate chain is incomplete, the resource is
+checked again without verification. When that works, it is recorded as `up` with a `tls_warning`,
+because browsers repair incomplete chains.
 
 ### Metrics
 
-- **Uptime** = (up + challenged) ÷ recorded checks, over each window: today (UTC), 7, 30, 90 and 365 days.
-- **Coverage** = recorded checks ÷ expected checks (one per interval since the resource was first seen). GitHub sometimes skips or delays scheduled runs. Missed runs lower coverage and are **never** counted as up. Each daily file records the interval in force that day, so changing the schedule does not distort earlier coverage.
-- **Latency**: p50/p95 over 30 days, from a histogram with buckets at ≤250, 500, 1k, 2k, 5k and 10k ms and >10k. Only successful checks are included.
-- **ECD verdict**: only shown for resources with `ecd.provisional_start` set.
-  - During the period: `ON TRACK` or `AT RISK` (below target).
-  - After the period: `PASS`, `FAIL`, or `INSUFFICIENT DATA` when coverage is under 90%.
+- **Uptime** = (up + challenged) ÷ recorded checks, over each window: today (UTC), 7, 30, 90 and
+  365 days.
+- **Coverage** = recorded checks ÷ expected checks (one per interval since the resource was first
+  seen). GitHub sometimes skips or delays scheduled runs. Missed runs lower coverage and are
+  **never** counted as up. Each daily file records the interval in force that day, so changing the
+  schedule does not distort earlier coverage.
+- **Latency**: p50/p95 over 30 days, from a histogram with buckets at ≤250, 500, 1k, 2k, 5k and
+  10k ms and >10k. Only successful checks are included.
 
 ### Check interval
 
-The interval is **1 hour**: `cron: "17 * * * *"` in the workflow, and `INTERVAL_MINUTES` in [`scripts/common.py`](scripts/common.py). **Change both together**, or coverage will be measured against a cadence that is not being delivered.
+The interval is **1 hour**: `cron: "17 * * * *"` in the workflow, and `INTERVAL_MINUTES` in
+[`scripts/common.py`](scripts/common.py). **Change both together**, or coverage will be measured
+against a cadence that is not being delivered.
 
-It is hourly because GitHub's scheduler would not deliver a 5-minute cadence for this repository. When it was set up on 2026-09-17, the first scheduled run appeared 5.5 hours after the repository was created, and only one scheduled run arrived in the hour that followed, though manual runs worked throughout. GitHub [documents](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) that scheduled workflows can be delayed under load, and 5-minute schedules on free public repositories are throttled heavily in practice.
+It is hourly because GitHub's scheduler would not deliver a 5-minute cadence for this repository.
+When it was set up on 2026-09-17, the first scheduled run appeared 5.5 hours after the repository
+was created, and only one scheduled run arrived in the hour that followed, though manual runs
+worked throughout. GitHub
+[documents](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)
+that scheduled workflows can be delayed under load, and 5-minute schedules on free public
+repositories are throttled heavily in practice.
 
-What this costs: downtime is detected to the nearest hour, and a year gives about 8,760 samples per resource. That is enough to judge the ECD 99% target, but a resource that is down for 20 minutes may be missed entirely. If 5-minute resolution is needed later, the options are to trigger runs from outside GitHub's scheduler (a cron service or timer calling `gh workflow run uptime-check.yml`, which needs a token), or to use a commercial monitor such as updown.io, as the ECD Process suggests.
+What this costs: downtime is detected to the nearest hour, and a year gives about 8,760 samples
+per resource. A resource that is down for 20 minutes may be missed entirely. If 5-minute
+resolution is needed later, the options are to trigger runs from outside GitHub's scheduler (a
+cron service or timer calling `gh workflow run uptime-check.yml`, which needs a token), or to use
+a commercial monitor such as updown.io, as the ECD Process suggests.
 
-### Data layout (`uptime-data` branch)
+## 5. Common tasks
 
-```
-daily/YYYY/YYYY-MM-DD.json   per resource: checks, up, challenged, down, latency histogram
-state.json                   current state, since, first_seen, consecutive downs, last code/error
-events.jsonl                 state changes, and changes of failure reason while down (audit trail)
-summary.json  STATUS.md      derived; rebuilt every run
-```
-
-Raw per-check rows are not kept, so the branch grows by about 10 MB a year.
-
-## Common tasks
-
-**Start an ECD health check for a resource.** In `resources.yml`, set
+**Fix a resource flagged "check URL needs review".** It returns 404/410, so it has moved or been
+retired. `url` is owned by the spreadsheet import and would be overwritten, so put the corrected
+address in `check.url`, which survives re-import:
 ```yaml
-  ecd:
-    provisional_start: 2026-10-01   # date provisional ECD status was granted
-    period_days: 365
-    target: 0.99
+  check:
+    url: https://the-new-address.example.org/
 ```
+If the resource is genuinely gone, set `enabled: false` instead. Its history is kept either way.
 
 **Add a resource that is not in the spreadsheet.** Add it to `resources_manual.yml`, then re-import.
 
-**Disable a resource.** Set `enabled: false`. Its history is kept.
-
-**Re-import after the spreadsheet changes.** Your edits to `enabled`, `ecd` and `check` are kept:
+**Re-import after the spreadsheet changes.** Your edits to `enabled` and `check` are kept:
 ```bash
 pip install -r uptime/requirements.txt -r uptime/requirements-dev.txt
 python uptime/scripts/import_resources.py              # rewrites uptime/resources.yml
@@ -91,10 +147,22 @@ python uptime/scripts/check.py --data /tmp/ecd-data && python uptime/scripts/sum
 python -m pytest uptime/tests
 ```
 
-## Limitations
+**Preview the dashboard locally** (it reads `summary.json` and `history.json` beside itself):
+```bash
+cp uptime/dashboard/index.html /tmp/ecd-data/ && python -m http.server -d /tmp/ecd-data 8000
+```
 
-- **One vantage point.** Checks run from GitHub-hosted runners, mostly in US Azure regions. A resource that blocks those IP ranges, or is unreachable only from there, will look down. Commercial monitors such as updown.io confirm from several locations. Before acting on a `FAIL`, check the `events.jsonl` entries for it.
+## 6. Limitations
+
+- **One vantage point.** Checks run from GitHub-hosted runners, mostly in US Azure regions. A
+  resource that blocks those IP ranges, or is unreachable only from there, will look down.
+  Commercial monitors such as updown.io confirm from several locations. Before acting on a
+  sustained outage, check the `events.jsonl` entries for it.
 - **Homepage only.** The tracker checks one URL per resource. It does not test APIs or search.
-- **Challenge pages** show that the server is responding, but not that the content behind the challenge works.
-- **Hourly sampling.** Outages shorter than an hour can be missed entirely; see [Check interval](#check-interval).
-- **Inactivity.** GitHub may disable scheduled workflows in a repository with no activity for 60 days. If `STATUS.md` stops updating, re-enable the workflow in the Actions tab.
+- **Challenge pages** show that the server is responding, but not that the content behind the
+  challenge works.
+- **Hourly sampling.** Outages shorter than an hour can be missed entirely; see
+  [Check interval](#check-interval).
+- **Inactivity.** GitHub may disable scheduled workflows in a repository with no activity for 60
+  days. Every report says so when it happens: monitoring is reported as **STALE** and the
+  dashboard shows a banner.

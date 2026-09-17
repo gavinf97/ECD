@@ -77,6 +77,16 @@ def write_json(path: Path, data: Any, indent: int | None = 1) -> None:
     os.replace(tmp, path)
 
 
+def effective_url(res: dict) -> str:
+    """The URL actually checked: check.url overrides url.
+
+    The spreadsheet import owns `url`, so a hand-fixed URL would be lost on the next
+    re-import. `check` is preserved across imports, so a corrected URL goes in
+    `check.url` (see "URL review" in uptime/README.md).
+    """
+    return (res.get("check") or {}).get("url") or res["url"]
+
+
 def load_resources(config: Path, enabled_only: bool = True) -> list[dict]:
     with open(config, encoding="utf-8") as fh:
         doc = yaml.safe_load(fh) or {}
