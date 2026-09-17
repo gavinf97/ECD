@@ -163,7 +163,9 @@ def test_url_review_is_called_out_separately_from_down(tmp_path):
     assert summary["totals"]["down"] == 1 and summary["totals"]["url_review"] == 1
 
     md = render_status(summary, [])
-    assert "### 🔗 Check URL needs review (1)" in md
+    # the heading carries no count, so the README's anchor link stays valid
+    assert "### 🔗 Check URL needs review\n" in md
+    assert "**1** return 404/410" in md
     assert "`check.url`" in md  # tells the reader how to fix it
 
 

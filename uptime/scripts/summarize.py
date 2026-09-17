@@ -297,9 +297,10 @@ def render_status(summary: dict, events: list[dict]) -> str:
     ]
 
     down = sorted((r for r in rows if r["state"] == "down"), key=lambda r: r["since"] or "")
-    out += ["## Needs attention", "", f"### 🔴 Currently down ({len(down)})", ""]
+    out += ["## Needs attention", "", "### 🔴 Currently down", ""]
     if down:
-        out += ["| Resource | Node | Since (UTC) | Reason | 30d uptime |", "|---|---|---|---|---|"]
+        out += [f"**{len(down)}** of {summary['resource_count']} resources are not responding.", "",
+                "| Resource | Node | Since (UTC) | Reason | 30d uptime |", "|---|---|---|---|---|"]
         out += [f"| {link(r)} | {cell(r['node'])} | {cell(r['since'])} | `{cell(r['reason'])}`"
                 f"{' 🔗' if r['url_review'] else ''} | {pct(r['windows']['30d']['uptime'])} |"
                 for r in down]
@@ -309,9 +310,10 @@ def render_status(summary: dict, events: list[dict]) -> str:
     out.append("")
 
     review = [r for r in rows if r["url_review"]]
-    out += [f"### 🔗 Check URL needs review ({len(review)})", ""]
+    out += ["### 🔗 Check URL needs review", ""]
     if review:
-        out += ["These return 404/410, so the resource has moved or been retired. They are counted as "
+        out += [f"**{len(review)}** return 404/410, so the resource has moved or been retired. "
+                "They are counted as "
                 "down until the URL is corrected: set `check.url` for the resource in "
                 f"[uptime/resources.yml]({REPO_URL}/blob/main/uptime/resources.yml), or "
                 "`enabled: false` if it is genuinely gone.", "",
@@ -325,9 +327,10 @@ def render_status(summary: dict, events: list[dict]) -> str:
     below = sorted((r for r in rows if r["windows"]["30d"]["uptime"] is not None
                     and r["windows"]["30d"]["uptime"] < summary["target"]),
                    key=lambda r: r["windows"]["30d"]["uptime"])
-    out += [f"### 📉 Below {pct(summary['target'])} over the last 30 days ({len(below)})", ""]
+    out += [f"### 📉 Below {pct(summary['target'])} over the last 30 days", ""]
     if below:
-        out += ["| Resource | Node | 30d uptime | 30d coverage | Down checks |", "|---|---|---|---|---|"]
+        out += [f"**{len(below)}** resources, worst first.", "",
+                "| Resource | Node | 30d uptime | 30d coverage | Down checks |", "|---|---|---|---|---|"]
         out += [f"| {link(r)} | {cell(r['node'])} | {pct(r['windows']['30d']['uptime'])} | "
                 f"{pct(r['windows']['30d']['coverage'])} | {r['windows']['30d']['down']} |" for r in below]
     else:
