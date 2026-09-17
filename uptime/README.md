@@ -17,7 +17,7 @@ This folder does not depend on the ECD Agent Skill in `../agent`, and the agent 
 
 ## How it works
 
-The [`uptime-check`](../.github/workflows/uptime-check.yml) GitHub Actions workflow runs every 5 minutes:
+The [`uptime-check`](../.github/workflows/uptime-check.yml) GitHub Actions workflow runs **once an hour**, at 17 minutes past (see [Check interval](#check-interval)):
 
 1. [`scripts/check.py`](scripts/check.py) sends a `GET` to each URL. Redirects are followed; only the first 64 KB of the body is read, with a 10 s connect and 20 s read timeout. The User-Agent is `ECD-Uptime-Monitor/0.1 (+https://github.com/gavinf97/ECD)`.
 2. Each failure is checked again 30 s later. A check is recorded as down only if it fails both times.
@@ -38,11 +38,19 @@ If TLS verification fails only because the certificate chain is incomplete, the 
 ### Metrics
 
 - **Uptime** = (up + challenged) ÷ recorded checks, over each window: today (UTC), 7, 30, 90 and 365 days.
-- **Coverage** = recorded checks ÷ expected checks (one every 5 min since the resource was first seen). GitHub sometimes skips or delays scheduled runs. Missed runs lower coverage and are **never** counted as up.
+- **Coverage** = recorded checks ÷ expected checks (one per interval since the resource was first seen). GitHub sometimes skips or delays scheduled runs. Missed runs lower coverage and are **never** counted as up. Each daily file records the interval in force that day, so changing the schedule does not distort earlier coverage.
 - **Latency**: p50/p95 over 30 days, from a histogram with buckets at ≤250, 500, 1k, 2k, 5k and 10k ms and >10k. Only successful checks are included.
 - **ECD verdict**: only shown for resources with `ecd.provisional_start` set.
   - During the period: `ON TRACK` or `AT RISK` (below target).
   - After the period: `PASS`, `FAIL`, or `INSUFFICIENT DATA` when coverage is under 90%.
+
+### Check interval
+
+The interval is **1 hour**: `cron: "17 * * * *"` in the workflow, and `INTERVAL_MINUTES` in [`scripts/common.py`](scripts/common.py). **Change both together**, or coverage will be measured against a cadence that is not being delivered.
+
+It is hourly because GitHub's scheduler would not deliver a 5-minute cadence for this repository. When it was set up on 2026-09-17, the first scheduled run appeared 5.5 hours after the repository was created, and only one scheduled run arrived in the hour that followed, though manual runs worked throughout. GitHub [documents](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) that scheduled workflows can be delayed under load, and 5-minute schedules on free public repositories are throttled heavily in practice.
+
+What this costs: downtime is detected to the nearest hour, and a year gives about 8,760 samples per resource. That is enough to judge the ECD 99% target, but a resource that is down for 20 minutes may be missed entirely. If 5-minute resolution is needed later, the options are to trigger runs from outside GitHub's scheduler (a cron service or timer calling `gh workflow run uptime-check.yml`, which needs a token), or to use a commercial monitor such as updown.io, as the ECD Process suggests.
 
 ### Data layout (`uptime-data` branch)
 
@@ -88,4 +96,5 @@ python -m pytest uptime/tests
 - **One vantage point.** Checks run from GitHub-hosted runners, mostly in US Azure regions. A resource that blocks those IP ranges, or is unreachable only from there, will look down. Commercial monitors such as updown.io confirm from several locations. Before acting on a `FAIL`, check the `events.jsonl` entries for it.
 - **Homepage only.** The tracker checks one URL per resource. It does not test APIs or search.
 - **Challenge pages** show that the server is responding, but not that the content behind the challenge works.
+- **Hourly sampling.** Outages shorter than an hour can be missed entirely; see [Check interval](#check-interval).
 - **Inactivity.** GitHub may disable scheduled workflows in a repository with no activity for 60 days. If `STATUS.md` stops updating, re-enable the workflow in the Actions tab.

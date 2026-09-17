@@ -1,11 +1,12 @@
-# ECD uptime tracker: check every resource in uptime/resources.yml every 5 minutes.
+# ECD uptime tracker: check every resource in uptime/resources.yml once an hour.
 # Code comes from main (uptime/ only); results are committed to the `uptime-data` branch,
 # squashed to one commit per UTC day, so main's history is never touched by the tracker.
 name: uptime-check
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 min (GitHub may delay or skip runs under load; coverage tracks this)
+    - cron: "17 * * * *"   # hourly, off the top of the hour. GitHub did not deliver a */5 cadence
+                           # for this repo (1 run/hour); uptime/README.md "Check interval" explains.
   workflow_dispatch:
 
 permissions:

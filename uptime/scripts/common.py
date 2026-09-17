@@ -28,7 +28,10 @@ UPTIME_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = UPTIME_ROOT / "resources.yml"
 
 USER_AGENT = "ECD-Uptime-Monitor/0.1 (+https://github.com/gavinf97/ECD)"
-INTERVAL_MINUTES = 5
+# Expected gap between checks. It must match the cron in .github/workflows/uptime-check.yml:
+# coverage is measured against it. Each daily file records the interval in force that day,
+# so changing it later does not distort past coverage.
+INTERVAL_MINUTES = 60
 
 # Upper bounds (ms) of the latency histogram buckets; one extra overflow bucket.
 LATENCY_BUCKETS_MS = [250, 500, 1000, 2000, 5000, 10000]

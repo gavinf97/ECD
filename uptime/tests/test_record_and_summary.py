@@ -1,5 +1,8 @@
 from datetime import datetime, timedelta, timezone
 
+import pytest
+
+import check
 from check import record
 from common import daily_path, events_path, load_json, state_path
 from summarize import build_summary, expected_checks, render_status
@@ -11,6 +14,13 @@ RESOURCES = [
     {"id": "beta", "name": "Beta DB", "url": "https://beta.example.org", "node": "ELIXIR UK",
      "ecd": {"provisional_start": None}},
 ]
+
+
+@pytest.fixture(autouse=True)
+def five_minute_interval(monkeypatch):
+    """These tests synthesise a check every 5 minutes; record() stamps each daily file
+    with the interval in force, and the summary measures coverage against that."""
+    monkeypatch.setattr(check, "INTERVAL_MINUTES", 5)
 
 
 def result(rid, state, code=200, latency=300, reason=None):
@@ -52,10 +62,11 @@ def test_record_counts_state_and_events(tmp_path):
 
 def test_expected_checks_respects_first_seen_and_now():
     day = T0.date()
-    assert expected_checks(day, T0 + timedelta(days=2), None) == 288
-    assert expected_checks(day, T0 + timedelta(hours=1), None) == 12
-    assert expected_checks(day, T0 + timedelta(days=2), T0 + timedelta(hours=12)) == 144
-    assert expected_checks(day, T0, None) == 0
+    assert expected_checks(day, T0 + timedelta(days=2), None, 5) == 288
+    assert expected_checks(day, T0 + timedelta(hours=1), None, 5) == 12
+    assert expected_checks(day, T0 + timedelta(days=2), T0 + timedelta(hours=12), 5) == 144
+    assert expected_checks(day, T0, None, 5) == 0
+    assert expected_checks(day, T0 + timedelta(days=2), None, 60) == 24
 
 
 def test_summary_uptime_coverage_and_ecd(tmp_path):

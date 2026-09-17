@@ -53,11 +53,14 @@ def expected_checks(day: date, now: datetime, first_seen: datetime | None,
 
 
 def aggregate(days: dict[date, dict], rid: str, start: date, end: date, now: datetime,
-              first_seen: datetime | None) -> dict:
+              first_seen: datetime | None, interval: int = INTERVAL_MINUTES) -> dict:
     agg = {"checks": 0, "up": 0, "challenged": 0, "down": 0, "latency_sum_ms": 0,
            "latency_hist": [0] * N_BUCKETS, "expected": 0}
     for d in daterange(start, end):
-        agg["expected"] += expected_checks(d, now, first_seen)
+        # Measure each day against the interval in force that day, so a change of schedule
+        # does not distort the coverage recorded for earlier days.
+        agg["expected"] += expected_checks(d, now, first_seen,
+                                           days.get(d, {}).get("interval_minutes", interval))
         counts = days.get(d, {}).get("resources", {}).get(rid)
         if not counts:
             continue
