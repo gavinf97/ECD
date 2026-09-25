@@ -37,7 +37,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (DEFAULT_CONFIG, INTERVAL_MINUTES, N_BUCKETS, daily_path, daterange,  # noqa: E402
                     effective_url, events_path, hist_percentile, iso, load_json, load_resources,
-                    log, parse_iso, state_path, utcnow, write_json)
+                    log, parse_iso, runs_within, state_path, utcnow, write_json)
 
 WINDOWS = [("today", 1), ("7d", 7), ("30d", 30), ("90d", 90), ("365d", 365)]
 HISTORY_DAYS = 90
@@ -107,10 +107,13 @@ def monitoring_health(state: dict, now: datetime) -> dict:
     if last_run:
         since_min = round((now - parse_iso(last_run)).total_seconds() / 60)
     stale = since_min is None or since_min > INTERVAL_MINUTES * STALE_AFTER_INTERVALS
+    recent_runs = state.get("recent_runs", [])
     return {
         "last_run": last_run,
         "minutes_since_last_run": since_min,
         "runs_total": state.get("runs_total", 0),
+        "runs_last_24h": runs_within(recent_runs, now, 24),
+        "recent_runs": recent_runs,
         "interval_minutes": INTERVAL_MINUTES,
         "stale": stale,
         "status": "STALE" if stale else "ACTIVE",
@@ -219,6 +222,9 @@ def build_badges(summary: dict) -> dict[str, dict]:
                             "brightgreen" if not t["url_review"] else "orange"),
         "last-check": badge("last check", (m["last_run"] or "never").replace("T", " ").replace("Z", " UTC"),
                             "brightgreen" if not m["stale"] else "red"),
+        "runs-24h": badge("runs in last 24h", str(m["runs_last_24h"]),
+                          "brightgreen" if m["runs_last_24h"] >= 20
+                          else "yellow" if m["runs_last_24h"] >= 10 else "red"),
     }
 
 
@@ -270,6 +276,7 @@ def render_status(summary: dict, events: list[dict]) -> str:
         f"| | |", "|---|---|",
         f"| **Resources monitored** | {summary['resource_count']} — every one, every {every}, continuously |",
         f"| **Last check** | {m['last_run'] or '—'} ({ago(m['minutes_since_last_run'])}) |",
+        f"| **Runs in the last 24 h** | {m['runs_last_24h']} (target ≥ 24; GitHub drops some scheduled runs) |",
         f"| **Checks recorded** | {m['runs_total']} runs since monitoring began |",
         f"| **Runs on** | [GitHub Actions → uptime-check]({ACTIONS_URL}) |",
         f"| **Visual dashboard** | {DASHBOARD_URL} |",

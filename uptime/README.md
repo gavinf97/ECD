@@ -65,8 +65,8 @@ on it.
 
 ## 4. How it works
 
-The [`uptime-check`](../.github/workflows/uptime-check.yml) workflow runs **once an hour**, at
-17 minutes past (see [Check interval](#check-interval)):
+The [`uptime-check`](../.github/workflows/uptime-check.yml) workflow targets **once an hour**,
+with four crons an hour to make up for runs that GitHub drops (see [Check interval](#check-interval)):
 
 1. [`scripts/check.py`](scripts/check.py) sends a `GET` to each URL. Redirects are followed; only
    the first 64 KB of the body is read, with a 10 s connect and 20 s read timeout. The User-Agent
@@ -102,9 +102,21 @@ because browsers repair incomplete chains.
 
 ### Check interval
 
-The interval is **1 hour**: `cron: "17 * * * *"` in the workflow, and `INTERVAL_MINUTES` in
-[`scripts/common.py`](scripts/common.py). **Change both together**, or coverage will be measured
-against a cadence that is not being delivered.
+The target interval is **1 hour** (`INTERVAL_MINUTES` in [`scripts/common.py`](scripts/common.py)).
+The workflow schedules **four** crons an hour, at :03, :17, :33 and :49, because GitHub's
+scheduler is best-effort.
+
+From 2026-09-18 to 2026-09-24, the single hourly cron `17 * * * *` delivered only **5–7 runs a
+day**, with gaps of 2.5–6 hours. Every run succeeded and the repository is public, so this was
+scheduler throttling, not a cost or minutes limit. With four ticks an hour, hourly coverage
+survives even if about 75% of them are dropped.
+
+Extra runs do no harm. Coverage is capped at 100%, a run takes about a minute, and the
+concurrency group stops runs from overlapping.
+
+Every surface now shows **runs in the last 24 h**, so under-delivery is visible. The dashboard
+also works out staleness against the viewer's clock, so it shows **STALE** even though no run
+has happened to report it. If runs stay below about 18 a day for a week, use the escalation below.
 
 It is hourly because GitHub's scheduler would not deliver a 5-minute cadence for this repository.
 When it was set up on 2026-09-17, the first scheduled run appeared 5.5 hours after the repository
@@ -115,10 +127,19 @@ that scheduled workflows can be delayed under load, and 5-minute schedules on fr
 repositories are throttled heavily in practice.
 
 What this costs: downtime is detected to the nearest hour, and a year gives about 8,760 samples
-per resource. A resource that is down for 20 minutes may be missed entirely. If 5-minute
-resolution is needed later, the options are to trigger runs from outside GitHub's scheduler (a
-cron service or timer calling `gh workflow run uptime-check.yml`, which needs a token), or to use
-a commercial monitor such as updown.io, as the ECD Process suggests.
+per resource. A resource that is down for 20 minutes may be missed entirely.
+
+**Escalation**, for when runs stay irregular or finer resolution is needed: trigger runs from
+outside GitHub's scheduler.
+
+1. Create a fine-grained token scoped to this repository only, with *Actions: read and write*.
+2. Register a free external cron job, for example on cron-job.org, to run
+   `POST https://api.github.com/repos/gavinf97/ECD/actions/workflows/uptime-check.yml/dispatches`
+   with the body `{"ref":"main"}`.
+3. Set a reminder for when the token expires.
+
+For multi-location checks, use a commercial monitor such as updown.io, as the ECD Process
+suggests.
 
 ## 5. Common tasks
 

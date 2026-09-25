@@ -186,3 +186,19 @@ def test_branch_readme_points_at_the_status_surfaces(tmp_path):
     readme = render_branch_readme(build_summary(RESOURCES, tmp_path, T0 + timedelta(minutes=5)))
     assert "STATUS.md" in readme and "gavinf97.github.io/ECD" in readme
     assert "Do not commit here by hand" in readme
+
+
+def test_recent_runs_are_kept_for_48h_and_counted_over_24h(tmp_path):
+    for h in range(0, 72, 2):   # a run every 2 hours for 3 days
+        run(tmp_path, T0 + timedelta(hours=h))
+    now = T0 + timedelta(hours=70, minutes=5)
+
+    state = load_json(state_path(tmp_path))
+    assert state["runs_total"] == 36
+    assert len(state["recent_runs"]) == 24          # only the last 48 h are kept
+    assert state["recent_runs"][-1] == "2026-09-12T22:00:00Z"
+
+    m = build_summary(RESOURCES, tmp_path, now)["monitoring"]
+    assert m["runs_last_24h"] == 12
+    assert build_badges(build_summary(RESOURCES, tmp_path, now))["runs-24h"]["color"] == "yellow"
+    assert "| **Runs in the last 24 h** | 12" in render_status(build_summary(RESOURCES, tmp_path, now), [])

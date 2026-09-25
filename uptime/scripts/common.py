@@ -28,10 +28,14 @@ UPTIME_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = UPTIME_ROOT / "resources.yml"
 
 USER_AGENT = "ECD-Uptime-Monitor/0.1 (+https://github.com/gavinf97/ECD)"
-# Expected gap between checks. It must match the cron in .github/workflows/uptime-check.yml:
-# coverage is measured against it. Each daily file records the interval in force that day,
-# so changing it later does not distort past coverage.
+# Target gap between checks; coverage is measured against it. The workflow schedules several
+# crons per hour because GitHub drops most scheduled ticks, so more than one run per interval
+# is normal and harmless: coverage is capped at 100%. Each daily file records the interval in
+# force that day, so changing it later does not distort past coverage.
 INTERVAL_MINUTES = 60
+# state.json keeps the timestamps of recent runs so every surface can show runs in the last 24 h.
+RECENT_RUNS_HOURS = 48
+RECENT_RUNS_MAX = 200
 
 # Upper bounds (ms) of the latency histogram buckets; one extra overflow bucket.
 LATENCY_BUCKETS_MS = [250, 500, 1000, 2000, 5000, 10000]
@@ -112,6 +116,11 @@ def state_path(data_dir: Path) -> Path:
 
 def events_path(data_dir: Path) -> Path:
     return data_dir / "events.jsonl"
+
+
+def runs_within(recent_runs: list[str], now: datetime, hours: float) -> int:
+    cutoff = now - timedelta(hours=hours)
+    return sum(1 for ts in recent_runs if parse_iso(ts) > cutoff)
 
 
 def empty_counts() -> dict:

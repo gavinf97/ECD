@@ -29,16 +29,17 @@ import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
 import urllib3
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (DEFAULT_CONFIG, INTERVAL_MINUTES, USER_AGENT, bucket_index,  # noqa: E402
-                    daily_path, effective_url, empty_counts, events_path, iso, load_json,
-                    load_resources, log, state_path, utcnow, write_json)
+from common import (DEFAULT_CONFIG, INTERVAL_MINUTES, RECENT_RUNS_HOURS,  # noqa: E402
+                    RECENT_RUNS_MAX, USER_AGENT, bucket_index, daily_path, effective_url,
+                    empty_counts, events_path, iso, load_json, load_resources, log, parse_iso,
+                    state_path, utcnow, write_json)
 
 MAX_BODY_BYTES = 64 * 1024
 CONNECT_TIMEOUT = 10
@@ -193,6 +194,9 @@ def record(data_dir: Path, results: dict[str, dict], now: datetime) -> dict:
     state = load_json(state_path(data_dir)) or {"updated": None, "runs_total": 0, "resources": {}}
     state["updated"] = iso(now)
     state["runs_total"] += 1
+    cutoff = now - timedelta(hours=RECENT_RUNS_HOURS)
+    recent = [ts for ts in state.get("recent_runs", []) if parse_iso(ts) > cutoff]
+    state["recent_runs"] = (recent + [iso(now)])[-RECENT_RUNS_MAX:]
     events = []
 
     for rid, res in results.items():
