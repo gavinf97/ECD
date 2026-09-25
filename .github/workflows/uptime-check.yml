@@ -1,15 +1,16 @@
-# ECD uptime tracker: check every resource in uptime/resources.yml once an hour, for ever.
+# ECD uptime tracker: check every resource in uptime/resources.yml every 20 minutes, for ever.
 # Code comes from main (uptime/ only); results are committed to the `uptime-data` branch,
 # squashed to one commit per UTC day, so main's history is never touched by the tracker.
 # The branch is also the GitHub Pages source, so pushing to it republishes the dashboard.
 name: uptime-check
 
 on:
+  # Primary trigger: an external cron (cron-job.org) calls workflow_dispatch at :10/:30/:50,
+  # because GitHub's own scheduler drops most ticks (a single "17 * * * *" delivered only 5-7
+  # runs a day here; uptime/README.md "Check interval"). These crons are a best-effort backup if
+  # that trigger stops. Worst case is 3 + 4 = 7 runs an hour, under the GitHub Pages soft limit
+  # of 10 builds an hour.
   schedule:
-    # Four crons for an hourly target. GitHub's scheduler is best-effort and drops most ticks:
-    # a single "17 * * * *" delivered only 5-7 runs a day here. Extra ticks keep coverage near
-    # hourly; extra runs are harmless (coverage is capped at 100%) and free on a public repo.
-    # uptime/README.md "Check interval" explains.
     - cron: "3 * * * *"
     - cron: "17 * * * *"
     - cron: "33 * * * *"

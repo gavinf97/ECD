@@ -16,7 +16,7 @@ Tooling for the **ELIXIR Community Database (ECD)**, following the
 [![last check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/gavinf97/ECD/uptime-data/badges/last-check.json)](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml)
 [![uptime-check](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml/badge.svg)](https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml)
 
-**163 ELIXIR data resources are checked every hour, continuously and indefinitely.**
+**163 ELIXIR data resources are checked every 20 minutes, continuously and indefinitely.**
 The badges above are live — they are rebuilt by every check, so if they are stale, monitoring
 has stopped.
 
@@ -32,7 +32,7 @@ has stopped.
 ### Where the results are deposited
 
 All results live on the **[`uptime-data`](https://github.com/gavinf97/ECD/tree/uptime-data)
-branch** — never on `main`. The checks commit once an hour, and keeping them off `main` stops
+branch** — never on `main`. The checks commit every 20 minutes, and keeping them off `main` stops
 that traffic from burying the code history. The branch is also the GitHub Pages source, so each
 push republishes the dashboard.
 
@@ -66,7 +66,7 @@ neither imports from the other.
 
 | Folder | Component | What it does |
 |---|---|---|
-| [`uptime/`](uptime/) | **ECD uptime tracker** | Checks 163 ELIXIR data resources every hour with GitHub Actions and publishes their uptime. **[Dashboard →](https://gavinf97.github.io/ECD/)** |
+| [`uptime/`](uptime/) | **ECD uptime tracker** | Checks 163 ELIXIR data resources every 20 minutes with GitHub Actions and publishes their uptime. **[Dashboard →](https://gavinf97.github.io/ECD/)** |
 | [`agent/`](agent/) | **ECD Agent Skill** | A Claude Agent Skill that takes a resource's name and URL, pre-fills the ECD Checklist with evidence, and renders it as JSON, Markdown, DOCX, PDF and HTML. |
 
 ## Repository layout
@@ -78,7 +78,7 @@ uptime/                    uptime tracker
   scripts/                 check.py (runs the checks), summarize.py (builds every report)
   dashboard/index.html     the dashboard, published to the uptime-data branch each run
 .github/workflows/
-  uptime-check.yml         hourly checks; commits results to uptime-data
+  uptime-check.yml         checks every 20 min; commits results to uptime-data
   uptime-tests.yml         uptime/ tests, run on changes to uptime/**
 branch uptime-data         all results (see above). Never merged into main.
 ```

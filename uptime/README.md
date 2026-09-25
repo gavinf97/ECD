@@ -65,8 +65,9 @@ on it.
 
 ## 4. How it works
 
-The [`uptime-check`](../.github/workflows/uptime-check.yml) workflow targets **once an hour**,
-with four crons an hour to make up for runs that GitHub drops (see [Check interval](#check-interval)):
+The [`uptime-check`](../.github/workflows/uptime-check.yml) workflow runs **every 20 minutes**.
+An external trigger drives it, and four GitHub crons an hour act as a backup (see
+[Check interval](#check-interval)):
 
 1. [`scripts/check.py`](scripts/check.py) sends a `GET` to each URL. Redirects are followed; only
    the first 64 KB of the body is read, with a 10 s connect and 20 s read timeout. The User-Agent
@@ -102,41 +103,52 @@ because browsers repair incomplete chains.
 
 ### Check interval
 
-The target interval is **1 hour** (`INTERVAL_MINUTES` in [`scripts/common.py`](scripts/common.py)).
-The workflow schedules **four** crons an hour, at :03, :17, :33 and :49, because GitHub's
-scheduler is best-effort.
+The target interval is **20 minutes** (`INTERVAL_MINUTES` in [`scripts/common.py`](scripts/common.py)).
 
-From 2026-09-18 to 2026-09-24, the single hourly cron `17 * * * *` delivered only **5–7 runs a
-day**, with gaps of 2.5–6 hours. Every run succeeded and the repository is public, so this was
-scheduler throttling, not a cost or minutes limit. With four ticks an hour, hourly coverage
-survives even if about 75% of them are dropped.
+GitHub's own scheduler can't deliver that. From 2026-09-18 to 2026-09-24, the single hourly cron
+`17 * * * *` delivered only **5–7 runs a day**, with gaps of 2.5–6 hours. Every run succeeded
+and the repository is public, so this was scheduler throttling, not a cost or minutes limit.
+GitHub [documents](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)
+that scheduled runs can be delayed or dropped under load. So runs are triggered in two ways:
+
+- **Primary:** a free [cron-job.org](https://cron-job.org) job calls the `workflow_dispatch` API
+  at :10, :30 and :50. Dispatch events run straight away and are not throttled.
+- **Backup:** four GitHub crons an hour (:03, :17, :33, :49), best-effort. They keep monitoring
+  going if the external trigger stops. For example, when its token expires.
 
 Extra runs do no harm. Coverage is capped at 100%, a run takes about a minute, and the
-concurrency group stops runs from overlapping.
+concurrency group stops runs from overlapping. The worst case of 7 runs an hour stays under the
+GitHub Pages limit of 10 builds an hour.
 
-Every surface now shows **runs in the last 24 h**, so under-delivery is visible. The dashboard
-also works out staleness against the viewer's clock, so it shows **STALE** even though no run
-has happened to report it. If runs stay below about 18 a day for a week, use the escalation below.
+Every surface shows **runs in the last 24 h** against the target of 72. It shows green at 75%
+of the target or more, amber at 33% or more, and red below that. **STALE** means no run for
+3 hours, measured against the viewer's clock, so a stopped tracker shows STALE even though no
+run has happened to report it.
 
-It is hourly because GitHub's scheduler would not deliver a 5-minute cadence for this repository.
-When it was set up on 2026-09-17, the first scheduled run appeared 5.5 hours after the repository
-was created, and only one scheduled run arrived in the hour that followed, though manual runs
-worked throughout. GitHub
-[documents](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)
-that scheduled workflows can be delayed under load, and 5-minute schedules on free public
-repositories are throttled heavily in practice.
+Days up to 2026-09-25 are measured against the hourly interval then in force. Outages shorter
+than about 20 minutes can be missed.
 
-What this costs: downtime is detected to the nearest hour, and a year gives about 8,760 samples
-per resource. A resource that is down for 20 minutes may be missed entirely.
+**One-time setup of the external trigger (about 10 minutes)**
 
-**Escalation**, for when runs stay irregular or finer resolution is needed: trigger runs from
-outside GitHub's scheduler.
-
-1. Create a fine-grained token scoped to this repository only, with *Actions: read and write*.
-2. Register a free external cron job, for example on cron-job.org, to run
-   `POST https://api.github.com/repos/gavinf97/ECD/actions/workflows/uptime-check.yml/dispatches`
-   with the body `{"ref":"main"}`.
-3. Set a reminder for when the token expires.
+1. **Create a token.** Go to https://github.com/settings/personal-access-tokens/new and make a
+   fine-grained token.
+   - Resource owner: **gavinf97**.
+   - Repository access: *Only select repositories*, choosing `ECD`.
+   - Repository permissions: **Actions: Read and write**. Nothing else.
+   - Expiration: 1 year.
+2. **Create the job.** Sign up at [cron-job.org](https://cron-job.org) (free) and create a cronjob.
+   - **URL:** `https://api.github.com/repos/gavinf97/ECD/actions/workflows/uptime-check.yml/dispatches`
+   - **Schedule:** Custom. Every hour, every day, at minutes **10, 30 and 50**.
+   - **Advanced settings:**
+     - Request method: **POST**.
+     - Headers: `Authorization: Bearer <token>`, `Accept: application/vnd.github+json` and
+       `X-GitHub-Api-Version: 2022-11-28`.
+     - Request body: `{"ref":"main"}`.
+   - **Notifications:** turn on "notify me when execution fails".
+3. **Check it.** Press **Test run**; it should answer with a 2xx status. A new run then appears
+   under `gh run list -R gavinf97/ECD --event workflow_dispatch`.
+4. **Set a reminder** for the token's expiry date. When it expires, runs fall back to the
+   backup crons.
 
 For multi-location checks, use a commercial monitor such as updown.io, as the ECD Process
 suggests.
@@ -182,8 +194,9 @@ cp uptime/dashboard/index.html /tmp/ecd-data/ && python -m http.server -d /tmp/e
 - **Homepage only.** The tracker checks one URL per resource. It does not test APIs or search.
 - **Challenge pages** show that the server is responding, but not that the content behind the
   challenge works.
-- **Hourly sampling.** Outages shorter than an hour can be missed entirely; see
+- **20-minute sampling.** Outages shorter than about 20 minutes can be missed; see
   [Check interval](#check-interval).
 - **Inactivity.** GitHub may disable scheduled workflows in a repository with no activity for 60
-  days. Every report says so when it happens: monitoring is reported as **STALE** and the
-  dashboard shows a banner.
+  days. That stops only the backup crons: the external `workflow_dispatch` trigger keeps running.
+  If every run stops for 3 hours, monitoring is reported as **STALE** and the dashboard shows a
+  banner.
