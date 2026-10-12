@@ -1,0 +1,2617 @@
+{
+ "date": "2026-10-12",
+ "interval_minutes": 20,
+ "runs": 85,
+ "first_run": "2026-10-12T00:01:30Z",
+ "last_run": "2026-10-12T23:50:29Z",
+ "resources": {
+  "2dprots": {
+   "checks": 85,
+   "up": 67,
+   "challenged": 0,
+   "down": 18,
+   "latency_sum_ms": 83563,
+   "latency_hist": [
+    0,
+    0,
+    42,
+    22,
+    2,
+    0,
+    1
+   ]
+  },
+  "3d-interacting-domains-3did": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 33047,
+   "latency_hist": [
+    39,
+    39,
+    4,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "agrold-agronomic-linked-data": {
+   "checks": 85,
+   "up": 84,
+   "challenged": 0,
+   "down": 1,
+   "latency_sum_ms": 58012,
+   "latency_hist": [
+    0,
+    2,
+    82,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "alphafold-db": {
+   "checks": 85,
+   "up": 84,
+   "challenged": 0,
+   "down": 1,
+   "latency_sum_ms": 91183,
+   "latency_hist": [
+    0,
+    5,
+    62,
+    14,
+    1,
+    1,
+    1
+   ]
+  },
+  "amtdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 84904,
+   "latency_hist": [
+    0,
+    3,
+    58,
+    20,
+    4,
+    0,
+    0
+   ]
+  },
+  "aniseed": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "annotating-princpial-splice-isoforms-appris": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 57022,
+   "latency_hist": [
+    0,
+    15,
+    68,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "aspicdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "bacdive": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 88355,
+   "latency_hist": [
+    0,
+    0,
+    48,
+    36,
+    1,
+    0,
+    0
+   ]
+  },
+  "begdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 146019,
+   "latency_hist": [
+    0,
+    0,
+    4,
+    63,
+    17,
+    1,
+    0
+   ]
+  },
+  "bgee": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 31430,
+   "latency_hist": [
+    43,
+    33,
+    6,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "bioimage-informatics-index-bise": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 73348,
+   "latency_hist": [
+    0,
+    0,
+    65,
+    20,
+    0,
+    0,
+    0
+   ]
+  },
+  "biomart": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 34065,
+   "latency_hist": [
+    39,
+    39,
+    4,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "biophysical-proteome-atlas": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 61106,
+   "latency_hist": [
+    0,
+    0,
+    83,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "biosurfdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 83467,
+   "latency_hist": [
+    0,
+    1,
+    65,
+    15,
+    4,
+    0,
+    0
+   ]
+  },
+  "brenda": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 84453,
+   "latency_hist": [
+    0,
+    0,
+    65,
+    16,
+    4,
+    0,
+    0
+   ]
+  },
+  "cath-gene3d": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 57176,
+   "latency_hist": [
+    0,
+    17,
+    66,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "cellosaurus": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 86672,
+   "latency_hist": [
+    0,
+    0,
+    61,
+    21,
+    3,
+    0,
+    0
+   ]
+  },
+  "channelsdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 68790,
+   "latency_hist": [
+    0,
+    0,
+    78,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  "chebi": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 83739,
+   "latency_hist": [
+    0,
+    0,
+    49,
+    36,
+    0,
+    0,
+    0
+   ]
+  },
+  "chembl": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 85686,
+   "latency_hist": [
+    0,
+    0,
+    44,
+    41,
+    0,
+    0,
+    0
+   ]
+  },
+  "chipsummitdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "collections-and-registries-from-the-finnish-population-sisu-data-resource": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 20423,
+   "latency_hist": [
+    62,
+    20,
+    2,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "corkoakdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 107779,
+   "latency_hist": [
+    0,
+    0,
+    19,
+    63,
+    3,
+    0,
+    0
+   ]
+  },
+  "deep-data-portal": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "dgp": {
+   "checks": 85,
+   "up": 49,
+   "challenged": 36,
+   "down": 0,
+   "latency_sum_ms": 25795,
+   "latency_hist": [
+    39,
+    44,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  "disprot": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 85225,
+   "latency_hist": [
+    0,
+    5,
+    58,
+    17,
+    5,
+    0,
+    0
+   ]
+  },
+  "dmportal": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 214405,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    85,
+    0,
+    0
+   ]
+  },
+  "dolbico": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 158207,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    66,
+    17,
+    2,
+    0
+   ]
+  },
+  "dome-registry": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 80853,
+   "latency_hist": [
+    0,
+    6,
+    57,
+    19,
+    3,
+    0,
+    0
+   ]
+  },
+  "dome-ml": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 82991,
+   "latency_hist": [
+    0,
+    5,
+    61,
+    15,
+    4,
+    0,
+    0
+   ]
+  },
+  "ensembl": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 94700,
+   "latency_hist": [
+    0,
+    0,
+    42,
+    40,
+    3,
+    0,
+    0
+   ]
+  },
+  "enzyme": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 85523,
+   "latency_hist": [
+    0,
+    0,
+    64,
+    16,
+    5,
+    0,
+    0
+   ]
+  },
+  "evolutionary-genealogy-of-genes-non-supervised-orthologous-groups-eggnog": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 55463,
+   "latency_hist": [
+    2,
+    37,
+    41,
+    1,
+    4,
+    0,
+    0
+   ]
+  },
+  "evoppi": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 49712,
+   "latency_hist": [
+    0,
+    37,
+    42,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  "expression-atlas": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 84257,
+   "latency_hist": [
+    0,
+    0,
+    70,
+    14,
+    0,
+    0,
+    1
+   ]
+  },
+  "faidare": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 116534,
+   "latency_hist": [
+    0,
+    0,
+    4,
+    79,
+    2,
+    0,
+    0
+   ]
+  },
+  "findbase": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 39453,
+   "latency_hist": [
+    29,
+    45,
+    8,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "fireprotdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 93422,
+   "latency_hist": [
+    0,
+    0,
+    30,
+    55,
+    0,
+    0,
+    0
+   ]
+  },
+  "flybase": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 33506,
+   "latency_hist": [
+    30,
+    51,
+    1,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "galactosemia-proteins-database": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 92922,
+   "latency_hist": [
+    0,
+    1,
+    65,
+    15,
+    2,
+    2,
+    0
+   ]
+  },
+  "genomecrispr": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "genomehubs": {
+   "checks": 85,
+   "up": 74,
+   "challenged": 0,
+   "down": 11,
+   "latency_sum_ms": 74369,
+   "latency_hist": [
+    0,
+    0,
+    41,
+    33,
+    0,
+    0,
+    0
+   ]
+  },
+  "genomernai": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 100693,
+   "latency_hist": [
+    0,
+    0,
+    33,
+    47,
+    5,
+    0,
+    0
+   ]
+  },
+  "genomicus": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 231543,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    6,
+    78,
+    1,
+    0
+   ]
+  },
+  "globalfungi": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 71225,
+   "latency_hist": [
+    0,
+    1,
+    69,
+    15,
+    0,
+    0,
+    0
+   ]
+  },
+  "gnpis": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 87317,
+   "latency_hist": [
+    1,
+    1,
+    41,
+    42,
+    0,
+    0,
+    0
+   ]
+  },
+  "go-annotation-goa": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 50383,
+   "latency_hist": [
+    0,
+    25,
+    59,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "gwas-central": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 153345,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    66,
+    17,
+    2,
+    0
+   ]
+  },
+  "hamap": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 85184,
+   "latency_hist": [
+    0,
+    0,
+    62,
+    19,
+    4,
+    0,
+    0
+   ]
+  },
+  "hcvivdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 132096,
+   "latency_hist": [
+    0,
+    0,
+    6,
+    76,
+    0,
+    3,
+    0
+   ]
+  },
+  "hervd": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 99839,
+   "latency_hist": [
+    0,
+    0,
+    24,
+    60,
+    1,
+    0,
+    0
+   ]
+  },
+  "hgnc": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 58451,
+   "latency_hist": [
+    3,
+    28,
+    50,
+    1,
+    3,
+    0,
+    0
+   ]
+  },
+  "hla-ligand-atlas": {
+   "checks": 85,
+   "up": 73,
+   "challenged": 0,
+   "down": 12,
+   "latency_sum_ms": 136107,
+   "latency_hist": [
+    0,
+    4,
+    43,
+    12,
+    8,
+    3,
+    3
+   ]
+  },
+  "hmtdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "htp": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 122051,
+   "latency_hist": [
+    0,
+    0,
+    18,
+    61,
+    6,
+    0,
+    0
+   ]
+  },
+  "human-protein-atlas-hpa": {
+   "checks": 85,
+   "up": 83,
+   "challenged": 0,
+   "down": 2,
+   "latency_sum_ms": 82634,
+   "latency_hist": [
+    0,
+    0,
+    61,
+    19,
+    3,
+    0,
+    0
+   ]
+  },
+  "idsm": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 87284,
+   "latency_hist": [
+    0,
+    0,
+    38,
+    47,
+    0,
+    0,
+    0
+   ]
+  },
+  "imgt": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 76973,
+   "latency_hist": [
+    0,
+    1,
+    69,
+    13,
+    2,
+    0,
+    0
+   ]
+  },
+  "intermine": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 41708,
+   "latency_hist": [
+    25,
+    43,
+    13,
+    0,
+    4,
+    0,
+    0
+   ]
+  },
+  "interpro": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 44334,
+   "latency_hist": [
+    10,
+    20,
+    55,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "iptgxdbs": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 78495,
+   "latency_hist": [
+    0,
+    0,
+    69,
+    13,
+    3,
+    0,
+    0
+   ]
+  },
+  "iresite": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 96088,
+   "latency_hist": [
+    0,
+    8,
+    52,
+    22,
+    0,
+    1,
+    2
+   ]
+  },
+  "italian-covid-19-data-portal": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "itsonedb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "iuphar-bps-guide-to-pharmacology": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 137605,
+   "latency_hist": [
+    0,
+    0,
+    13,
+    67,
+    3,
+    1,
+    1
+   ]
+  },
+  "jaspar": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 172055,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    56,
+    28,
+    1,
+    0
+   ]
+  },
+  "licebase": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 85291,
+   "latency_hist": [
+    0,
+    0,
+    66,
+    15,
+    4,
+    0,
+    0
+   ]
+  },
+  "macpepdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 61270,
+   "latency_hist": [
+    0,
+    5,
+    79,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "marine-metagenomics-portal-mmp": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "massbank": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 53035,
+   "latency_hist": [
+    0,
+    21,
+    62,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "matrixdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "mediadive": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 100342,
+   "latency_hist": [
+    0,
+    0,
+    23,
+    61,
+    1,
+    0,
+    0
+   ]
+  },
+  "meltdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 69683,
+   "latency_hist": [
+    0,
+    0,
+    72,
+    13,
+    0,
+    0,
+    0
+   ]
+  },
+  "mem": {
+   "checks": 85,
+   "up": 84,
+   "challenged": 0,
+   "down": 1,
+   "latency_sum_ms": 725249,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    1,
+    19,
+    37,
+    27
+   ]
+  },
+  "metabolic-atlas": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 33046,
+   "latency_hist": [
+    45,
+    36,
+    0,
+    1,
+    3,
+    0,
+    0
+   ]
+  },
+  "metanetx": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 131686,
+   "latency_hist": [
+    0,
+    0,
+    1,
+    76,
+    6,
+    2,
+    0
+   ]
+  },
+  "metaphors": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 135103,
+   "latency_hist": [
+    0,
+    0,
+    8,
+    71,
+    4,
+    1,
+    1
+   ]
+  },
+  "mgnify": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 43184,
+   "latency_hist": [
+    13,
+    28,
+    41,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "mhc-motif-atlas": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 62242,
+   "latency_hist": [
+    0,
+    31,
+    46,
+    5,
+    3,
+    0,
+    0
+   ]
+  },
+  "micro-ctvlab": {
+   "checks": 85,
+   "up": 62,
+   "challenged": 0,
+   "down": 23,
+   "latency_sum_ms": 1242050,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    62
+   ]
+  },
+  "microbe-atlas": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 80776,
+   "latency_hist": [
+    1,
+    15,
+    62,
+    3,
+    3,
+    0,
+    1
+   ]
+  },
+  "mint": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 125978,
+   "latency_hist": [
+    0,
+    0,
+    4,
+    73,
+    8,
+    0,
+    0
+   ]
+  },
+  "mirgenedb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 67639,
+   "latency_hist": [
+    0,
+    10,
+    70,
+    1,
+    4,
+    0,
+    0
+   ]
+  },
+  "mitozoa": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "mobidb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 129693,
+   "latency_hist": [
+    0,
+    0,
+    7,
+    72,
+    5,
+    1,
+    0
+   ]
+  },
+  "molgenis": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 11924,
+   "latency_hist": [
+    80,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "molmedb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 69667,
+   "latency_hist": [
+    0,
+    0,
+    74,
+    11,
+    0,
+    0,
+    0
+   ]
+  },
+  "nextstrain": {
+   "checks": 85,
+   "up": 83,
+   "challenged": 0,
+   "down": 2,
+   "latency_sum_ms": 40242,
+   "latency_hist": [
+    25,
+    46,
+    9,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "norine": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "ocean-gene-atlas": {
+   "checks": 85,
+   "up": 33,
+   "challenged": 0,
+   "down": 52,
+   "latency_sum_ms": 57532,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    27,
+    6,
+    0,
+    0
+   ]
+  },
+  "olida": {
+   "checks": 85,
+   "up": 84,
+   "challenged": 0,
+   "down": 1,
+   "latency_sum_ms": 53636,
+   "latency_hist": [
+    0,
+    8,
+    75,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "oma": {
+   "checks": 85,
+   "up": 84,
+   "challenged": 0,
+   "down": 1,
+   "latency_sum_ms": 63754,
+   "latency_hist": [
+    0,
+    31,
+    40,
+    11,
+    2,
+    0,
+    0
+   ]
+  },
+  "omics-discovery-index-omicsdi": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 114296,
+   "latency_hist": [
+    0,
+    0,
+    45,
+    33,
+    3,
+    4,
+    0
+   ]
+  },
+  "omnipath": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 54962,
+   "latency_hist": [
+    0,
+    48,
+    34,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "ompdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 117318,
+   "latency_hist": [
+    0,
+    0,
+    19,
+    61,
+    4,
+    1,
+    0
+   ]
+  },
+  "opentargets-platform": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 33422,
+   "latency_hist": [
+    21,
+    51,
+    12,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "orphadata": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 124307,
+   "latency_hist": [
+    0,
+    1,
+    43,
+    12,
+    29,
+    0,
+    0
+   ]
+  },
+  "orphanet": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 70043,
+   "latency_hist": [
+    0,
+    8,
+    51,
+    26,
+    0,
+    0,
+    0
+   ]
+  },
+  "orthodb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 51212,
+   "latency_hist": [
+    4,
+    41,
+    37,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "pandrugs": {
+   "checks": 85,
+   "up": 83,
+   "challenged": 0,
+   "down": 2,
+   "latency_sum_ms": 69797,
+   "latency_hist": [
+    0,
+    4,
+    75,
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  "parameciumdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 142313,
+   "latency_hist": [
+    0,
+    0,
+    1,
+    73,
+    11,
+    0,
+    0
+   ]
+  },
+  "paxdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 79784,
+   "latency_hist": [
+    0,
+    5,
+    69,
+    8,
+    2,
+    1,
+    0
+   ]
+  },
+  "pdbtm": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 138735,
+   "latency_hist": [
+    0,
+    0,
+    2,
+    74,
+    8,
+    1,
+    0
+   ]
+  },
+  "ped": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 84771,
+   "latency_hist": [
+    0,
+    0,
+    74,
+    5,
+    6,
+    0,
+    0
+   ]
+  },
+  "phi-base": {
+   "checks": 85,
+   "up": 83,
+   "challenged": 0,
+   "down": 2,
+   "latency_sum_ms": 159675,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    70,
+    8,
+    5,
+    0
+   ]
+  },
+  "phylomedb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 107566,
+   "latency_hist": [
+    0,
+    3,
+    52,
+    19,
+    10,
+    1,
+    0
+   ]
+  },
+  "pickle": {
+   "checks": 85,
+   "up": 83,
+   "challenged": 0,
+   "down": 2,
+   "latency_sum_ms": 843824,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    2,
+    9,
+    31,
+    41
+   ]
+  },
+  "pippa": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 68028,
+   "latency_hist": [
+    0,
+    0,
+    73,
+    12,
+    0,
+    0,
+    0
+   ]
+  },
+  "plantsdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "pmdb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "polarprotdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 156090,
+   "latency_hist": [
+    0,
+    0,
+    1,
+    64,
+    18,
+    2,
+    0
+   ]
+  },
+  "pombase": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 80520,
+   "latency_hist": [
+    0,
+    4,
+    62,
+    15,
+    4,
+    0,
+    0
+   ]
+  },
+  "progenetix": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 32992,
+   "latency_hist": [
+    42,
+    34,
+    6,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "prosite": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 86133,
+   "latency_hist": [
+    0,
+    0,
+    61,
+    20,
+    4,
+    0,
+    0
+   ]
+  },
+  "reactome": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 77419,
+   "latency_hist": [
+    3,
+    50,
+    21,
+    1,
+    9,
+    0,
+    1
+   ]
+  },
+  "redidb": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "rediportal": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 86364,
+   "latency_hist": [
+    4,
+    9,
+    44,
+    20,
+    8,
+    0,
+    0
+   ]
+  },
+  "remap": {
+   "checks": 85,
+   "up": 33,
+   "challenged": 0,
+   "down": 52,
+   "latency_sum_ms": 86107,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    33,
+    0,
+    0
+   ]
+  },
+  "repeatsdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 78766,
+   "latency_hist": [
+    0,
+    2,
+    70,
+    10,
+    3,
+    0,
+    0
+   ]
+  },
+  "rexdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 55695,
+   "latency_hist": [
+    5,
+    40,
+    35,
+    1,
+    4,
+    0,
+    0
+   ]
+  },
+  "rfam": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 88144,
+   "latency_hist": [
+    0,
+    0,
+    62,
+    20,
+    2,
+    1,
+    0
+   ]
+  },
+  "rhea": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 33963,
+   "latency_hist": [
+    42,
+    35,
+    5,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "riboseq-org": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 47284,
+   "latency_hist": [
+    12,
+    52,
+    17,
+    1,
+    2,
+    1,
+    0
+   ]
+  },
+  "rna-central": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 69573,
+   "latency_hist": [
+    0,
+    7,
+    72,
+    4,
+    2,
+    0,
+    0
+   ]
+  },
+  "sabio-rk": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 71012,
+   "latency_hist": [
+    0,
+    11,
+    62,
+    8,
+    4,
+    0,
+    0
+   ]
+  },
+  "salmobase": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 70590,
+   "latency_hist": [
+    0,
+    13,
+    66,
+    2,
+    3,
+    1,
+    0
+   ]
+  },
+  "sars-cov-2-db": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "sibils": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 72263,
+   "latency_hist": [
+    0,
+    5,
+    68,
+    10,
+    2,
+    0,
+    0
+   ]
+  },
+  "sider": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 78761,
+   "latency_hist": [
+    0,
+    0,
+    56,
+    29,
+    0,
+    0,
+    0
+   ]
+  },
+  "signor": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 109059,
+   "latency_hist": [
+    0,
+    0,
+    1,
+    83,
+    1,
+    0,
+    0
+   ]
+  },
+  "silva": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 56851,
+   "latency_hist": [
+    0,
+    4,
+    81,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "smart": {
+   "checks": 85,
+   "up": 80,
+   "challenged": 0,
+   "down": 5,
+   "latency_sum_ms": 100224,
+   "latency_hist": [
+    0,
+    0,
+    29,
+    47,
+    2,
+    2,
+    0
+   ]
+  },
+  "spliceaid-f": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "srna-portal-workflow": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 64902,
+   "latency_hist": [
+    0,
+    29,
+    50,
+    2,
+    2,
+    2,
+    0
+   ]
+  },
+  "stamps": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "string": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 65797,
+   "latency_hist": [
+    1,
+    18,
+    59,
+    4,
+    3,
+    0,
+    0
+   ]
+  },
+  "sulfatlas": {
+   "checks": 85,
+   "up": 80,
+   "challenged": 0,
+   "down": 5,
+   "latency_sum_ms": 112504,
+   "latency_hist": [
+    0,
+    0,
+    6,
+    67,
+    7,
+    0,
+    0
+   ]
+  },
+  "swicz": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 65155,
+   "latency_hist": [
+    0,
+    23,
+    59,
+    1,
+    0,
+    2,
+    0
+   ]
+  },
+  "swiss-model-repository": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 61106,
+   "latency_hist": [
+    0,
+    18,
+    58,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  "swisslipids": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 113960,
+   "latency_hist": [
+    0,
+    0,
+    20,
+    60,
+    4,
+    1,
+    0
+   ]
+  },
+  "swissregulon": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 88759,
+   "latency_hist": [
+    0,
+    0,
+    44,
+    38,
+    3,
+    0,
+    0
+   ]
+  },
+  "tabloid-proteome": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 55638,
+   "latency_hist": [
+    0,
+    22,
+    58,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  "tflink": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 16066,
+   "latency_hist": [
+    73,
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "the-b6-database": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 122359,
+   "latency_hist": [
+    0,
+    0,
+    21,
+    51,
+    13,
+    0,
+    0
+   ]
+  },
+  "tmalphafold": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 142692,
+   "latency_hist": [
+    0,
+    0,
+    2,
+    66,
+    17,
+    0,
+    0
+   ]
+  },
+  "topdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 112442,
+   "latency_hist": [
+    0,
+    0,
+    22,
+    58,
+    4,
+    1,
+    0
+   ]
+  },
+  "training-metrics-database": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 59211,
+   "latency_hist": [
+    0,
+    20,
+    63,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "translational-medicine-data-catalog-tmdc": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 97666,
+   "latency_hist": [
+    0,
+    0,
+    31,
+    52,
+    2,
+    0,
+    0
+   ]
+  },
+  "tstmp": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 0,
+   "down": 85,
+   "latency_sum_ms": 0,
+   "latency_hist": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "unicatdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 114282,
+   "latency_hist": [
+    0,
+    0,
+    23,
+    57,
+    4,
+    1,
+    0
+   ]
+  },
+  "unilectin": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 50299,
+   "latency_hist": [
+    0,
+    22,
+    63,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "uniprotkb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 55254,
+   "latency_hist": [
+    0,
+    18,
+    65,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "unitmp": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 93506,
+   "latency_hist": [
+    0,
+    0,
+    47,
+    34,
+    3,
+    1,
+    0
+   ]
+  },
+  "utrdb-utrsite": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 121579,
+   "latency_hist": [
+    0,
+    0,
+    16,
+    59,
+    10,
+    0,
+    0
+   ]
+  },
+  "validatordb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 99743,
+   "latency_hist": [
+    0,
+    0,
+    21,
+    64,
+    0,
+    0,
+    0
+   ]
+  },
+  "valtrendsdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 64007,
+   "latency_hist": [
+    0,
+    1,
+    79,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  "veupathdb": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 36577,
+   "latency_hist": [
+    22,
+    50,
+    10,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "viralzone": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 74588,
+   "latency_hist": [
+    0,
+    3,
+    75,
+    4,
+    3,
+    0,
+    0
+   ]
+  },
+  "wataa": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 106701,
+   "latency_hist": [
+    0,
+    0,
+    36,
+    46,
+    1,
+    2,
+    0
+   ]
+  },
+  "wheatis": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 58538,
+   "latency_hist": [
+    7,
+    8,
+    66,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  "wikipathways": {
+   "checks": 85,
+   "up": 0,
+   "challenged": 85,
+   "down": 0,
+   "latency_sum_ms": 38797,
+   "latency_hist": [
+    26,
+    45,
+    11,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  "yeastract": {
+   "checks": 85,
+   "up": 85,
+   "challenged": 0,
+   "down": 0,
+   "latency_sum_ms": 76485,
+   "latency_hist": [
+    0,
+    3,
+    71,
+    8,
+    3,
+    0,
+    0
+   ]
+  }
+ }
+}
