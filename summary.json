@@ -1,102 +1,13 @@
 {
- "generated": "2026-10-31T23:52:04Z",
+ "generated": "2026-11-01T23:52:11Z",
  "interval_minutes": 20,
  "monitoring": {
-  "last_run": "2026-10-31T23:50:30Z",
+  "last_run": "2026-11-01T23:50:32Z",
   "minutes_since_last_run": 2,
-  "runs_total": 3358,
-  "runs_last_24h": 91,
+  "runs_total": 3448,
+  "runs_last_24h": 90,
   "expected_runs_24h": 72,
   "recent_runs": [
-   "2026-10-29T23:50:31Z",
-   "2026-10-30T00:10:31Z",
-   "2026-10-30T00:30:44Z",
-   "2026-10-30T00:46:47Z",
-   "2026-10-30T00:50:31Z",
-   "2026-10-30T01:05:10Z",
-   "2026-10-30T01:10:32Z",
-   "2026-10-30T01:30:43Z",
-   "2026-10-30T01:50:29Z",
-   "2026-10-30T02:10:32Z",
-   "2026-10-30T02:12:22Z",
-   "2026-10-30T02:30:47Z",
-   "2026-10-30T02:47:49Z",
-   "2026-10-30T02:50:34Z",
-   "2026-10-30T03:10:29Z",
-   "2026-10-30T03:30:46Z",
-   "2026-10-30T03:50:31Z",
-   "2026-10-30T04:10:30Z",
-   "2026-10-30T04:30:43Z",
-   "2026-10-30T04:50:33Z",
-   "2026-10-30T05:10:31Z",
-   "2026-10-30T05:30:47Z",
-   "2026-10-30T05:50:31Z",
-   "2026-10-30T06:10:30Z",
-   "2026-10-30T06:30:49Z",
-   "2026-10-30T06:50:33Z",
-   "2026-10-30T06:58:48Z",
-   "2026-10-30T07:10:31Z",
-   "2026-10-30T07:12:19Z",
-   "2026-10-30T07:30:48Z",
-   "2026-10-30T07:50:34Z",
-   "2026-10-30T08:10:32Z",
-   "2026-10-30T08:30:47Z",
-   "2026-10-30T08:56:09Z",
-   "2026-10-30T09:03:22Z",
-   "2026-10-30T09:10:37Z",
-   "2026-10-30T09:30:48Z",
-   "2026-10-30T09:50:34Z",
-   "2026-10-30T10:10:33Z",
-   "2026-10-30T10:20:23Z",
-   "2026-10-30T10:30:45Z",
-   "2026-10-30T10:50:33Z",
-   "2026-10-30T11:10:36Z",
-   "2026-10-30T11:30:47Z",
-   "2026-10-30T11:50:33Z",
-   "2026-10-30T12:10:38Z",
-   "2026-10-30T12:30:46Z",
-   "2026-10-30T12:50:33Z",
-   "2026-10-30T13:10:34Z",
-   "2026-10-30T13:30:45Z",
-   "2026-10-30T13:50:31Z",
-   "2026-10-30T13:59:01Z",
-   "2026-10-30T14:10:32Z",
-   "2026-10-30T14:14:54Z",
-   "2026-10-30T14:30:48Z",
-   "2026-10-30T14:50:32Z",
-   "2026-10-30T15:10:36Z",
-   "2026-10-30T15:30:48Z",
-   "2026-10-30T15:50:33Z",
-   "2026-10-30T16:10:47Z",
-   "2026-10-30T16:16:49Z",
-   "2026-10-30T16:30:49Z",
-   "2026-10-30T16:46:39Z",
-   "2026-10-30T16:50:34Z",
-   "2026-10-30T17:10:36Z",
-   "2026-10-30T17:30:48Z",
-   "2026-10-30T17:50:33Z",
-   "2026-10-30T18:10:36Z",
-   "2026-10-30T18:30:48Z",
-   "2026-10-30T18:50:32Z",
-   "2026-10-30T19:09:35Z",
-   "2026-10-30T19:11:28Z",
-   "2026-10-30T19:28:28Z",
-   "2026-10-30T19:30:47Z",
-   "2026-10-30T19:50:33Z",
-   "2026-10-30T20:10:31Z",
-   "2026-10-30T20:30:48Z",
-   "2026-10-30T20:50:31Z",
-   "2026-10-30T21:08:26Z",
-   "2026-10-30T21:10:34Z",
-   "2026-10-30T21:30:45Z",
-   "2026-10-30T21:39:08Z",
-   "2026-10-30T21:50:37Z",
-   "2026-10-30T22:10:34Z",
-   "2026-10-30T22:30:46Z",
-   "2026-10-30T22:50:32Z",
-   "2026-10-30T23:10:31Z",
-   "2026-10-30T23:30:43Z",
-   "2026-10-30T23:36:44Z",
    "2026-10-30T23:50:35Z",
    "2026-10-30T23:52:27Z",
    "2026-10-31T00:10:32Z",
@@ -188,7 +99,97 @@
    "2026-10-31T22:52:34Z",
    "2026-10-31T23:10:33Z",
    "2026-10-31T23:30:44Z",
-   "2026-10-31T23:50:30Z"
+   "2026-10-31T23:50:30Z",
+   "2026-11-01T00:10:32Z",
+   "2026-11-01T00:30:43Z",
+   "2026-11-01T00:50:33Z",
+   "2026-11-01T00:56:53Z",
+   "2026-11-01T01:10:34Z",
+   "2026-11-01T01:14:29Z",
+   "2026-11-01T01:30:43Z",
+   "2026-11-01T01:50:32Z",
+   "2026-11-01T02:10:33Z",
+   "2026-11-01T02:26:08Z",
+   "2026-11-01T02:30:45Z",
+   "2026-11-01T02:39:40Z",
+   "2026-11-01T02:50:31Z",
+   "2026-11-01T03:10:34Z",
+   "2026-11-01T03:30:40Z",
+   "2026-11-01T03:50:33Z",
+   "2026-11-01T04:10:35Z",
+   "2026-11-01T04:30:41Z",
+   "2026-11-01T04:50:30Z",
+   "2026-11-01T05:10:33Z",
+   "2026-11-01T05:30:40Z",
+   "2026-11-01T05:50:33Z",
+   "2026-11-01T06:10:31Z",
+   "2026-11-01T06:30:47Z",
+   "2026-11-01T06:50:34Z",
+   "2026-11-01T07:10:33Z",
+   "2026-11-01T07:21:45Z",
+   "2026-11-01T07:30:42Z",
+   "2026-11-01T07:38:04Z",
+   "2026-11-01T07:50:32Z",
+   "2026-11-01T08:10:35Z",
+   "2026-11-01T08:30:44Z",
+   "2026-11-01T08:50:33Z",
+   "2026-11-01T09:10:33Z",
+   "2026-11-01T09:30:20Z",
+   "2026-11-01T09:32:10Z",
+   "2026-11-01T09:47:19Z",
+   "2026-11-01T09:50:31Z",
+   "2026-11-01T10:10:33Z",
+   "2026-11-01T10:30:43Z",
+   "2026-11-01T10:50:38Z",
+   "2026-11-01T11:10:31Z",
+   "2026-11-01T11:30:42Z",
+   "2026-11-01T11:50:33Z",
+   "2026-11-01T12:10:34Z",
+   "2026-11-01T12:30:41Z",
+   "2026-11-01T12:50:33Z",
+   "2026-11-01T13:10:33Z",
+   "2026-11-01T13:30:43Z",
+   "2026-11-01T13:50:35Z",
+   "2026-11-01T14:10:35Z",
+   "2026-11-01T14:30:46Z",
+   "2026-11-01T14:50:32Z",
+   "2026-11-01T14:56:58Z",
+   "2026-11-01T15:10:32Z",
+   "2026-11-01T15:14:21Z",
+   "2026-11-01T15:30:42Z",
+   "2026-11-01T15:50:33Z",
+   "2026-11-01T16:10:33Z",
+   "2026-11-01T16:15:15Z",
+   "2026-11-01T16:28:31Z",
+   "2026-11-01T16:30:42Z",
+   "2026-11-01T16:50:33Z",
+   "2026-11-01T17:10:34Z",
+   "2026-11-01T17:30:42Z",
+   "2026-11-01T17:50:33Z",
+   "2026-11-01T18:10:32Z",
+   "2026-11-01T18:30:47Z",
+   "2026-11-01T18:50:32Z",
+   "2026-11-01T19:10:33Z",
+   "2026-11-01T19:29:55Z",
+   "2026-11-01T19:31:42Z",
+   "2026-11-01T19:45:43Z",
+   "2026-11-01T19:50:30Z",
+   "2026-11-01T20:10:38Z",
+   "2026-11-01T20:30:45Z",
+   "2026-11-01T20:41:36Z",
+   "2026-11-01T20:50:34Z",
+   "2026-11-01T20:52:41Z",
+   "2026-11-01T21:10:32Z",
+   "2026-11-01T21:30:43Z",
+   "2026-11-01T21:50:32Z",
+   "2026-11-01T22:10:30Z",
+   "2026-11-01T22:30:43Z",
+   "2026-11-01T22:50:32Z",
+   "2026-11-01T23:10:33Z",
+   "2026-11-01T23:29:02Z",
+   "2026-11-01T23:30:52Z",
+   "2026-11-01T23:38:55Z",
+   "2026-11-01T23:50:32Z"
   ],
   "interval_minutes": 20,
   "stale_after_minutes": 180,
@@ -196,15 +197,15 @@
   "status": "ACTIVE",
   "workflow_url": "https://github.com/gavinf97/ECD/actions/workflows/uptime-check.yml"
  },
- "runs_total": 3358,
- "last_run": "2026-10-31T23:50:30Z",
+ "runs_total": 3448,
+ "last_run": "2026-11-01T23:50:32Z",
  "resource_count": 163,
  "target": 0.99,
  "dashboard_url": "https://gavinf97.github.io/ECD/",
  "totals": {
-  "up": 123,
-  "challenged": 9,
-  "down": 31,
+  "up": 117,
+  "challenged": 10,
+  "down": 36,
   "unknown": 0,
   "url_review": 6,
   "resources": 163
@@ -222,53 +223,53 @@
    "since": "2026-10-31T15:50:33Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPSConnectionPool(host='2dprots.ncbr.muni.cz', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='2dprots.ncbr.muni.cz', port=443) at 0x7efc3be85d60>, 'Connection to 2dprots.ncbr.muni.cz timed out. (connect timeout=10)'))",
+   "error": "HTTPSConnectionPool(host='2dprots.ncbr.muni.cz', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='2dprots.ncbr.muni.cz', port=443) at 0x7fbd64370110>, 'Connection to 2dprots.ncbr.muni.cz timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:48Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.6333333333333333,
+     "uptime": 0.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 33,
+     "down": 90,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9401574803149606,
+     "uptime": 0.802547770700637,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 38,
+     "checks": 628,
+     "down": 124,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.7309236947791165,
+     "uptime": 0.6980649872216137,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 737,
+     "down": 827,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7805241215008933,
+     "uptime": 0.7601508120649652,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 737,
+     "checks": 3448,
+     "down": 827,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7805241215008933,
+     "uptime": 0.7601508120649652,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 737,
+     "checks": 3448,
+     "down": 827,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1064
+    "mean_ms": 1069
    }
   },
   {
@@ -285,7 +286,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:32Z",
    "final_url": "https://3did.irbbarcelona.org/",
    "url_review": false,
    "tls_warning": null,
@@ -298,30 +299,30 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.7496062992125985,
+     "uptime": 0.7468152866242038,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 159,
-     "challenged": 135
+     "challenged": 38
     },
     "30d": {
      "uptime": 0.9419496166484118,
      "coverage": 1.0,
      "checks": 2739,
      "down": 159,
-     "challenged": 2239
+     "challenged": 2149
     },
     "90d": {
-     "uptime": 0.9526503871351996,
+     "uptime": 0.9538863109048724,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 159,
      "challenged": 2858
     },
     "365d": {
-     "uptime": 0.9526503871351996,
+     "uptime": 0.9538863109048724,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 159,
      "challenged": 2858
     }
@@ -329,7 +330,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 394
+    "mean_ms": 405
    }
   },
   {
@@ -346,7 +347,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://agrold.southgreen.fr/agrold",
    "url_review": false,
    "tls_warning": null,
@@ -359,30 +360,30 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9956188389923329,
+     "uptime": 0.9959839357429718,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 12,
+     "down": 11,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.99434187016081,
+     "uptime": 0.9944895591647331,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 19,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.99434187016081,
+     "uptime": 0.9944895591647331,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 19,
      "challenged": 0
     }
@@ -402,56 +403,56 @@
    "domain": "Proteins and proteomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-31T21:23:18Z",
+   "since": "2026-11-01T05:50:33Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://alphafold.ebi.ac.uk/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9555555555555556,
+     "uptime": 0.9888888888888889,
      "coverage": 1.0,
      "checks": 90,
-     "down": 4,
+     "down": 1,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9763779527559056,
+     "uptime": 0.9745222929936306,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 15,
+     "checks": 628,
+     "down": 16,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9894121942314713,
+     "uptime": 0.9890470974808324,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 29,
+     "down": 30,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.98868374032162,
+     "uptime": 0.9886890951276102,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 38,
+     "checks": 3448,
+     "down": 39,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.98868374032162,
+     "uptime": 0.9886890951276102,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 38,
+     "checks": 3448,
+     "down": 39,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1271
+    "mean_ms": 1280
    }
   },
   {
@@ -462,57 +463,57 @@
    "node": "ELIXIR Czech Republic",
    "domain": "Genes and genomes",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-15T12:10:32Z",
-   "reason": "ok",
-   "code": 200,
-   "error": null,
+   "state": "down",
+   "since": "2026-11-01T08:30:44Z",
+   "reason": "connect_timeout",
+   "code": null,
+   "error": "HTTPSConnectionPool(host='amtdb.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='amtdb.org', port=443) at 0x7fbd643710d0>, 'Connection to amtdb.org timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
-   "final_url": "https://amtdb.org/",
+   "last_checked": "2026-11-01T23:51:48Z",
+   "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.34444444444444444,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 59,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9060509554140127,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 59,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9992698064987222,
+     "uptime": 0.9777290982110259,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 2,
+     "down": 61,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.982308584686775,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2,
+     "checks": 3448,
+     "down": 61,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.982308584686775,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2,
+     "checks": 3448,
+     "down": 61,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 896
+    "mean_ms": 902
    }
   },
   {
@@ -529,7 +530,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='www.aniseed.cnrs.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.aniseed.cnrs.fr'. (_ssl.c:1010)\")))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:38Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -544,8 +545,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -558,15 +559,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -590,7 +591,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://appris.bioinfo.cnio.es/",
    "url_review": false,
    "tls_warning": null,
@@ -603,10 +604,10 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 1,
+     "checks": 628,
+     "down": 0,
      "challenged": 0
     },
     "30d": {
@@ -617,16 +618,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9985110184633711,
+     "uptime": 0.9985498839907193,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 5,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9985110184633711,
+     "uptime": 0.9985498839907193,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 5,
      "challenged": 0
     }
@@ -651,7 +652,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/ASPicDB/",
    "url_review": true,
    "tls_warning": null,
@@ -666,8 +667,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -680,15 +681,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -712,43 +713,43 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://bacdive.dsmz.de/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9888888888888889,
+     "uptime": 1.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 1,
+     "down": 0,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9956188389923329,
+     "uptime": 0.9959839357429718,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 12,
+     "down": 11,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9916617033948779,
+     "uptime": 0.9918793503480279,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 28,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9916617033948779,
+     "uptime": 0.9918793503480279,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 28,
      "challenged": 0
     }
@@ -756,7 +757,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1029
+    "mean_ms": 1056
    }
   },
   {
@@ -773,7 +774,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "http://www.begdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -788,7 +789,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -800,16 +801,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -834,7 +835,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:32Z",
    "final_url": "https://www.bgee.org/",
    "url_review": false,
    "tls_warning": null,
@@ -849,9 +850,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -863,16 +864,16 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     }
    },
    "latency_30d": {
@@ -895,7 +896,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://biii.eu/",
    "url_review": false,
    "tls_warning": null,
@@ -910,7 +911,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -924,14 +925,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -939,7 +940,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 850
+    "mean_ms": 852
    }
   },
   {
@@ -956,7 +957,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:32Z",
    "final_url": "https://bioconductor.org/packages/release/bioc/html/biomaRt.html",
    "url_review": false,
    "tls_warning": null,
@@ -971,7 +972,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -983,16 +984,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9979154258487195,
+     "uptime": 0.997969837587007,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 7,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9979154258487195,
+     "uptime": 0.997969837587007,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 7,
      "challenged": 0
     }
@@ -1000,7 +1001,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 366
+    "mean_ms": 365
    }
   },
   {
@@ -1017,7 +1018,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://bio2byte.be/proteome/",
    "url_review": false,
    "tls_warning": null,
@@ -1030,9 +1031,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9905511811023622,
+     "uptime": 0.9904458598726115,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 6,
      "challenged": 0
     },
@@ -1044,16 +1045,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.929422275163788,
+     "uptime": 0.9312645011600929,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 237,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.929422275163788,
+     "uptime": 0.9312645011600929,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 237,
      "challenged": 0
     }
@@ -1078,7 +1079,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.biosurfdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -1091,9 +1092,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -1105,16 +1106,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9812388326384753,
+     "uptime": 0.9817285382830626,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 63,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9812388326384753,
+     "uptime": 0.9817285382830626,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 63,
      "challenged": 0
     }
@@ -1122,7 +1123,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 869
+    "mean_ms": 868
    }
   },
   {
@@ -1139,7 +1140,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://www.brenda-enzymes.org/index.php",
    "url_review": false,
    "tls_warning": null,
@@ -1154,28 +1155,28 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9963490324936108,
+     "uptime": 0.9967141292442497,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 10,
+     "down": 9,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9919594997022037,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 27,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9919594997022037,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 27,
      "challenged": 0
     }
@@ -1183,7 +1184,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 929
+    "mean_ms": 941
    }
   },
   {
@@ -1200,7 +1201,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.cathdb.info/",
    "url_review": false,
    "tls_warning": null,
@@ -1215,28 +1216,28 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.982110259218693,
+     "uptime": 0.9875867104782767,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 49,
+     "down": 34,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9666468135795117,
+     "uptime": 0.9675174013921114,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 112,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9666468135795117,
+     "uptime": 0.9675174013921114,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 112,
      "challenged": 0
     }
@@ -1244,7 +1245,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 691
+    "mean_ms": 692
    }
   },
   {
@@ -1261,7 +1262,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://www.cellosaurus.org/",
    "url_review": false,
    "tls_warning": null,
@@ -1276,7 +1277,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -1288,16 +1289,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -1305,7 +1306,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1062
+    "mean_ms": 1067
    }
   },
   {
@@ -1316,50 +1317,50 @@
    "node": "ELIXIR Czech Republic",
    "domain": "Chemical biology, Enzymes, interactions and pathways, Genes and genomes, Literature, Molecular and cellular structures, Proteins and proteomes",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-15T14:30:47Z",
-   "reason": "ok",
-   "code": 200,
-   "error": null,
+   "state": "down",
+   "since": "2026-11-01T08:50:33Z",
+   "reason": "connect_timeout",
+   "code": null,
+   "error": "HTTPSConnectionPool(host='channelsdb2.biodata.ceitec.cz', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='channelsdb2.biodata.ceitec.cz', port=443) at 0x7fbd64190dd0>, 'Connection to channelsdb2.biodata.ceitec.cz timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
-   "final_url": "https://channelsdb2.biodata.ceitec.cz/",
+   "last_checked": "2026-11-01T23:51:48Z",
+   "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.35555555555555557,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 58,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9076433121019108,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 58,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9996349032493611,
+     "uptime": 0.9784592917123037,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 1,
+     "down": 59,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9828886310904872,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1,
+     "checks": 3448,
+     "down": 59,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9828886310904872,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1,
+     "checks": 3448,
+     "down": 59,
      "challenged": 0
     }
    },
@@ -1383,7 +1384,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.ebi.ac.uk/chebi",
    "url_review": false,
    "tls_warning": null,
@@ -1398,7 +1399,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -1412,14 +1413,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -1427,7 +1428,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 992
+    "mean_ms": 993
    }
   },
   {
@@ -1444,7 +1445,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.ebi.ac.uk/chembl/",
    "url_review": false,
    "tls_warning": null,
@@ -1459,7 +1460,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -1473,14 +1474,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -1488,7 +1489,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1010
+    "mean_ms": 1011
    }
   },
   {
@@ -1505,7 +1506,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='summit.med.unideb.hu', port=443): Max retries exceeded with url: /summitdb/ (Caused by NewConnectionError(\"HTTPSConnection(host='summit.med.unideb.hu', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -1520,8 +1521,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -1534,15 +1535,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -1566,7 +1567,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:30Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.sisuproject.fi/",
    "url_review": false,
    "tls_warning": null,
@@ -1579,11 +1580,11 @@
      "challenged": 90
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
-     "challenged": 634
+     "challenged": 627
     },
     "30d": {
      "uptime": 0.9996349032493611,
@@ -1593,24 +1594,24 @@
      "challenged": 2738
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
-     "challenged": 3357
+     "challenged": 3447
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
-     "challenged": 3357
+     "challenged": 3447
     }
    },
    "latency_30d": {
     "p50": "≤250 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 224
+    "mean_ms": 225
    }
   },
   {
@@ -1622,28 +1623,28 @@
    "domain": "Genes and genomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-29T21:10:31Z",
+   "since": "2026-11-01T00:56:53Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://corkoakdb.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9888888888888889,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 1,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 1,
+     "checks": 628,
+     "down": 2,
      "challenged": 0
     },
     "30d": {
@@ -1654,24 +1655,24 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9937462775461584,
+     "uptime": 0.9936194895591647,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 21,
+     "checks": 3448,
+     "down": 22,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9937462775461584,
+     "uptime": 0.9936194895591647,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 21,
+     "checks": 3448,
+     "down": 22,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1203
+    "mean_ms": 1204
    }
   },
   {
@@ -1688,7 +1689,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://deep.dkfz.de/#/home",
    "url_review": true,
    "tls_warning": null,
@@ -1703,8 +1704,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -1717,15 +1718,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -1743,13 +1744,13 @@
    "node": "ELIXIR Greece",
    "domain": "Not specified by ELIXIR",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-31T23:50:30Z",
-   "reason": "ok",
+   "state": "challenged",
+   "since": "2026-11-01T23:38:55Z",
+   "reason": "challenge:browser-check",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC434425/",
    "url_review": false,
    "tls_warning": null,
@@ -1759,35 +1760,35 @@
      "coverage": 1.0,
      "checks": 90,
      "down": 0,
-     "challenged": 68
+     "challenged": 54
     },
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 276
+     "challenged": 306
     },
     "30d": {
      "uptime": 1.0,
      "coverage": 1.0,
      "checks": 2739,
      "down": 0,
-     "challenged": 1237
+     "challenged": 1248
     },
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 1592
+     "challenged": 1646
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 1592
+     "challenged": 1646
     }
    },
    "latency_30d": {
@@ -1810,7 +1811,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://www.disprot.org/",
    "url_review": false,
    "tls_warning": null,
@@ -1823,9 +1824,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9937007874015747,
+     "uptime": 0.9936305732484076,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 4,
      "challenged": 0
     },
@@ -1837,16 +1838,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9785586658725431,
+     "uptime": 0.9791183294663574,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 72,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9785586658725431,
+     "uptime": 0.9791183294663574,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 72,
      "challenged": 0
     }
@@ -1854,7 +1855,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 982
+    "mean_ms": 983
    }
   },
   {
@@ -1866,28 +1867,28 @@
    "domain": "Not specified by ELIXIR",
    "badge": null,
    "state": "up",
-   "since": "2026-10-24T19:04:48Z",
+   "since": "2026-11-01T00:56:53Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://dmportal.biodata.pt/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9888888888888889,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 1,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 1,
      "challenged": 0
     },
     "30d": {
@@ -1898,24 +1899,24 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9934484812388327,
+     "uptime": 0.9933294663573086,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 22,
+     "checks": 3448,
+     "down": 23,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9934484812388327,
+     "uptime": 0.9933294663573086,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 22,
+     "checks": 3448,
+     "down": 23,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤5000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 2446
+    "mean_ms": 2423
    }
   },
   {
@@ -1926,57 +1927,57 @@
    "node": "ELIXIR Czech Republic",
    "domain": "Genes and genomes, Molecular and cellular structures",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-31T19:26:15Z",
-   "reason": "ok",
-   "code": 200,
-   "error": null,
+   "state": "down",
+   "since": "2026-11-01T10:10:33Z",
+   "reason": "connect_timeout",
+   "code": null,
+   "error": "HTTPSConnectionPool(host='dolbico.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='dolbico.org', port=443) at 0x7fbd64190890>, 'Connection to dolbico.org timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
-   "final_url": "https://dolbico.org/",
+   "last_checked": "2026-11-01T23:51:48Z",
+   "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9777777777777777,
+     "uptime": 0.4222222222222222,
      "coverage": 1.0,
      "checks": 90,
-     "down": 2,
+     "down": 52,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9874015748031496,
+     "uptime": 0.9044585987261147,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 8,
+     "checks": 628,
+     "down": 60,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9788243884629427,
+     "uptime": 0.9598393574297188,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 58,
+     "down": 110,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9824300178677784,
+     "uptime": 0.9678074245939675,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 59,
+     "checks": 3448,
+     "down": 111,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9824300178677784,
+     "uptime": 0.9678074245939675,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 59,
+     "checks": 3448,
+     "down": 111,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1849
+    "mean_ms": 1865
    }
   },
   {
@@ -1993,7 +1994,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://registry.dome-ml.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2006,9 +2007,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -2020,16 +2021,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9827278141751042,
+     "uptime": 0.9831786542923434,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 58,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9827278141751042,
+     "uptime": 0.9831786542923434,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 58,
      "challenged": 0
     }
@@ -2037,7 +2038,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 974
+    "mean_ms": 975
    }
   },
   {
@@ -2054,7 +2055,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://dome-ml.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2067,9 +2068,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -2081,16 +2082,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9824300178677784,
+     "uptime": 0.9828886310904872,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 59,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9824300178677784,
+     "uptime": 0.9828886310904872,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 59,
      "challenged": 0
     }
@@ -2115,7 +2116,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://www.ensembl.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2130,7 +2131,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2144,14 +2145,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -2159,7 +2160,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1013
+    "mean_ms": 1016
    }
   },
   {
@@ -2176,7 +2177,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://enzyme.expasy.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2191,7 +2192,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2205,14 +2206,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -2220,7 +2221,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 951
+    "mean_ms": 955
    }
   },
   {
@@ -2237,7 +2238,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "https://eggnogdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2252,7 +2253,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2266,14 +2267,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -2281,7 +2282,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 628
+    "mean_ms": 629
    }
   },
   {
@@ -2298,7 +2299,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:33Z",
    "final_url": "http://evoppi.i3s.up.pt/",
    "url_review": false,
    "tls_warning": null,
@@ -2313,7 +2314,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2327,14 +2328,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -2342,7 +2343,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 561
+    "mean_ms": 562
    }
   },
   {
@@ -2359,23 +2360,23 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://www.ebi.ac.uk/gxa/home",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9666666666666667,
+     "uptime": 1.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 3,
+     "down": 0,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9401574803149606,
+     "uptime": 0.9426751592356688,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 38,
+     "checks": 628,
+     "down": 36,
      "challenged": 0
     },
     "30d": {
@@ -2386,16 +2387,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9240619416319238,
+     "uptime": 0.9260440835266821,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 255,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9240619416319238,
+     "uptime": 0.9260440835266821,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 255,
      "challenged": 0
     }
@@ -2403,7 +2404,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1467
+    "mean_ms": 1470
    }
   },
   {
@@ -2420,7 +2421,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://urgi.versailles.inrae.fr/faidare/",
    "url_review": false,
    "tls_warning": null,
@@ -2435,9 +2436,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -2449,22 +2450,22 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1366
+    "mean_ms": 1368
    }
   },
   {
@@ -2476,28 +2477,28 @@
    "domain": "Genes and genomes, Evolution and phylogeny",
    "badge": null,
    "state": "up",
-   "since": "2026-10-31T06:10:33Z",
+   "since": "2026-11-01T05:30:40Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://findbase.org/#/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9888888888888889,
+     "uptime": 0.9777777777777777,
      "coverage": 1.0,
      "checks": 90,
-     "down": 1,
+     "down": 2,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9811023622047244,
+     "uptime": 0.982484076433121,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 12,
+     "checks": 628,
+     "down": 11,
      "challenged": 0
     },
     "30d": {
@@ -2508,17 +2509,17 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9883859440142942,
+     "uptime": 0.9881090487238979,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 39,
+     "checks": 3448,
+     "down": 41,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9883859440142942,
+     "uptime": 0.9881090487238979,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 39,
+     "checks": 3448,
+     "down": 41,
      "challenged": 0
     }
    },
@@ -2542,7 +2543,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://loschmidt.chemi.muni.cz/fireprotdb/",
    "url_review": false,
    "tls_warning": null,
@@ -2557,7 +2558,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2569,16 +2570,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9982132221560452,
+     "uptime": 0.9982598607888631,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 6,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9982132221560452,
+     "uptime": 0.9982598607888631,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 6,
      "challenged": 0
     }
@@ -2586,7 +2587,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1115
+    "mean_ms": 1118
    }
   },
   {
@@ -2603,7 +2604,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:31Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://flybase.org/",
    "url_review": false,
    "tls_warning": null,
@@ -2618,7 +2619,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2630,16 +2631,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     }
@@ -2647,7 +2648,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤500 ms",
-    "mean_ms": 337
+    "mean_ms": 339
    }
   },
   {
@@ -2664,7 +2665,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://www.elixir-italy.org/services/galactosemia-proteins-database/",
    "url_review": false,
    "tls_warning": null,
@@ -2679,7 +2680,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -2691,16 +2692,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -2708,7 +2709,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 977
+    "mean_ms": 978
    }
   },
   {
@@ -2725,7 +2726,7 @@
    "code": 502,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://genomecrispr.dkfz.de/",
    "url_review": false,
    "tls_warning": null,
@@ -2738,38 +2739,38 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.6110236220472441,
+     "uptime": 0.46337579617834396,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 247,
+     "checks": 628,
+     "down": 337,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.35049288061336253,
+     "uptime": 0.3176341730558598,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 1779,
+     "down": 1869,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.47022036926742106,
+     "uptime": 0.4579466357308585,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1779,
+     "checks": 3448,
+     "down": 1869,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.47022036926742106,
+     "uptime": 0.4579466357308585,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1779,
+     "checks": 3448,
+     "down": 1869,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1112
+    "mean_ms": 1109
    }
   },
   {
@@ -2780,57 +2781,57 @@
    "node": "ELIXIR France",
    "domain": "Genes and genomes",
    "badge": null,
-   "state": "down",
-   "since": "2026-10-31T23:50:30Z",
-   "reason": "connect_timeout",
-   "code": null,
-   "error": "HTTPSConnectionPool(host='www.southgreen.fr', port=443): Max retries exceeded with url: /genomehubs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.southgreen.fr', port=443) at 0x7efc3c0845c0>, 'Connection to www.southgreen.fr timed out. (connect timeout=10)'))",
+   "state": "up",
+   "since": "2026-11-01T23:29:02Z",
+   "reason": "ok",
+   "code": 200,
+   "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
-   "final_url": null,
+   "last_checked": "2026-11-01T23:50:35Z",
+   "final_url": "https://www.southgreen.fr/genomehubs",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9111111111111111,
+     "uptime": 0.8666666666666667,
      "coverage": 1.0,
      "checks": 90,
-     "down": 8,
+     "down": 12,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9118110236220472,
+     "uptime": 0.9092356687898089,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 56,
+     "checks": 628,
+     "down": 57,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.8901058780576853,
+     "uptime": 0.8904709748083242,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 301,
+     "down": 300,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.8713519952352591,
+     "uptime": 0.87122969837587,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 432,
+     "checks": 3448,
+     "down": 444,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.8713519952352591,
+     "uptime": 0.87122969837587,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 432,
+     "checks": 3448,
+     "down": 444,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1025
+    "mean_ms": 1024
    }
   },
   {
@@ -2842,56 +2843,56 @@
    "domain": "Genes and genomes, Literature",
    "badge": null,
    "state": "up",
-   "since": "2026-10-13T06:50:29Z",
+   "since": "2026-11-01T03:10:34Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://genomernai.dkfz.de/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9555555555555556,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 4,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9936305732484076,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 4,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9996349032493611,
+     "uptime": 0.9981745162468054,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 1,
+     "down": 5,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9985498839907193,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1,
+     "checks": 3448,
+     "down": 5,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9985498839907193,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1,
+     "checks": 3448,
+     "down": 5,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1128
+    "mean_ms": 1138
    }
   },
   {
@@ -2908,7 +2909,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://www.genomicus.bio.ens.psl.eu/genomicus-110.01/cgi-bin/search.pl",
    "url_review": false,
    "tls_warning": null,
@@ -2921,10 +2922,10 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.6125984251968504,
+     "uptime": 0.7627388535031847,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 246,
+     "checks": 628,
+     "down": 149,
      "challenged": 0
     },
     "30d": {
@@ -2935,16 +2936,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.824895771292436,
+     "uptime": 0.8294663573085846,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 588,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.824895771292436,
+     "uptime": 0.8294663573085846,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 588,
      "challenged": 0
     }
@@ -2952,7 +2953,7 @@
    "latency_30d": {
     "p50": "≤5000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 2734
+    "mean_ms": 2736
    }
   },
   {
@@ -2963,57 +2964,57 @@
    "node": "ELIXIR Czech Republic",
    "domain": "Genes and genomes, Evolution and phylogeny",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-21T12:10:34Z",
-   "reason": "ok",
-   "code": 200,
-   "error": null,
+   "state": "down",
+   "since": "2026-11-01T13:50:35Z",
+   "reason": "connect_timeout",
+   "code": null,
+   "error": "HTTPSConnectionPool(host='globalfungi.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='globalfungi.com', port=443) at 0x7fbd64382480>, 'Connection to globalfungi.com timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
-   "final_url": "https://globalfungi.com/",
+   "last_checked": "2026-11-01T23:51:48Z",
+   "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.5444444444444444,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 41,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9347133757961783,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 41,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9839357429718876,
+     "uptime": 0.9689667761956918,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 44,
+     "down": 85,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9868969624776652,
+     "uptime": 0.9753480278422274,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 44,
+     "checks": 3448,
+     "down": 85,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9868969624776652,
+     "uptime": 0.9753480278422274,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 44,
+     "checks": 3448,
+     "down": 85,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 833
+    "mean_ms": 840
    }
   },
   {
@@ -3030,7 +3031,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://urgi.versailles.inrae.fr/gnpis/",
    "url_review": false,
    "tls_warning": null,
@@ -3045,9 +3046,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -3059,22 +3060,22 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1032
+    "mean_ms": 1030
    }
   },
   {
@@ -3091,7 +3092,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://www.ebi.ac.uk/GOA/index",
    "url_review": false,
    "tls_warning": null,
@@ -3106,7 +3107,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3120,14 +3121,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -3135,7 +3136,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 598
+    "mean_ms": 599
    }
   },
   {
@@ -3152,7 +3153,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://help.gwascentral.org/about/",
    "url_review": false,
    "tls_warning": null,
@@ -3167,7 +3168,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3179,16 +3180,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9931506849315068,
+     "uptime": 0.9933294663573086,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 23,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9931506849315068,
+     "uptime": 0.9933294663573086,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 23,
      "challenged": 0
     }
@@ -3213,7 +3214,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://hamap.expasy.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3228,7 +3229,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3242,14 +3243,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -3257,7 +3258,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1029
+    "mean_ms": 1033
    }
   },
   {
@@ -3274,7 +3275,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "http://www.hcvivdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3287,9 +3288,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9968503937007874,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 2,
      "challenged": 0
     },
@@ -3301,16 +3302,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9988088147706968,
+     "uptime": 0.9988399071925754,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 4,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9988088147706968,
+     "uptime": 0.9988399071925754,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 4,
      "challenged": 0
     }
@@ -3318,7 +3319,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1454
+    "mean_ms": 1452
    }
   },
   {
@@ -3330,28 +3331,28 @@
    "domain": "Genes and genomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-21T07:50:33Z",
+   "since": "2026-11-01T18:50:32Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://herv.img.cas.cz/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9888888888888889,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 1,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 1,
      "challenged": 0
     },
     "30d": {
@@ -3362,24 +3363,24 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9916617033948779,
+     "uptime": 0.9915893271461717,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 28,
+     "checks": 3448,
+     "down": 29,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9916617033948779,
+     "uptime": 0.9915893271461717,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 28,
+     "checks": 3448,
+     "down": 29,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1180
+    "mean_ms": 1179
    }
   },
   {
@@ -3396,7 +3397,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:34Z",
    "final_url": "https://www.genenames.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3411,7 +3412,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3425,14 +3426,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -3452,56 +3453,56 @@
    "domain": "Proteins and proteomes, Chemical biology",
    "badge": null,
    "state": "down",
-   "since": "2026-10-31T23:10:33Z",
+   "since": "2026-11-01T23:38:55Z",
    "reason": "read_timeout",
    "code": null,
    "error": "HTTPSConnectionPool(host='hla-ligand-atlas.org', port=443): Read timed out. (read timeout=20)",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:59Z",
+   "last_checked": "2026-11-01T23:52:04Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.2777777777777778,
+     "uptime": 0.6444444444444445,
      "coverage": 1.0,
      "checks": 90,
-     "down": 65,
+     "down": 32,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.6173228346456693,
+     "uptime": 0.5939490445859873,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 243,
+     "checks": 628,
+     "down": 255,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.7893391748813435,
+     "uptime": 0.7860533041255933,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 577,
+     "down": 586,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7730792138177487,
+     "uptime": 0.7697215777262181,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 762,
+     "checks": 3448,
+     "down": 794,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7730792138177487,
+     "uptime": 0.7697215777262181,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 762,
+     "checks": 3448,
+     "down": 794,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": ">10000 ms",
-    "mean_ms": 5180
+    "mean_ms": 4993
    }
   },
   {
@@ -3516,9 +3517,9 @@
    "since": "2026-09-17T16:07:30Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPConnectionPool(host='www.hmtdb.uniba.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.hmtdb.uniba.it', port=80) at 0x7efc3be5f470>, 'Connection to www.hmtdb.uniba.it timed out. (connect timeout=10)'))",
+   "error": "HTTPConnectionPool(host='www.hmtdb.uniba.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.hmtdb.uniba.it', port=80) at 0x7fbd64380e00>, 'Connection to www.hmtdb.uniba.it timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:48Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -3533,8 +3534,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -3547,15 +3548,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -3579,7 +3580,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://htp.unitmp.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3592,9 +3593,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -3606,16 +3607,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9734961286480047,
+     "uptime": 0.9741879350348028,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 89,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9734961286480047,
+     "uptime": 0.9741879350348028,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 89,
      "challenged": 0
     }
@@ -3623,7 +3624,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1335
+    "mean_ms": 1333
    }
   },
   {
@@ -3640,7 +3641,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://www.proteinatlas.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3655,7 +3656,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3667,16 +3668,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9976176295413937,
+     "uptime": 0.9976798143851509,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 8,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9976176295413937,
+     "uptime": 0.9976798143851509,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 8,
      "challenged": 0
     }
@@ -3684,7 +3685,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 988
+    "mean_ms": 989
    }
   },
   {
@@ -3701,7 +3702,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "https://idsm.elixir-czech.cz/",
    "url_review": false,
    "tls_warning": null,
@@ -3714,9 +3715,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9968503937007874,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 2,
      "challenged": 0
     },
@@ -3728,16 +3729,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9976176295413937,
+     "uptime": 0.9976798143851509,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 8,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9976176295413937,
+     "uptime": 0.9976798143851509,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 8,
      "challenged": 0
     }
@@ -3745,7 +3746,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1041
+    "mean_ms": 1040
    }
   },
   {
@@ -3762,7 +3763,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://www.imgt.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3777,7 +3778,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3789,16 +3790,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9803454437164979,
+     "uptime": 0.9808584686774942,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 66,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9803454437164979,
+     "uptime": 0.9808584686774942,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 66,
      "challenged": 0
     }
@@ -3806,7 +3807,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 875
+    "mean_ms": 874
    }
   },
   {
@@ -3823,7 +3824,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:35Z",
    "final_url": "http://intermine.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3838,7 +3839,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3852,14 +3853,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -3867,7 +3868,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 394
+    "mean_ms": 395
    }
   },
   {
@@ -3884,7 +3885,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:32Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://www.ebi.ac.uk/interpro/",
    "url_review": false,
    "tls_warning": null,
@@ -3899,7 +3900,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -3913,14 +3914,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -3928,7 +3929,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 534
+    "mean_ms": 536
    }
   },
   {
@@ -3945,7 +3946,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://iptgxdb.expasy.org/",
    "url_review": false,
    "tls_warning": null,
@@ -3960,28 +3961,28 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.7897042716319824,
+     "uptime": 0.8225629791894852,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 576,
+     "down": 486,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7596783799880882,
+     "uptime": 0.7659512761020881,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 807,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7596783799880882,
+     "uptime": 0.7659512761020881,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 807,
      "challenged": 0
     }
@@ -3989,7 +3990,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 921
+    "mean_ms": 917
    }
   },
   {
@@ -4006,7 +4007,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "http://iresite.org/",
    "url_review": false,
    "tls_warning": null,
@@ -4021,28 +4022,28 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9985396129974443,
+     "uptime": 0.9989047097480832,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 4,
+     "down": 3,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9988088147706968,
+     "uptime": 0.9988399071925754,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 4,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9988088147706968,
+     "uptime": 0.9988399071925754,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 4,
      "challenged": 0
     }
@@ -4065,9 +4066,9 @@
    "since": "2026-09-17T16:07:30Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPSConnectionPool(host='www.covid19dataportal.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.covid19dataportal.it', port=443) at 0x7efc3c069ac0>, 'Connection to www.covid19dataportal.it timed out. (connect timeout=10)'))",
+   "error": "HTTPSConnectionPool(host='www.covid19dataportal.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.covid19dataportal.it', port=443) at 0x7fbd6438ca70>, 'Connection to www.covid19dataportal.it timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:52:04Z",
+   "last_checked": "2026-11-01T23:52:11Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -4082,8 +4083,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -4096,15 +4097,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -4128,7 +4129,7 @@
    "code": 502,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://itsonedb.cloud.ba.infn.it/",
    "url_review": false,
    "tls_warning": null,
@@ -4143,8 +4144,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -4157,15 +4158,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -4189,7 +4190,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://www.guidetopharmacology.org/",
    "url_review": false,
    "tls_warning": null,
@@ -4204,7 +4205,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4218,14 +4219,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -4250,7 +4251,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://jaspar.elixir.no/",
    "url_review": false,
    "tls_warning": null,
@@ -4265,7 +4266,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4279,14 +4280,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -4294,7 +4295,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1991
+    "mean_ms": 1988
    }
   },
   {
@@ -4311,7 +4312,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://licebase.org/",
    "url_review": false,
    "tls_warning": null,
@@ -4326,7 +4327,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4340,14 +4341,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -4372,7 +4373,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://macpepdb.cubimed.rub.de/",
    "url_review": false,
    "tls_warning": null,
@@ -4385,9 +4386,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -4399,16 +4400,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9401429422275164,
+     "uptime": 0.9417053364269141,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 201,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9401429422275164,
+     "uptime": 0.9417053364269141,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 201,
      "challenged": 0
     }
@@ -4416,7 +4417,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 738
+    "mean_ms": 740
    }
   },
   {
@@ -4433,7 +4434,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='mmp.sfb.uit.no', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:35Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -4448,8 +4449,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -4462,15 +4463,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -4494,7 +4495,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://massbank.eu/MassBank//",
    "url_review": false,
    "tls_warning": null,
@@ -4509,7 +4510,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4521,16 +4522,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9758784991066111,
+     "uptime": 0.976508120649652,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 81,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9758784991066111,
+     "uptime": 0.976508120649652,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 81,
      "challenged": 0
     }
@@ -4538,7 +4539,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 645
+    "mean_ms": 647
    }
   },
   {
@@ -4555,7 +4556,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='matrixdb.univ-lyon1.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'matrixdb.univ-lyon1.fr'. (_ssl.c:1010)\")))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:38Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -4570,8 +4571,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -4582,17 +4583,17 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.009231685527099465,
+     "uptime": 0.008990719257540603,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3327,
+     "checks": 3448,
+     "down": 3417,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.009231685527099465,
+     "uptime": 0.008990719257540603,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3327,
+     "checks": 3448,
+     "down": 3417,
      "challenged": 0
     }
    },
@@ -4616,7 +4617,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://mediadive.dsmz.de/",
    "url_review": false,
    "tls_warning": null,
@@ -4631,36 +4632,36 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9357429718875502,
+     "uptime": 0.9361080686381891,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 176,
+     "down": 175,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9434187016081,
+     "uptime": 0.9448955916473318,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 190,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9434187016081,
+     "uptime": 0.9448955916473318,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 190,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
-    "p95": "≤2000 ms",
-    "mean_ms": 1206
+    "p95": "≤5000 ms",
+    "mean_ms": 1234
    }
   },
   {
@@ -4677,7 +4678,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://meltdb.cebitec.uni-bielefeld.de/cgi-bin/login.cgi",
    "url_review": false,
    "tls_warning": null,
@@ -4692,7 +4693,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4704,16 +4705,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9755807027992853,
+     "uptime": 0.9762180974477959,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 82,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9755807027992853,
+     "uptime": 0.9762180974477959,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 82,
      "challenged": 0
     }
@@ -4721,7 +4722,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 859
+    "mean_ms": 861
    }
   },
   {
@@ -4738,7 +4739,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:41Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://biit.cs.ut.ee/mem/",
    "url_review": false,
    "tls_warning": null,
@@ -4753,7 +4754,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -4765,16 +4766,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9955330553901132,
+     "uptime": 0.9956496519721578,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 15,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9955330553901132,
+     "uptime": 0.9956496519721578,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 15,
      "challenged": 0
     }
@@ -4782,7 +4783,7 @@
    "latency_30d": {
     "p50": "≤10000 ms",
     "p95": ">10000 ms",
-    "mean_ms": 8897
+    "mean_ms": 8838
    }
   },
   {
@@ -4799,7 +4800,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:36Z",
    "final_url": "https://metabolicatlas.org/",
    "url_review": false,
    "tls_warning": null,
@@ -4814,9 +4815,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -4828,22 +4829,22 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     }
    },
    "latency_30d": {
     "p50": "≤250 ms",
     "p95": "≤500 ms",
-    "mean_ms": 304
+    "mean_ms": 303
    }
   },
   {
@@ -4860,23 +4861,23 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.metanetx.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9888888888888889,
+     "uptime": 1.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 1,
+     "down": 0,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9952755905511811,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 3,
+     "checks": 628,
+     "down": 2,
      "challenged": 0
     },
     "30d": {
@@ -4887,16 +4888,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9767718880285885,
+     "uptime": 0.9773781902552204,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 78,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9767718880285885,
+     "uptime": 0.9773781902552204,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 78,
      "challenged": 0
     }
@@ -4904,7 +4905,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1579
+    "mean_ms": 1580
    }
   },
   {
@@ -4915,57 +4916,57 @@
    "node": "ELIXIR Spain",
    "domain": "Evolution and phylogeny",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-21T02:30:40Z",
-   "reason": "ok",
-   "code": 200,
+   "state": "down",
+   "since": "2026-11-01T04:10:35Z",
+   "reason": "http_503",
+   "code": 503,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://orthology.phylomedb.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.17777777777777778,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 74,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.8821656050955414,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 74,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.855056589996349,
+     "uptime": 0.8608981380065718,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 397,
+     "down": 381,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.8648004764740918,
+     "uptime": 0.8468677494199536,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 454,
+     "checks": 3448,
+     "down": 528,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.8648004764740918,
+     "uptime": 0.8468677494199536,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 454,
+     "checks": 3448,
+     "down": 528,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤10000 ms",
-    "mean_ms": 2432
+    "mean_ms": 2439
    }
   },
   {
@@ -4982,7 +4983,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.ebi.ac.uk/metagenomics/",
    "url_review": false,
    "tls_warning": null,
@@ -4997,7 +4998,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5011,14 +5012,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5026,7 +5027,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 521
+    "mean_ms": 520
    }
   },
   {
@@ -5043,7 +5044,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "http://mhcmotifatlas.org/home",
    "url_review": false,
    "tls_warning": null,
@@ -5058,7 +5059,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5072,14 +5073,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5104,8 +5105,8 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
-   "final_url": "https://www.lifewatch.eu/catalogue-of-virtual-labs/microctvlab/",
+   "last_checked": "2026-11-01T23:50:38Z",
+   "final_url": "https://www.lifewatch.eu/microctvlab",
    "url_review": false,
    "tls_warning": null,
    "windows": {
@@ -5117,30 +5118,30 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9952755905511811,
+     "uptime": 0.9952229299363057,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 3,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.8568820737495436,
+     "uptime": 0.8652792990142387,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 392,
+     "down": 369,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.8123883263847528,
+     "uptime": 0.8172853828306265,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 630,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.8123883263847528,
+     "uptime": 0.8172853828306265,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 630,
      "challenged": 0
     }
@@ -5148,7 +5149,7 @@
    "latency_30d": {
     "p50": "≤5000 ms",
     "p95": ">10000 ms",
-    "mean_ms": 11292
+    "mean_ms": 10653
    }
   },
   {
@@ -5165,7 +5166,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://microbeatlas.org/landing",
    "url_review": false,
    "tls_warning": null,
@@ -5180,7 +5181,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5194,14 +5195,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5226,7 +5227,7 @@
    "code": null,
    "error": "HTTPConnectionPool(host='mint.bio.uniroma2.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='mint.bio.uniroma2.it', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:38Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -5241,8 +5242,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -5253,17 +5254,17 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.30583680762358545,
+     "uptime": 0.2978538283062645,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2331,
+     "checks": 3448,
+     "down": 2421,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.30583680762358545,
+     "uptime": 0.2978538283062645,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2331,
+     "checks": 3448,
+     "down": 2421,
      "challenged": 0
     }
    },
@@ -5287,7 +5288,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://mirgenedb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -5302,7 +5303,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5316,14 +5317,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5331,7 +5332,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 709
+    "mean_ms": 708
    }
   },
   {
@@ -5348,7 +5349,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/mitozoa/",
    "url_review": true,
    "tls_warning": null,
@@ -5363,8 +5364,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -5377,15 +5378,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -5409,7 +5410,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://mobidb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -5422,30 +5423,30 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9835706462212487,
+     "uptime": 0.995253742241694,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 45,
+     "down": 13,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9246575342465754,
+     "uptime": 0.9266241299303944,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 253,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9246575342465754,
+     "uptime": 0.9266241299303944,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 253,
      "challenged": 0
     }
@@ -5453,7 +5454,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1633
+    "mean_ms": 1632
    }
   },
   {
@@ -5470,7 +5471,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:33Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://molgenis.github.io/",
    "url_review": false,
    "tls_warning": null,
@@ -5485,7 +5486,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5499,14 +5500,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5531,7 +5532,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://molmedb.upol.cz/",
    "url_review": false,
    "tls_warning": null,
@@ -5546,7 +5547,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5560,14 +5561,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -5587,49 +5588,49 @@
    "domain": "Evolution and phylogeny, Genes and genomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-28T15:10:31Z",
+   "since": "2026-11-01T23:38:55Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:37Z",
    "final_url": "https://nextstrain.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9777777777777777,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 2,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9952755905511811,
+     "uptime": 0.9920382165605095,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 3,
+     "checks": 628,
+     "down": 5,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9868565169769989,
+     "uptime": 0.9872216137276378,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 36,
+     "down": 35,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9782608695652174,
+     "uptime": 0.9782482598607889,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 73,
+     "checks": 3448,
+     "down": 75,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9782608695652174,
+     "uptime": 0.9782482598607889,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 73,
+     "checks": 3448,
+     "down": 75,
      "challenged": 0
     }
    },
@@ -5651,9 +5652,9 @@
    "since": "2026-09-17T16:07:30Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPConnectionPool(host='bioinfo.cristal.univ-lille.fr', port=80): Max retries exceeded with url: /norine/ (Caused by ConnectTimeoutError(<HTTPConnection(host='bioinfo.cristal.univ-lille.fr', port=80) at 0x7efc3c0469f0>, 'Connection to bioinfo.cristal.univ-lille.fr timed out. (connect timeout=10)'))",
+   "error": "HTTPConnectionPool(host='bioinfo.cristal.univ-lille.fr', port=80): Max retries exceeded with url: /norine/ (Caused by ConnectTimeoutError(<HTTPConnection(host='bioinfo.cristal.univ-lille.fr', port=80) at 0x7fbd6415c8c0>, 'Connection to bioinfo.cristal.univ-lille.fr timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:48Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -5668,8 +5669,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -5682,15 +5683,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -5708,57 +5709,57 @@
    "node": "ELIXIR France",
    "domain": "Genes and genomes",
    "badge": null,
-   "state": "down",
-   "since": "2026-10-31T23:10:33Z",
-   "reason": "connect_timeout",
-   "code": null,
-   "error": "HTTPSConnectionPool(host='tara-oceans.mio.osupytheas.fr', port=443): Max retries exceeded with url: /ocean-gene-atlas/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tara-oceans.mio.osupytheas.fr', port=443) at 0x7efc3c044710>, 'Connection to tara-oceans.mio.osupytheas.fr timed out. (connect ",
+   "state": "up",
+   "since": "2026-11-01T23:29:02Z",
+   "reason": "ok",
+   "code": 200,
+   "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
-   "final_url": null,
+   "last_checked": "2026-11-01T23:50:39Z",
+   "final_url": "https://oga.mio.osupytheas.fr/ocean-gene-atlas/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.5333333333333333,
+     "uptime": 0.4444444444444444,
      "coverage": 1.0,
      "checks": 90,
-     "down": 42,
+     "down": 50,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.5401574803149606,
+     "uptime": 0.5382165605095541,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 292,
+     "checks": 628,
+     "down": 290,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.4651332603139832,
+     "uptime": 0.46622855056589996,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 1465,
+     "down": 1462,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.44312090530077425,
+     "uptime": 0.4431554524361949,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1870,
+     "checks": 3448,
+     "down": 1920,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.44312090530077425,
+     "uptime": 0.4431554524361949,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1870,
+     "checks": 3448,
+     "down": 1920,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1656
+    "mean_ms": 1679
    }
   },
   {
@@ -5775,7 +5776,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://olida.ibsquare.be/",
    "url_review": false,
    "tls_warning": null,
@@ -5790,7 +5791,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5802,16 +5803,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     }
@@ -5836,7 +5837,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://omabrowser.org/oma/home/",
    "url_review": false,
    "tls_warning": null,
@@ -5851,36 +5852,36 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9945235487404163,
+     "uptime": 0.9956188389923329,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 15,
+     "down": 12,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9910661107802263,
+     "uptime": 0.9912993039443155,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 30,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9910661107802263,
+     "uptime": 0.9912993039443155,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 30,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
-    "p95": "≤5000 ms",
-    "mean_ms": 884
+    "p95": "≤2000 ms",
+    "mean_ms": 860
    }
   },
   {
@@ -5897,7 +5898,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.omicsdi.org/",
    "url_review": false,
    "tls_warning": null,
@@ -5910,9 +5911,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -5924,16 +5925,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9895771292435974,
+     "uptime": 0.9898491879350348,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 35,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9895771292435974,
+     "uptime": 0.9898491879350348,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 35,
      "challenged": 0
     }
@@ -5941,7 +5942,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1468
+    "mean_ms": 1426
    }
   },
   {
@@ -5958,7 +5959,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://omnipathdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -5973,7 +5974,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -5985,16 +5986,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     }
@@ -6019,7 +6020,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "http://www.ompdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6034,7 +6035,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6048,14 +6049,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -6063,7 +6064,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1281
+    "mean_ms": 1283
    }
   },
   {
@@ -6080,7 +6081,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://platform.opentargets.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6095,7 +6096,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6109,14 +6110,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -6124,7 +6125,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 412
+    "mean_ms": 411
    }
   },
   {
@@ -6141,7 +6142,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.orphadata.com/",
    "url_review": false,
    "tls_warning": null,
@@ -6154,9 +6155,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -6168,16 +6169,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -6185,7 +6186,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1215
+    "mean_ms": 1222
    }
   },
   {
@@ -6202,7 +6203,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:34Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.orpha.net/",
    "url_review": false,
    "tls_warning": null,
@@ -6217,7 +6218,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6231,14 +6232,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -6246,7 +6247,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 956
+    "mean_ms": 954
    }
   },
   {
@@ -6263,7 +6264,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.orthodb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6278,7 +6279,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6292,14 +6293,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -6307,7 +6308,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 561
+    "mean_ms": 559
    }
   },
   {
@@ -6319,49 +6320,49 @@
    "domain": "Chemical biology, Genes and genomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-31T10:30:44Z",
+   "since": "2026-11-01T19:29:55Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:38Z",
    "final_url": "https://www.pandrugs.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9777777777777777,
+     "uptime": 0.9666666666666667,
      "coverage": 1.0,
      "checks": 90,
-     "down": 2,
+     "down": 3,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9795275590551181,
+     "uptime": 0.9761146496815286,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 13,
+     "checks": 628,
+     "down": 15,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9696969696969697,
+     "uptime": 0.9686016794450529,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 83,
+     "down": 86,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9708159618820726,
+     "uptime": 0.970707656612529,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 98,
+     "checks": 3448,
+     "down": 101,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9708159618820726,
+     "uptime": 0.970707656612529,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 98,
+     "checks": 3448,
+     "down": 101,
      "challenged": 0
     }
    },
@@ -6385,7 +6386,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://paramecium.i2bc.paris-saclay.fr/",
    "url_review": false,
    "tls_warning": null,
@@ -6400,7 +6401,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6412,16 +6413,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9535437760571769,
+     "uptime": 0.9547563805104409,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 156,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9535437760571769,
+     "uptime": 0.9547563805104409,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 156,
      "challenged": 0
     }
@@ -6429,7 +6430,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1763
+    "mean_ms": 1771
    }
   },
   {
@@ -6446,7 +6447,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://pax-db.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6461,7 +6462,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6473,16 +6474,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9919594997022037,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 27,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9919594997022037,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 27,
      "challenged": 0
     }
@@ -6490,7 +6491,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 828
+    "mean_ms": 825
    }
   },
   {
@@ -6507,7 +6508,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://pdbtm.unitmp.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6522,7 +6523,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6534,16 +6535,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     }
@@ -6551,7 +6552,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1549
+    "mean_ms": 1546
    }
   },
   {
@@ -6568,7 +6569,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://proteinensemble.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6581,9 +6582,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -6595,16 +6596,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9821322215604527,
+     "uptime": 0.9825986078886311,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 60,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9821322215604527,
+     "uptime": 0.9825986078886311,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 60,
      "challenged": 0
     }
@@ -6612,7 +6613,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 938
+    "mean_ms": 937
    }
   },
   {
@@ -6629,7 +6630,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://www.phi-base.org/",
    "url_review": false,
    "tls_warning": null,
@@ -6644,7 +6645,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -6656,16 +6657,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9964264443120905,
+     "uptime": 0.9965197215777262,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 12,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9964264443120905,
+     "uptime": 0.9965197215777262,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 12,
      "challenged": 0
     }
@@ -6673,7 +6674,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1701
+    "mean_ms": 1719
    }
   },
   {
@@ -6684,57 +6685,57 @@
    "node": "ELIXIR Spain",
    "domain": "Genes and genomes",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-21T02:30:40Z",
-   "reason": "ok",
-   "code": 200,
+   "state": "down",
+   "since": "2026-11-01T04:10:35Z",
+   "reason": "http_503",
+   "code": 503,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://phylomedb.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.17777777777777778,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 74,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.8821656050955414,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 74,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.8554216867469879,
+     "uptime": 0.8612632347572107,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 396,
+     "down": 380,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.8650982727814175,
+     "uptime": 0.8471577726218097,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 453,
+     "checks": 3448,
+     "down": 527,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.8650982727814175,
+     "uptime": 0.8471577726218097,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 453,
+     "checks": 3448,
+     "down": 527,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1248
+    "mean_ms": 1247
    }
   },
   {
@@ -6746,56 +6747,56 @@
    "domain": "Proteins and proteomes",
    "badge": null,
    "state": "down",
-   "since": "2026-10-31T23:10:33Z",
+   "since": "2026-11-01T23:38:55Z",
    "reason": "read_timeout",
    "code": null,
    "error": "HTTPConnectionPool(host='www.pickle.gr', port=80): Read timed out. (read timeout=20)",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:54Z",
+   "last_checked": "2026-11-01T23:51:59Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.32222222222222224,
+     "uptime": 0.45555555555555555,
      "coverage": 1.0,
      "checks": 90,
-     "down": 61,
+     "down": 49,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.6078740157480315,
+     "uptime": 0.5955414012738853,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 249,
+     "checks": 628,
+     "down": 254,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.714859437751004,
+     "uptime": 0.696969696969697,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 781,
+     "down": 830,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7352590827873734,
+     "uptime": 0.7279582366589327,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 889,
+     "checks": 3448,
+     "down": 938,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7352590827873734,
+     "uptime": 0.7279582366589327,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 889,
+     "checks": 3448,
+     "down": 938,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": ">10000 ms",
     "p95": ">10000 ms",
-    "mean_ms": 11149
+    "mean_ms": 11426
    }
   },
   {
@@ -6812,7 +6813,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='pippa.psb.ugent.be', port=443): Max retries exceeded with url: /pippa_nav/home/ (Caused by NewConnectionError(\"HTTPSConnection(host='pippa.psb.ugent.be', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -6827,36 +6828,36 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.6582694414019715,
+     "uptime": 0.6254107338444688,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 936,
+     "down": 1026,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7212626563430613,
+     "uptime": 0.7024361948955916,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 936,
+     "checks": 3448,
+     "down": 1026,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7212626563430613,
+     "uptime": 0.7024361948955916,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 936,
+     "checks": 3448,
+     "down": 1026,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 823
+    "mean_ms": 824
    }
   },
   {
@@ -6871,9 +6872,9 @@
    "since": "2026-09-17T16:07:30Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPConnectionPool(host='pgsb.helmholtz-muenchen.de', port=80): Max retries exceeded with url: /plant/plantsdb.jsp (Caused by ConnectTimeoutError(<HTTPConnection(host='pgsb.helmholtz-muenchen.de', port=80) at 0x7efc3be41460>, 'Connection to pgsb.helmholtz-muenchen.de timed out. (connect timeout=10)'",
+   "error": "HTTPConnectionPool(host='pgsb.helmholtz-muenchen.de', port=80): Max retries exceeded with url: /plant/plantsdb.jsp (Caused by ConnectTimeoutError(<HTTPConnection(host='pgsb.helmholtz-muenchen.de', port=80) at 0x7fbd6415faa0>, 'Connection to pgsb.helmholtz-muenchen.de timed out. (connect timeout=10)'",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:48Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -6888,8 +6889,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -6902,15 +6903,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -6934,7 +6935,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/PMDB/help.php",
    "url_review": true,
    "tls_warning": null,
@@ -6949,8 +6950,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -6963,15 +6964,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -6995,7 +6996,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://polarprotdb.ttk.hu/",
    "url_review": false,
    "tls_warning": null,
@@ -7010,7 +7011,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7022,16 +7023,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     }
@@ -7039,7 +7040,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1806
+    "mean_ms": 1801
    }
   },
   {
@@ -7056,7 +7057,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://www.pombase.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7071,7 +7072,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7085,14 +7086,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -7100,7 +7101,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 869
+    "mean_ms": 868
    }
   },
   {
@@ -7117,7 +7118,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://progenetix.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7132,9 +7133,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -7146,22 +7147,22 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     }
    },
    "latency_30d": {
     "p50": "≤250 ms",
     "p95": "≤500 ms",
-    "mean_ms": 300
+    "mean_ms": 299
    }
   },
   {
@@ -7178,7 +7179,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://prosite.expasy.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7191,9 +7192,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -7205,16 +7206,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -7222,7 +7223,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 952
+    "mean_ms": 954
    }
   },
   {
@@ -7239,7 +7240,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:35Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://reactome.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7254,7 +7255,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7266,16 +7267,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9979154258487195,
+     "uptime": 0.997969837587007,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 7,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9979154258487195,
+     "uptime": 0.997969837587007,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 7,
      "challenged": 0
     }
@@ -7283,7 +7284,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 572
+    "mean_ms": 578
    }
   },
   {
@@ -7300,7 +7301,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/redidb/",
    "url_review": true,
    "tls_warning": null,
@@ -7315,8 +7316,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -7329,15 +7330,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -7361,7 +7362,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/atlas/",
    "url_review": false,
    "tls_warning": null,
@@ -7376,7 +7377,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7390,14 +7391,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -7405,7 +7406,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1038
+    "mean_ms": 1036
    }
   },
   {
@@ -7418,12 +7419,12 @@
    "badge": null,
    "state": "down",
    "since": "2026-10-23T07:30:45Z",
-   "reason": "connect_timeout",
-   "code": null,
-   "error": "HTTPSConnectionPool(host='remap.univ-amu.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='remap.univ-amu.fr', port=443) at 0x7efc3be69c40>, 'Connection to remap.univ-amu.fr timed out. (connect timeout=10)'))",
+   "reason": "http_502",
+   "code": 502,
+   "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
-   "final_url": null,
+   "last_checked": "2026-11-01T23:51:39Z",
+   "final_url": "https://remap.univ-amu.fr/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
@@ -7437,36 +7438,36 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.30960204454180357,
+     "uptime": 0.29609346476816356,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 1891,
+     "down": 1928,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.3162596783799881,
+     "uptime": 0.3080046403712297,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2296,
+     "checks": 3448,
+     "down": 2386,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.3162596783799881,
+     "uptime": 0.3080046403712297,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 2296,
+     "checks": 3448,
+     "down": 2386,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤5000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 2422
+    "mean_ms": 2423
    }
   },
   {
@@ -7483,7 +7484,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://repeatsdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7496,9 +7497,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -7510,16 +7511,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9821322215604527,
+     "uptime": 0.9825986078886311,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 60,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9821322215604527,
+     "uptime": 0.9825986078886311,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 60,
      "challenged": 0
     }
@@ -7527,7 +7528,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 933
+    "mean_ms": 935
    }
   },
   {
@@ -7544,7 +7545,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://repeatexplorer.org/?page_id=918",
    "url_review": false,
    "tls_warning": null,
@@ -7559,7 +7560,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7573,14 +7574,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -7605,7 +7606,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://rfam.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7620,7 +7621,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -7632,16 +7633,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -7649,7 +7650,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 960
+    "mean_ms": 959
    }
   },
   {
@@ -7666,7 +7667,7 @@
    "code": 403,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:39Z",
    "final_url": "https://www.rhea-db.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7681,9 +7682,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -7695,16 +7696,16 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     }
    },
    "latency_30d": {
@@ -7727,7 +7728,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:36Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://riboseq.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7740,9 +7741,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -7754,16 +7755,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -7788,43 +7789,43 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:40Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://rnacentral.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.9888888888888889,
+     "uptime": 1.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 1,
+     "down": 0,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9574803149606299,
+     "uptime": 0.9617834394904459,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 27,
+     "checks": 628,
+     "down": 24,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9777290982110259,
+     "uptime": 0.9780941949616648,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 61,
+     "down": 60,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9818344252531268,
+     "uptime": 0.982308584686775,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 61,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9818344252531268,
+     "uptime": 0.982308584686775,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 61,
      "challenged": 0
     }
@@ -7832,7 +7833,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 870
+    "mean_ms": 882
    }
   },
   {
@@ -7849,7 +7850,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://sabio.h-its.org/ui/search",
    "url_review": false,
    "tls_warning": null,
@@ -7862,9 +7863,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9968503937007874,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 2,
      "challenged": 0
     },
@@ -7876,16 +7877,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9991066110780227,
+     "uptime": 0.9991299303944315,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 3,
      "challenged": 0
     }
@@ -7893,7 +7894,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 738
+    "mean_ms": 735
    }
   },
   {
@@ -7910,7 +7911,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://salmobase.org/",
    "url_review": false,
    "tls_warning": null,
@@ -7923,9 +7924,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9968503937007874,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 2,
      "challenged": 0
     },
@@ -7937,24 +7938,24 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
-    "p95": "≤2000 ms",
-    "mean_ms": 750
+    "p95": "≤1000 ms",
+    "mean_ms": 747
    }
   },
   {
@@ -7971,7 +7972,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='covid19.sfb.uit.no', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='covid19.sfb.uit.no', port=443): Failed to resolve 'covid19.sfb.uit.no' ([Errno -2] Name or service not known)\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -7986,8 +7987,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -8000,15 +8001,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -8032,7 +8033,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://sibils.org/",
    "url_review": false,
    "tls_warning": null,
@@ -8047,7 +8048,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8059,16 +8060,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -8093,7 +8094,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://sideeffects.embl.de/",
    "url_review": false,
    "tls_warning": null,
@@ -8106,10 +8107,10 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.752755905511811,
+     "uptime": 0.8487261146496815,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 157,
+     "checks": 628,
+     "down": 95,
      "challenged": 0
     },
     "30d": {
@@ -8120,16 +8121,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9511614055985705,
+     "uptime": 0.9524361948955916,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 164,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9511614055985705,
+     "uptime": 0.9524361948955916,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 164,
      "challenged": 0
     }
@@ -8137,7 +8138,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 917
+    "mean_ms": 922
    }
   },
   {
@@ -8154,7 +8155,7 @@
    "code": null,
    "error": "HTTPConnectionPool(host='signor.uniroma2.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='signor.uniroma2.it', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -8169,36 +8170,36 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.6571741511500547,
+     "uptime": 0.624315443592552,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 939,
+     "down": 1029,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7200714711137582,
+     "uptime": 0.701276102088167,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 940,
+     "checks": 3448,
+     "down": 1030,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7200714711137582,
+     "uptime": 0.701276102088167,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 940,
+     "checks": 3448,
+     "down": 1030,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1310
+    "mean_ms": 1297
    }
   },
   {
@@ -8215,7 +8216,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://www.arb-silva.de/",
    "url_review": false,
    "tls_warning": null,
@@ -8230,28 +8231,28 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9963490324936108,
+     "uptime": 0.9967141292442497,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 10,
+     "down": 9,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9928528886241811,
+     "uptime": 0.9930394431554525,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 24,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9928528886241811,
+     "uptime": 0.9930394431554525,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 24,
      "challenged": 0
     }
@@ -8259,7 +8260,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 702
+    "mean_ms": 712
    }
   },
   {
@@ -8276,7 +8277,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://smart.embl.de/smart/change_mode.cgi",
    "url_review": false,
    "tls_warning": null,
@@ -8291,7 +8292,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8303,16 +8304,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9937462775461584,
+     "uptime": 0.9939095127610209,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 21,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9937462775461584,
+     "uptime": 0.9939095127610209,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 21,
      "challenged": 0
     }
@@ -8320,7 +8321,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1117
+    "mean_ms": 1121
    }
   },
   {
@@ -8337,7 +8338,7 @@
    "code": 404,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": "https://rediportal.cloud.ba.infn.it/SpliceAidF/",
    "url_review": true,
    "tls_warning": null,
@@ -8352,8 +8353,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -8366,15 +8367,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -8398,7 +8399,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:40Z",
    "final_url": "https://github.com/forestbiotech-lab/sRNA-Portal-workflow",
    "url_review": false,
    "tls_warning": null,
@@ -8413,7 +8414,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8427,14 +8428,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -8442,7 +8443,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 599
+    "mean_ms": 580
    }
   },
   {
@@ -8459,7 +8460,7 @@
    "code": null,
    "error": "HTTPSConnectionPool(host='stamps.isas.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='stamps.isas.de', port=443): Failed to resolve 'stamps.isas.de' ([Errno -2] Name or service not known)\"))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:34Z",
+   "last_checked": "2026-11-01T23:51:39Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -8474,8 +8475,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -8488,15 +8489,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -8520,7 +8521,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://string-db.org/",
    "url_review": false,
    "tls_warning": null,
@@ -8535,7 +8536,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8549,14 +8550,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -8564,7 +8565,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 675
+    "mean_ms": 671
    }
   },
   {
@@ -8581,8 +8582,8 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
-   "final_url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=DDF8A64698BA55198D84661FAABB46F8?execution=e1s1",
+   "last_checked": "2026-11-01T23:50:42Z",
+   "final_url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=1229D0869061D3FB4AC17D82E51A9A9C?execution=e1s1",
    "url_review": false,
    "tls_warning": null,
    "windows": {
@@ -8596,7 +8597,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8608,16 +8609,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9964264443120905,
+     "uptime": 0.9965197215777262,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 12,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9964264443120905,
+     "uptime": 0.9965197215777262,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 12,
      "challenged": 0
     }
@@ -8625,7 +8626,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1440
+    "mean_ms": 1439
    }
   },
   {
@@ -8640,9 +8641,9 @@
    "since": "2026-10-21T19:10:32Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPConnectionPool(host='proteom.biomed.cas.cz', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='proteom.biomed.cas.cz', port=80) at 0x7efc3c0686e0>, 'Connection to proteom.biomed.cas.cz timed out. (connect timeout=10)'))",
+   "error": "HTTPConnectionPool(host='proteom.biomed.cas.cz', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='proteom.biomed.cas.cz', port=80) at 0x7fbd64182030>, 'Connection to proteom.biomed.cas.cz timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:49Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -8657,36 +8658,36 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.6568090543994158,
+     "uptime": 0.6239503468419131,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 940,
+     "down": 1030,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7200714711137582,
+     "uptime": 0.701276102088167,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 940,
+     "checks": 3448,
+     "down": 1030,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7200714711137582,
+     "uptime": 0.701276102088167,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 940,
+     "checks": 3448,
+     "down": 1030,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 643
+    "mean_ms": 646
    }
   },
   {
@@ -8703,7 +8704,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://swissmodel.expasy.org/repository",
    "url_review": false,
    "tls_warning": null,
@@ -8718,7 +8719,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8730,16 +8731,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9785586658725431,
+     "uptime": 0.9791183294663574,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 72,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9785586658725431,
+     "uptime": 0.9791183294663574,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 72,
      "challenged": 0
     }
@@ -8747,7 +8748,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 715
+    "mean_ms": 708
    }
   },
   {
@@ -8764,7 +8765,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://www.swisslipids.org/",
    "url_review": false,
    "tls_warning": null,
@@ -8777,9 +8778,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -8791,16 +8792,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     }
@@ -8808,7 +8809,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1287
+    "mean_ms": 1290
    }
   },
   {
@@ -8825,7 +8826,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://swissregulon.unibas.ch/sr/swissregulon",
    "url_review": false,
    "tls_warning": null,
@@ -8838,9 +8839,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -8852,16 +8853,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9782608695652174,
+     "uptime": 0.9788283062645011,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 73,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9782608695652174,
+     "uptime": 0.9788283062645011,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 73,
      "challenged": 0
     }
@@ -8869,7 +8870,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1017
+    "mean_ms": 1019
    }
   },
   {
@@ -8886,7 +8887,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://iomics.ugent.be/tabloidproteome/information.xhtml#about",
    "url_review": false,
    "tls_warning": null,
@@ -8901,7 +8902,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8913,16 +8914,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9481834425253127,
+     "uptime": 0.9495359628770301,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 174,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9481834425253127,
+     "uptime": 0.9495359628770301,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 174,
      "challenged": 0
     }
@@ -8930,7 +8931,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 643
+    "mean_ms": 642
    }
   },
   {
@@ -8947,7 +8948,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:41Z",
    "final_url": "https://tflink.net/",
    "url_review": false,
    "tls_warning": null,
@@ -8962,7 +8963,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -8976,14 +8977,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -9008,7 +9009,7 @@
    "code": 503,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:35Z",
+   "last_checked": "2026-11-01T23:51:40Z",
    "final_url": "https://bioinformatics.unipr.it/cgi-bin/bioinformatics/B6db/home.pl",
    "url_review": false,
    "tls_warning": null,
@@ -9023,36 +9024,36 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.6487769258853596,
+     "uptime": 0.6159182183278569,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 962,
+     "down": 1052,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.5631328171530673,
+     "uptime": 0.5484338747099768,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1467,
+     "checks": 3448,
+     "down": 1557,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.5631328171530673,
+     "uptime": 0.5484338747099768,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 1467,
+     "checks": 3448,
+     "down": 1557,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1328
+    "mean_ms": 1325
    }
   },
   {
@@ -9069,7 +9070,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://tmalphafold.ttk.hu/",
    "url_review": false,
    "tls_warning": null,
@@ -9084,7 +9085,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9096,16 +9097,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     }
@@ -9113,7 +9114,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤5000 ms",
-    "mean_ms": 1641
+    "mean_ms": 1644
    }
   },
   {
@@ -9130,7 +9131,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://topdb.unitmp.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9145,7 +9146,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9157,16 +9158,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     }
@@ -9174,7 +9175,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1296
+    "mean_ms": 1291
    }
   },
   {
@@ -9191,7 +9192,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:37Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://tmd.elixir-europe.org./world-map",
    "url_review": false,
    "tls_warning": null,
@@ -9204,9 +9205,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9984251968503937,
+     "uptime": 0.9984076433121019,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 1,
      "challenged": 0
     },
@@ -9218,16 +9219,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -9235,7 +9236,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 654
+    "mean_ms": 653
    }
   },
   {
@@ -9248,11 +9249,11 @@
    "badge": null,
    "state": "up",
    "since": "2026-09-17T16:07:30Z",
-   "reason": "ok",
-   "code": 200,
+   "reason": "http_418",
+   "code": 418,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://datacatalogue.elixir-luxembourg.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9267,7 +9268,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9281,14 +9282,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -9313,7 +9314,7 @@
    "code": null,
    "error": "HTTPConnectionPool(host='tstmp.enzim.ttk.mta.hu', port=80): Read timed out. (read timeout=20)",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:54Z",
+   "last_checked": "2026-11-01T23:51:59Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
@@ -9328,8 +9329,8 @@
     "7d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 635,
+     "checks": 628,
+     "down": 628,
      "challenged": 0
     },
     "30d": {
@@ -9342,15 +9343,15 @@
     "90d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     },
     "365d": {
      "uptime": 0.0,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 3358,
+     "checks": 3448,
+     "down": 3448,
      "challenged": 0
     }
    },
@@ -9374,7 +9375,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://www.unicatdb.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9389,7 +9390,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9401,16 +9402,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9994044073853484,
+     "uptime": 0.9994199535962877,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 2,
      "challenged": 0
     }
@@ -9418,7 +9419,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1286
+    "mean_ms": 1284
    }
   },
   {
@@ -9435,7 +9436,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://unilectin.unige.ch/",
    "url_review": false,
    "tls_warning": null,
@@ -9448,10 +9449,10 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.6503937007874016,
+     "uptime": 0.8009554140127388,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 222,
+     "checks": 628,
+     "down": 125,
      "challenged": 0
     },
     "30d": {
@@ -9462,16 +9463,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.7614651578320429,
+     "uptime": 0.767691415313225,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 801,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.7614651578320429,
+     "uptime": 0.767691415313225,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 801,
      "challenged": 0
     }
@@ -9479,7 +9480,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 598
+    "mean_ms": 599
    }
   },
   {
@@ -9496,7 +9497,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://www.uniprot.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9511,7 +9512,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9525,14 +9526,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -9540,7 +9541,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 654
+    "mean_ms": 655
    }
   },
   {
@@ -9557,7 +9558,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://www.unitmp.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9572,7 +9573,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9584,16 +9585,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9737939249553306,
+     "uptime": 0.974477958236659,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 88,
      "challenged": 0
     }
@@ -9601,7 +9602,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 981
+    "mean_ms": 978
    }
   },
   {
@@ -9618,7 +9619,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "http://utrdb.ba.itb.cnr.it/",
    "url_review": false,
    "tls_warning": null,
@@ -9633,7 +9634,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9647,14 +9648,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -9679,7 +9680,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://webchem.ncbr.muni.cz/Platform/ValidatorDb",
    "url_review": false,
    "tls_warning": null,
@@ -9694,7 +9695,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9708,14 +9709,14 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
      "challenged": 0
     }
@@ -9723,7 +9724,7 @@
    "latency_30d": {
     "p50": "≤2000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1176
+    "mean_ms": 1181
    }
   },
   {
@@ -9738,46 +9739,46 @@
    "since": "2026-10-31T15:50:33Z",
    "reason": "connect_timeout",
    "code": null,
-   "error": "HTTPSConnectionPool(host='valtrendsdb.biodata.ceitec.cz', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='valtrendsdb.biodata.ceitec.cz', port=443) at 0x7efc3be40a70>, 'Connection to valtrendsdb.biodata.ceitec.cz timed out. (connect timeout=10)'))",
+   "error": "HTTPSConnectionPool(host='valtrendsdb.biodata.ceitec.cz', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='valtrendsdb.biodata.ceitec.cz', port=443) at 0x7fbd64192600>, 'Connection to valtrendsdb.biodata.ceitec.cz timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:51:44Z",
+   "last_checked": "2026-11-01T23:51:49Z",
    "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 0.6333333333333333,
+     "uptime": 0.0,
      "coverage": 1.0,
      "checks": 90,
-     "down": 33,
+     "down": 90,
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9480314960629921,
+     "uptime": 0.804140127388535,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 33,
+     "checks": 628,
+     "down": 123,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9879518072289156,
+     "uptime": 0.9550930996714129,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 33,
+     "down": 123,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.990172721858249,
+     "uptime": 0.9643271461716937,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 33,
+     "checks": 3448,
+     "down": 123,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.990172721858249,
+     "uptime": 0.9643271461716937,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 33,
+     "checks": 3448,
+     "down": 123,
      "challenged": 0
     }
    },
@@ -9801,7 +9802,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:42Z",
    "final_url": "https://veupathdb.org/veupathdb/app",
    "url_review": false,
    "tls_warning": null,
@@ -9814,9 +9815,9 @@
      "challenged": 0
     },
     "7d": {
-     "uptime": 0.9700787401574803,
+     "uptime": 0.9697452229299363,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 19,
      "challenged": 0
     },
@@ -9828,16 +9829,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9925550923168552,
+     "uptime": 0.9927494199535963,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 25,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9925550923168552,
+     "uptime": 0.9927494199535963,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 25,
      "challenged": 0
     }
@@ -9845,7 +9846,7 @@
    "latency_30d": {
     "p50": "≤500 ms",
     "p95": "≤1000 ms",
-    "mean_ms": 383
+    "mean_ms": 384
    }
   },
   {
@@ -9862,7 +9863,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://viralzone.expasy.org/",
    "url_review": false,
    "tls_warning": null,
@@ -9877,7 +9878,7 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
      "challenged": 0
     },
@@ -9889,16 +9890,16 @@
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9997022036926743,
+     "uptime": 0.9997099767981439,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 1,
      "challenged": 0
     }
@@ -9906,7 +9907,7 @@
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 850
+    "mean_ms": 851
    }
   },
   {
@@ -9917,57 +9918,57 @@
    "node": "ELIXIR Czech Republic",
    "domain": "Molecular and cellular structures",
    "badge": null,
-   "state": "up",
-   "since": "2026-10-16T10:50:32Z",
-   "reason": "ok",
-   "code": 200,
-   "error": null,
+   "state": "down",
+   "since": "2026-11-01T12:50:33Z",
+   "reason": "connect_timeout",
+   "code": null,
+   "error": "HTTPSConnectionPool(host='watlas.datmos.org', port=443): Max retries exceeded with url: /wataa/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='watlas.datmos.org', port=443) at 0x7fbd64380b00>, 'Connection to watlas.datmos.org timed out. (connect timeout=10)'))",
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
-   "final_url": "https://watlas.datmos.org/wataa/",
+   "last_checked": "2026-11-01T23:51:49Z",
+   "final_url": null,
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.5111111111111111,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 44,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9299363057324841,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 44,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.9664110989412195,
+     "uptime": 0.9503468419131069,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 92,
+     "down": 136,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9726027397260274,
+     "uptime": 0.9605568445475638,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 92,
+     "checks": 3448,
+     "down": 136,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9726027397260274,
+     "uptime": 0.9605568445475638,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 92,
+     "checks": 3448,
+     "down": 136,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 1134
+    "mean_ms": 1139
    }
   },
   {
@@ -9984,7 +9985,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://urgi.versailles.inrae.fr/wheatis/",
    "url_review": false,
    "tls_warning": null,
@@ -9999,9 +10000,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -10013,22 +10014,22 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3348
+     "challenged": 3438
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 690
+    "mean_ms": 689
    }
   },
   {
@@ -10045,7 +10046,7 @@
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:38Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://www.wikipathways.org/index.php/WikiPathways",
    "url_review": false,
    "tls_warning": null,
@@ -10060,9 +10061,9 @@
     "7d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 635,
+     "checks": 628,
      "down": 0,
-     "challenged": 635
+     "challenged": 628
     },
     "30d": {
      "uptime": 1.0,
@@ -10074,16 +10075,16 @@
     "90d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     },
     "365d": {
      "uptime": 1.0,
      "coverage": 1.0,
-     "checks": 3358,
+     "checks": 3448,
      "down": 0,
-     "challenged": 3358
+     "challenged": 3448
     }
    },
    "latency_30d": {
@@ -10101,56 +10102,56 @@
    "domain": "Genes and genomes",
    "badge": null,
    "state": "up",
-   "since": "2026-10-24T17:50:30Z",
+   "since": "2026-11-01T15:14:21Z",
    "reason": "ok",
    "code": 200,
    "error": null,
    "first_seen": "2026-09-17T16:07:30Z",
-   "last_checked": "2026-10-31T23:50:39Z",
+   "last_checked": "2026-11-01T23:50:43Z",
    "final_url": "https://yeastract-plus.org/",
    "url_review": false,
    "tls_warning": null,
    "windows": {
     "today": {
-     "uptime": 1.0,
+     "uptime": 0.9777777777777777,
      "coverage": 1.0,
      "checks": 90,
-     "down": 0,
+     "down": 2,
      "challenged": 0
     },
     "7d": {
-     "uptime": 1.0,
+     "uptime": 0.9968152866242038,
      "coverage": 1.0,
-     "checks": 635,
-     "down": 0,
+     "checks": 628,
+     "down": 2,
      "challenged": 0
     },
     "30d": {
-     "uptime": 0.995253742241694,
+     "uptime": 0.9948886454910552,
      "coverage": 1.0,
      "checks": 2739,
-     "down": 13,
+     "down": 14,
      "challenged": 0
     },
     "90d": {
-     "uptime": 0.9925550923168552,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 25,
+     "checks": 3448,
+     "down": 27,
      "challenged": 0
     },
     "365d": {
-     "uptime": 0.9925550923168552,
+     "uptime": 0.992169373549884,
      "coverage": 1.0,
-     "checks": 3358,
-     "down": 25,
+     "checks": 3448,
+     "down": 27,
      "challenged": 0
     }
    },
    "latency_30d": {
     "p50": "≤1000 ms",
     "p95": "≤2000 ms",
-    "mean_ms": 868
+    "mean_ms": 870
    }
   }
  ]
