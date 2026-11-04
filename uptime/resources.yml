@@ -599,7 +599,7 @@ resources:
   enabled: true
 - id: massbank
   name: MassBank
-  url: https://massbank.eu/MassBank//
+  url: https://massbank.eu/MassBank/
   node: ELIXIR Germany
   domain: Genes and genomes
   biotools: https://bio.tools/massbank

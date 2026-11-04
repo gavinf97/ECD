@@ -57,6 +57,7 @@ def test_committed_resources_yml_is_valid():
      "https://sulfatlas.sb-roscoff.fr/sulfatlas/"),
     ("  https://www.disprot.org/ ", "https://www.disprot.org/"),
     ("https://example.org/search?q=a", "https://example.org/search?q=a"),
+    ("https://massbank.eu/MassBank//", "https://massbank.eu/MassBank/"),
     (None, None),
 ])
 def test_normalise_url(cell, expected):

@@ -54,6 +54,7 @@ def normalise_url(value) -> str | None:
         return text
     token = re.sub(r";jsessionid=[^?#]*", "", token, flags=re.I)
     token = re.sub(r"\?execution=e\d+s\d+$", "", token)
+    token = re.sub(r"(?<!:)/{2,}$", "/", token)  # e.g. "https://massbank.eu/MassBank//"
     return token
 
 
